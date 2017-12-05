@@ -11,8 +11,8 @@
         "roomCreated":          ":large_blue_circle: Room Created!",
         "roomAlreadyExists":    ":warning: You already have a room summoned somewhere!",
         "roomRevoked":          ":large_blue_circle: Room Revoked!",
-        "roomRevokedInactive":  "Your channel was revoked due to inactivity, You can resummon it with c!summon",
-        "roomname":             "Private Room [$1]",
+        "roomRevokedInactive":  "Your channel was revoked due to inactivity, You can resummon it with `c!summon`",
+        "roomName":             "Private Room [$1]",
         "roomErrorDisabled":    "Private rooms are disabled on this guild.",
 
         "revokeComplete":       ":cyclone: Channel Revoked!",
@@ -31,8 +31,12 @@
         "userWhitelistReset":   "Your whitelist has been reset.",
         "userBlacklistAdd":     "$1 is now on your blacklist.",
         "userBlacklistRevoke":  "$1 is no longer on your blacklist.",
-        "userBlacklistReset":   "Your blacklist has been reset."
+        "userBlacklistReset":   "Your blacklist has been reset.",
 
+        "errorGeneric":         "Something went wrong.",
+        "errorConfigNotFound":  "Something went wrong while fetching this guilds configuration.",
+        "errorRoomsDisabled":   "Private Rooms are disabled on this guild.",
+        "errorNotGuild":        "Rooms can only be summoned from a guild."
     }
     
 }
