@@ -1,0 +1,38 @@
+{
+
+    "lang_version": 1,
+    "lang_name":    "English",
+    "lang_short":   "en_US",
+
+    "strings": {
+
+        "dataFetching":         ":black_circle: Fetching Data...",
+        "dataCreating":         ":black_circle: Creating Room...",
+        "roomCreated":          ":large_blue_circle: Room Created!",
+        "roomAlreadyExists":    ":warning: You already have a room summoned somewhere!",
+        "roomRevoked":          ":large_blue_circle: Room Revoked!",
+        "roomRevokedInactive":  "Your channel was revoked due to inactivity, You can resummon it with c!summon",
+        "roomname":             "Private Room [$1]",
+        "roomErrorDisabled":    "Private rooms are disabled on this guild.",
+
+        "revokeComplete":       ":cyclone: Channel Revoked!",
+        "revokeError":          ":no_good: Something went wrong while revoking your room.",
+        "revokeNotGuild":        "You can only revoke your room from a server.",
+        "revokeNoRoom":         ":warning: You have no room!",
+
+        "roomUserAdded":        "Added $1 to your room.",
+        "roomUserRemoved":      "Removed $1 from your room.",
+        "roomUserBlocked":      "Blocked $1 from your room.",
+        "roomMadePublic":       "Anyone can now join your room.",
+        "roomNotPublic":        "Only added members can join your room now.",
+
+        "userWhitelistAdd":     "$1 is now on your whitelist.",
+        "userWhitelistRevoke":  "$1 is no longer on your whitelist.",
+        "userWhitelistReset":   "Your whitelist has been reset.",
+        "userBlacklistAdd":     "$1 is now on your blacklist.",
+        "userBlacklistRevoke":  "$1 is no longer on your blacklist.",
+        "userBlacklistReset":   "Your blacklist has been reset."
+
+    }
+    
+}
