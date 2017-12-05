@@ -23,6 +23,7 @@
         "roomUserAdded":        "Added $1 to your room.",
         "roomUserRemoved":      "Removed $1 from your room.",
         "roomUserBlocked":      "Blocked $1 from your room.",
+        "roomNoAdded":			"No changes were made.",
         "roomMadePublic":       "Anyone can now join your room.",
         "roomNotPublic":        "Only added members can join your room now.",
 
