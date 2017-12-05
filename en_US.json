@@ -11,7 +11,7 @@
         "roomCreated":          ":large_blue_circle: Room Created!",
         "roomAlreadyExists":    ":warning: You already have a room summoned somewhere!",
         "roomRevoked":          ":large_blue_circle: Room Revoked!",
-        "roomRevokedInactive":  "Your channel was revoked due to inactivity, You can resummon it with `c!summon`",
+        "roomRevokedInactive":  "Your channel was revoked due to inactivity, You can resummon it with `$1`",
         "roomName":             "Private Room [$1]",
         "roomErrorDisabled":    "Private rooms are disabled on this guild.",
 
