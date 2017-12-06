@@ -17,13 +17,13 @@
 
         "revokeComplete":       ":cyclone: ¡Canal Elimnado!",
         "revokeError":          ":no_good: Algo ha ido mal intentando eliminar tu sala.",
-        "revokeNotGuild":        "Solo puedes eliminar tu sala del servidor.",
+        "revokeNotGuild":       "Solo puedes eliminar tu sala del servidor.",
         "revokeNoRoom":         ":warning: ¡No tienes ninguna sala!",
 
         "roomUserAdded":        "Añadido $1 a tu sala.",
         "roomUserRemoved":      "Eliminado $1 de tu sala.",
         "roomUserBlocked":      "Bloqueado $1 de tu sala.",
-        "roomNoAdded":			"No se han hecho cambios.",
+        "roomNoAdded":          "No se han realizado cambios.",
         "roomMadePublic":       "Ahora cualquiera puede unirse a tu sala.",
         "roomNotPublic":        "Solo usuarios añadidos pueden unirse a tu sala.",
 
