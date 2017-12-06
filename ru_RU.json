@@ -6,38 +6,38 @@
 
 	"strings": {
 
-		"dataFetching":			":black_circle: Получение данных...",
-		"dataCreating":			":black_circle: Создание комнаты...",
-		"roomCreated":			":large_blue_circle: Комната создана!",
+		"dataFetching":		":black_circle: Получение данных...",
+		"dataCreating":		":black_circle: Создание комнаты...",
+		"roomCreated":		":large_blue_circle: Комната создана!",
 		"roomAlreadyExists":	":warning: Вы уже имеете одну созданную комнату!",
-		"roomRevoked":			":large_blue_circle: Комната отозвана!",
+		"roomRevoked":		":large_blue_circle: Комната отозвана!",
 		"roomRevokedInactive":	"Ваш канал был отозван из-за неактивности, вы можете его пересоздать с помощью `$1`",
-		"roomName":				"Приватная комната [$1]",
+		"roomName":		"Приватная комната [$1]",
 		"roomErrorDisabled":	"Приватные комнаты отключены на этом сервере.",
 
-		"revokeComplete":		":cyclone: Канал отозван!",
-		"revokeError":			":no_good: Что-то пошло не так в процессе отзывания вашей комнаты.",
-		"revokeNotGuild":		"Вы можете отозвать только свою комнату на сервере.",
-		"revokeNoRoom":			":warning: Вы не имеете комнаты!",
+		"revokeComplete":	":cyclone: Канал отозван!",
+		"revokeError":		":no_good: Что-то пошло не так в процессе отзывания вашей комнаты.",
+		"revokeNotGuild":	"Вы можете отозвать только свою комнату на сервере.",
+		"revokeNoRoom":		":warning: Вы не имеете комнаты!",
 
-		"roomUserAdded":		"$1 добавлен в вашу комнату.",
-		"roomUserRemoved":		"$1 убран из вашей комнаты.",
-		"roomUserBlocked":		"$1 заблокирован в вашей комнате.",
-		"roomNoAdded":			"Никаких изменений небыло сделано.",
-		"roomMadePublic":		"Теперь любой может присоединиться к вашей комнате.",
-		"roomNotPublic":		"Теперь ваша комната работает только по приглашениям.",
+		"roomUserAdded":	"$1 добавлен в вашу комнату.",
+		"roomUserRemoved":	"$1 убран из вашей комнаты.",
+		"roomUserBlocked":	"$1 заблокирован в вашей комнате.",
+		"roomNoAdded":		"Никаких изменений небыло сделано.",
+		"roomMadePublic":	"Теперь любой может присоединиться к вашей комнате.",
+		"roomNotPublic":	"Теперь ваша комната работает только по приглашениям.",
 
-		"userWhitelistAdd":		"$1 добавлен в ваш белый список.",
+		"userWhitelistAdd":	"$1 добавлен в ваш белый список.",
 		"userWhitelistRevoke":	"$1 убран из вашего белого списка.",
 		"userWhitelistReset":	"Ваш белый список был обнулён.",
-		"userBlacklistAdd":		"$1 добавлен в ваш чёрный список.",
+		"userBlacklistAdd":	"$1 добавлен в ваш чёрный список.",
 		"userBlacklistRevoke":	"$1 убран из вашего чёрного списка.",
 		"userBlacklistReset":	"Ваш чёрный список был обнулён.",
 
-		"errorGeneric":			"Что-то пошло не так.",
+		"errorGeneric":		"Что-то пошло не так.",
 		"errorConfigNotFound":	"Что-то пошло не так, пока получались данные конфигурации этого сервера.",
 		"errorRoomsDisabled":	"Приватные комнаты отключены на этом сервере.",
-		"errorNotGuild":		"Комнаты могут быть созданы только на сервере."
+		"errorNotGuild":	"Комнаты могут быть созданы только на сервере."
 
 	}
 
