@@ -7,25 +7,25 @@
     "strings": {
 
         "dataFetching":         ":black_circle: Recuperando Datos...",
-        "dataCreating":         ":black_circle: Creando Sala...",
-        "roomCreated":          ":large_blue_circle: ¡Sala Creada!",
-        "roomAlreadyExists":    ":warning: ¡Ya tienes una sala creada en algún sitio!",
-        "roomRevoked":          ":large_blue_circle: ¡Sala Eliminada!",
-        "roomRevokedInactive":  "Tu canal ha sido eliminado devido a inactividad, puedes restablecerlo con `$1`",
-        "roomName":             "Sala Privada [$1]",
-        "roomErrorDisabled":    "Salas privadas están deshabilitadas en este clan.",
+        "dataCreating":         ":black_circle: Creando canal...",
+        "roomCreated":          ":large_blue_circle: ¡Canal creado!",
+        "roomAlreadyExists":    ":warning: ¡Ya tienes un canal creado en algún sitio!",
+        "roomRevoked":          ":large_blue_circle: ¡Canal eliminado!",
+        "roomRevokedInactive":  "Tu canal ha sido eliminado debido a inactividad, puedes restablecerlo con `$1`",
+        "roomName":             "Canal privado [$1]",
+        "roomErrorDisabled":    "Los canales privados están deshabilitadas en este servidor.",
 
-        "revokeComplete":       ":cyclone: ¡Canal Elimnado!",
-        "revokeError":          ":no_good: Algo ha ido mal intentando eliminar tu sala.",
-        "revokeNotGuild":       "Solo puedes eliminar tu sala del servidor.",
-        "revokeNoRoom":         ":warning: ¡No tienes ninguna sala!",
+        "revokeComplete":       ":cyclone: ¡Canal eliminado!",
+        "revokeError":          ":no_good: Algo ha ido mal intentando eliminar tu canal.",
+        "revokeNotGuild":       "Solo puedes eliminar tu canal del servidor.",
+        "revokeNoRoom":         ":warning: ¡No tienes ningun canal creado!",
 
-        "roomUserAdded":        "Añadido $1 a tu sala.",
-        "roomUserRemoved":      "Eliminado $1 de tu sala.",
-        "roomUserBlocked":      "Bloqueado $1 de tu sala.",
+        "roomUserAdded":        "Añadido $1 a tu canal.",
+        "roomUserRemoved":      "Eliminado $1 de tu canal.",
+        "roomUserBlocked":      "Bloqueado $1 de tu canal.",
         "roomNoAdded":          "No se han realizado cambios.",
-        "roomMadePublic":       "Ahora cualquiera puede unirse a tu sala.",
-        "roomNotPublic":        "Solo usuarios añadidos pueden unirse a tu sala.",
+        "roomMadePublic":       "Ahora cualquiera puede unirse a tu canal.",
+        "roomNotPublic":        "Ahora solo usuarios añadidos en tu lista blanca pueden unirse a tu canal.",
 
         "userWhitelistAdd":     "$1 está ahora en tu lista blanca.",
         "userWhitelistRevoke":  "$1 ya no está en tu lista blanca.",
@@ -35,9 +35,9 @@
         "userBlacklistReset":   "Tu lista negra ha sido reiniciada.",
 
         "errorGeneric":         "Algo ha ido mal.",
-        "errorConfigNotFound":  "Algo ha ido mal recuperando los datos de este clan.",
-        "errorRoomsDisabled":   "Las salas privadas están deshabilitadas en este clan.",
-        "errorNotGuild":        "Las salas solo pueden ser creadas desde un clan."
+        "errorConfigNotFound":  "Algo ha ido mal recuperando los datos de este servidor.",
+        "errorRoomsDisabled":   "Las salas privadas están deshabilitadas en este servidor.",
+        "errorNotGuild":        "Las salas solo pueden ser creadas desde un servidor."
     }
     
 }
