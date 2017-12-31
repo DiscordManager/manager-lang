@@ -14,6 +14,11 @@
         "roomRevokedInactive":  "La tua stanza è stata rimossa per inattività. Puoi crearla nuovamente con `$1`",
         "roomName":             "Stanza Privata [$1]",
         "roomErrorDisabled":    "Le stanze private sono disabilitate in questo server.",
+        "roomErrorLimit":        "Spiacente, in questo momento non puoi creare una stanza privata.",
+        "roomErrorNotAllowed":        "Non sei autorizzato a creare stanze private.",
+
+        "roomRenamed":        "Stanza rinominata in: `$1`",
+        "roomNoNameSpecified":        "Devi specificare un nome!",
 
         "revokeComplete":       ":cyclone: Stanza rimossa.",
         "revokeError":          ":no_good: Qualcosa è andato storto. Impossibile rimuovere la stanza.",
