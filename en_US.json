@@ -14,6 +14,11 @@
         "roomRevokedInactive":  "Your channel was revoked due to inactivity, You can resummon it with `$1`",
         "roomName":             "Private Room [$1]",
         "roomErrorDisabled":    "Private rooms are disabled on this guild.",
+        "roomErrorLimit":       "Sorry, You cannot create a private room right now.",
+        "roomErrorNotAllowed":  "You are currently now allowed to create a room.",
+
+        "roomRenamed":          "Room Renamed to: `$1`",
+        "roomNoNameSpecified":  "You need to specify a name!",
 
         "revokeComplete":       ":cyclone: Channel Revoked!",
         "revokeError":          ":no_good: Something went wrong while revoking your room.",
