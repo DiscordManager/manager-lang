@@ -15,7 +15,7 @@
         "roomName":             "Privé Kanaal [$1]",
         "roomErrorDisabled":    "Privé kanalen zijn uitgeschakeld in deze server.",
         "roomErrorLimit":       "Sorry, je kan nu geen privé kanaal aanmaken op dit moment.",
-        "roomErrorNotAllowed":  "You are currently now allowed to create a room.",
+        "roomErrorNotAllowed":  "Je hebt momenteen niet de mogelijkheid om een kanaal te maken.",
  
         "roomRenamed":          "Kanaal hernoemed naar: `$1`",
         "roomNoNameSpecified":  "Je moet wel een naam opgeven!",
