@@ -14,6 +14,11 @@
         "roomRevokedInactive":  "Je kanaal is verwijderd omdat het niet gebruikt werd, Je kan hem opnieuw maken met `$1`",
         "roomName":             "Privé Kanaal [$1]",
         "roomErrorDisabled":    "Privé kanalen zijn uitgeschakeld in deze server.",
+        "roomErrorLimit":       "Sorry, je kan nu geen privé kanaal aanmaken op dit moment.",
+        "roomErrorNotAllowed":  "You are currently now allowed to create a room.",
+ 
+        "roomRenamed":          "Kanaal hernoemed naar: `$1`",
+        "roomNoNameSpecified":  "Je moet wel een naam opgeven!",
 
         "revokeComplete":       ":cyclone: Kanaal verwijderd!",
         "revokeError":          ":no_good: Er ging wat fout tijdens het verwijderen van jou kanaal.",
