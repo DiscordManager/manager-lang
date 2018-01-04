@@ -1,0 +1,48 @@
+{
+
+    "lang_version": 1,
+    "lang_name":    "Turkish",
+    "lang_short":   "tr_TR",
+
+    "strings": {
+
+        "dataFetching":         ":black_circle: Veriler toplanıyor...",
+        "dataCreating":         ":black_circle: Odanız açılıyor...",
+        "roomCreated":          ":large_blue_circle: Odanız açıldı!",
+        "roomAlreadyExists":    ":warning: Zaten bir odanız bulunmakta!",
+        "roomRevoked":          ":large_blue_circle: Odanız kapandı!",
+        "roomRevokedInactive":  "Odanız kullanılmadığından dolayı kapandı, `$1` kullanarak tekrar açabilirsiniz",
+        "roomName":             "Özel Oda [$1]",
+        "roomErrorDisabled":    "Bu sunucuda özel odalar engellenmiş.",
+        "roomErrorLimit":       "Üzgünüm, şu anda özel oda açma limiti dolmuştur.",
+        "roomErrorNotAllowed":  "Özel oda açmanıza izniniz bulunmamaktadır.",
+
+        "roomRenamed":          "Odanın ismi `$1` olarak değiştirildi.",
+        "roomNoNameSpecified":  "Bir isim belirtmek zorundasınız!",
+
+        "revokeComplete":       ":cyclone: Oda Kapandı!",
+        "revokeError":          ":no_good: Özel odanızı kapatılırken bir problemle karşılaşıldı.",
+        "revokeNotGuild":       "Odanızı sadece bir sunucuda kapatabilirsiniz.",
+        "revokeNoRoom":         ":warning: Odanız yok!",
+
+        "roomUserAdded":        "Odanıza $1 eklendi.",
+        "roomUserRemoved":      "Odanızdan $1 çıkarıldı.",
+        "roomUserBlocked":      "Odanızdan $1 engellendi.",
+        "roomNoAdded":          "Hiçbir değişiklilik yapılmadı.",
+        "roomMadePublic":       "Odanıza artık herkes katılabilir.",
+        "roomNotPublic":        "Odanıza artık eklediğiniz kişiler girebilir.",
+
+        "userWhitelistAdd":     "$1 artık beyaz listenizde.",
+        "userWhitelistRevoke":  "$1 artık beyaz listenizde değil.",
+        "userWhitelistReset":   "Beyaz listeniz sıfırlanmıştır.",
+        "userBlacklistAdd":     "$1 artık kara listenizde.",
+        "userBlacklistRevoke":  "$1 artık kara listenizde değil.",
+        "userBlacklistReset":   "Kara listeniz sıfırlanmıştır.",
+
+        "errorGeneric":         "Bir şeyler ters gitti.",
+        "errorConfigNotFound":  "Bu sunucunun ayarlarını toparlarken bir şeyler ters gitti.",
+        "errorRoomsDisabled":   "Bu sunucuda özel odalar devredışı bırakılmış.",
+        "errorNotGuild":        "Odalar sadece bir sunucuda açılabilir."
+    }
+    
+}
