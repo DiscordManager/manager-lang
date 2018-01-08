@@ -18,7 +18,7 @@
         "roomErrorNotAllowed":  "You are currently now allowed to create a room.",
 
         "roomRenamed":          "Room Renamed to: `$1`",
-        "roomRenameDisabled":          "Renaming is disabled for this server.",
+        "roomRenameDisabled":   "Renaming is disabled for this server.",
         "roomNoNameSpecified":  "You need to specify a name!",
 
         "revokeComplete":       ":cyclone: Channel Revoked!",
