@@ -18,6 +18,7 @@
         "roomErrorNotAllowed":  "Je mag op dit moment geen kanaal maken.",
  
         "roomRenamed":          "Kanaal hernoemed naar: `$1`",
+        "roomRenameDisabled":   "Je kan op deze guild kamers niet hernoemen!",
         "roomNoNameSpecified":  "Je moet wel een naam opgeven!",
 
         "revokeComplete":       ":cyclone: Kanaal verwijderd!",
