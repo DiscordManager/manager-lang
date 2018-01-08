@@ -13,11 +13,12 @@
         "roomRevoked":          ":large_blue_circle: Room Revoked!",
         "roomRevokedInactive":  "Your channel was revoked due to inactivity, You can resummon it with `$1`",
         "roomName":             "Private Room [$1]",
-        "roomErrorDisabled":    "Private rooms are disabled on this guild.",
+        "roomErrorDisabled":    "Private rooms are disabled on this server.",
         "roomErrorLimit":       "Sorry, You cannot create a private room right now.",
         "roomErrorNotAllowed":  "You are currently now allowed to create a room.",
 
         "roomRenamed":          "Room Renamed to: `$1`",
+        "roomRenameDisabled":          "Renaming is disabled for this server.",
         "roomNoNameSpecified":  "You need to specify a name!",
 
         "revokeComplete":       ":cyclone: Channel Revoked!",
@@ -40,9 +41,9 @@
         "userBlacklistReset":   "Your blacklist has been reset.",
 
         "errorGeneric":         "Something went wrong.",
-        "errorConfigNotFound":  "Something went wrong while fetching this guilds configuration.",
-        "errorRoomsDisabled":   "Private Rooms are disabled on this guild.",
-        "errorNotGuild":        "Rooms can only be summoned from a guild."
+        "errorConfigNotFound":  "Something went wrong while fetching this servers configuration.",
+        "errorRoomsDisabled":   "Private Rooms are disabled on this server.",
+        "errorNotGuild":        "Rooms can only be summoned from a server."
     }
     
 }
