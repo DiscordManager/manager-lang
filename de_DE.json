@@ -14,13 +14,18 @@
         "roomRevokedInactive":  "Dein Kanal wurde gelöscht weil er inaktiv war. Du kannst deinen Kanal wiedererstellen mit `$1`",
         "roomName":             "Privater Kanal [$1]",
         "roomErrorDisabled":    "Private Kanäle sind auf diesem Server deaktiviert.",
+		"roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
+        "roomErrorNotAllowed":  "Dir fehlt die berechtigung einen Kanal zu erstellen.",
+		
+        "roomRenamed":          "Dein Kanal wurde zu `$1` umbenannt.",
+        "roomNoNameSpecified":  "Du must einen Namen angeben!",
 
         "revokeComplete":       ":cyclone: Kanal gelöscht!",
         "revokeError":          ":no_good: Irgend etwas ist schief gelaufen während dein Kanal gelöscht wurde.",
         "revokeNotGuild":        "Du kannst dein Kanal nur in einem Server löschen.",
         "revokeNoRoom":         ":warning: Du hast keinen Kanal!",
 
-        "roomUserAdded":        "$1 zu deinem Kanal hinzugefügt.",
+        "roomUserAdded":        "$1 wurde zu deinem Kanal hinzugefügt.",
         "roomUserRemoved":      "$1 wurde von deinem Kanal entfernt.",
         "roomUserBlocked":      "Du hast $1 in deinem Kanal blokiert.",
         "roomNoAdded":			"Es wurden keine veränderungen vorgenommen.",
