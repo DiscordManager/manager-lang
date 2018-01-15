@@ -1,10 +1,18 @@
 {
 
-    "lang_version": 1,
-    "lang_name":    "English",
-    "lang_short":   "en_US",
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "English",
+    "lang_short":       "en_US",
 
-    "strings": {
+    "shared": {
+
+        "errorGeneric":         "Something went wrong.",
+        "errorConfigNotFound":  "Something went wrong while fetching this servers configuration."
+
+    },
+
+    "channel": {
 
         "dataFetching":         ":black_circle: Fetching Data...",
         "dataCreating":         ":black_circle: Creating Room...",
@@ -40,10 +48,32 @@
         "userBlacklistRevoke":  "$1 is no longer on your blacklist.",
         "userBlacklistReset":   "Your blacklist has been reset.",
 
-        "errorGeneric":         "Something went wrong.",
-        "errorConfigNotFound":  "Something went wrong while fetching this servers configuration.",
         "errorRoomsDisabled":   "Private Rooms are disabled on this server.",
         "errorNotGuild":        "Rooms can only be summoned from a server."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: You need to provide a valid URL!",
+        "MusicNovoiceCon":      ":warning: You need to be in a Voice Channel!",
+        "MusicNoPermission":    "You do not have permission to do that.",
+
+        "MusicDifferentChannel":"You cannot vote to skip without being in the channel.",
+        "MusicVoteProgress":    "You voted to skip the current video `$1`",
+        "MusicVoteAlreadyVoted":"You voted to skip the current video `$1`",
+        "MusicVoteCompleted":   "The current song has been skipped. `$1`",
+
+        "MusicAddedToQueue":    "Added `$1` To the queue.",
+        "MusicNowPlaying":      "Now Playing",
+        "MusicRequestedBy":     "Requested By",
+        "MusicVideoLength":     "Length",
+
+        "errorGeneric":         "Something went wrong.",
+        "errorConfigNotFound":  "Something went wrong while fetching this guilds configuration.",
+        "errorMusicDisabled":   "Music Rooms are disabled on this guild.",
+        "errorNotGuild":        "Music Manager can only be summoned from a guild."
+
     }
+    
     
 }
