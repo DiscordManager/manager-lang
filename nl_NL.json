@@ -1,0 +1,82 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Dutch",
+    "lang_short":       "nl_NL",
+
+    "shared": {
+
+        "errorGeneric":         "Er is een fout opgetreden.",
+        "errorNoPermission":    "Je mag dit op het moment niet doen.",
+        "errorConfigNotFound":  "Er ging iets fout tijdens het ophalen van de configuratie",
+
+		"configFlushed":		"Cache voor server $1 leeggemaakt.",
+		"errorShutdownGrace":	"Momenteel niet bruikbaar, Watch een minuut of twee"
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Data ophalen...",
+        "dataCreating":         ":black_circle: Kanaal aanmaken...",
+        "roomCreated":          ":large_blue_circle: Kanaal aangemaakt!",
+        "roomAlreadyExists":    ":warning: Je hebt al ergens een kanaal!",
+        "roomRevoked":          ":large_blue_circle: Kanaal verwijderd!",
+        "roomRevokedInactive":  "Je kanaal is verwijderd omdat het niet gebruikt werd, Je kan hem opnieuw maken met `$1`",
+        "roomName":             "Privé Kanaal [$1]",
+        "roomErrorDisabled":    "Privé kanalen zijn uitgeschakeld in deze server.",
+        "roomErrorLimit":       "Sorry, je kan nu geen privé kanaal aanmaken op dit moment.",
+        "roomErrorNotAllowed":  "Je mag op dit moment geen kanaal maken.",
+
+        "roomRenamed":          "Kanaal hernoemed naar: `$1`",
+        "roomRenameDisabled":   "Je kan op deze guild kamers niet hernoemen!",
+        "roomNoNameSpecified":  "Je moet wel een naam opgeven!",
+
+        "revokeComplete":       ":cyclone: Kanaal verwijderd!",
+        "revokeError":          ":no_good: Er ging wat fout tijdens het verwijderen van jou kanaal.",
+        "revokeNotGuild":        "Je kan je privé kanaal alleen verwijderen vanaf een server.",
+        "revokeNoRoom":         ":warning: Je hebt geen privé kanaal!",
+
+        "roomUserAdded":        "$1 is toegevoegd aan jouw kanaal.",
+        "roomUserRemoved":      "$1 is verwijderd van jouw kanaal.",
+        "roomUserBlocked":      "$1 is geblokkeerd van jou kanaal",
+        "roomMadePublic":       "Iedereen kan jou kanaal nu joinen.",
+        "roomNotPublic":        "Alleen toegevoegde leden kunnen nu jouw kanaal joinen.",
+
+        "userWhitelistAdd":     "$1 staat nu op je whitelist.",
+        "userWhitelistRevoke":  "$1 staat niet meer op je whitelist.",
+        "userWhitelistReset":   "Je whitelist is gereset.",
+        "userBlacklistAdd":     "$1 staat nu op je blacklist.",
+        "userBlacklistRevoke":  "$1 staat niet meer op je blacklist.",
+        "userBlacklistReset":   "Je blacklist is gereset.",
+
+        "errorRoomsDisabled":   "Privé kanalen zijn uitgeschakeld in deze server.",
+        "errorNotGuild":        "Kanalen kunnen alleen gemaakt worden via een server."
+
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Je moet een URL opgeven!",
+        "MusicNovoiceCon":      ":warning: Je moet in een voice-kanaal zitten!",
+        "MusicNoPermission":    "Je hebt geen toegang tot dit command.",
+
+        "MusicDifferentChannel":"Je kan niet stemmen zonder in het kanaal te zitten!",
+        "MusicVoteProgress":    "Je hebt gestemd om dit liedje over te slaan `$1`",
+        "MusicVoteAlreadyVoted":"Je hebt gestemd om dit liedje over te slaan `$1`",
+        "MusicVoteCompleted":   "Het liedje is overgeslagen. `$1`",
+
+        "MusicAddedToQueue":    "`$1` Is aan de afspeelijst toegevoegd",
+        "MusicNowPlaying":      "Nu te horen",
+        "MusicRequestedBy":     "Aangevraagd door",
+        "MusicVideoLength":     "Duurt",
+
+        "errorGeneric":         "Iets ging fout.",
+        "errorConfigNotFound":  "Iets ging fout tijdens het laden van de configuratie.",
+        "errorMusicDisabled":   "Muziek is uitgezet op deze server.",
+        "errorNotGuild":        "Je kan deze bot alleen vanaf een server gebruiken."
+
+    }
+
+}

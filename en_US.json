@@ -10,7 +10,7 @@
         "errorGeneric":         "Something went wrong.",
         "errorNoPermission":    "You do not have permission to do that.",
         "errorConfigNotFound":  "Something went wrong while fetching this servers configuration.",
-		
+
 		"configFlushed":		"Cache for server $1 flushed.",
 		"errorShutdownGrace":	"Sorry, You cannot perform this action right now. Try again in a minute or two."
 
