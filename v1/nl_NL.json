@@ -1,10 +1,22 @@
 {
 
-    "lang_version": 1,
-    "lang_name":    "Dutch",
-    "lang_short":   "nl_NL",
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Dutch",
+    "lang_short":       "nl_NL",
 
-    "strings": {
+    "shared": {
+
+        "errorGeneric":         "Er is een fout opgetreden.",
+        "errorNoPermission":    "Je mag dit op het moment niet doen.",
+        "errorConfigNotFound":  "Er ging iets fout tijdens het ophalen van de configuratie",
+
+		"configFlushed":		"Cache voor server $1 leeggemaakt.",
+		"errorShutdownGrace":	"Momenteel niet bruikbaar, Watch een minuut of twee"
+
+    },
+
+    "channel": {
 
         "dataFetching":         ":black_circle: Data ophalen...",
         "dataCreating":         ":black_circle: Kanaal aanmaken...",
@@ -16,7 +28,7 @@
         "roomErrorDisabled":    "Privé kanalen zijn uitgeschakeld in deze server.",
         "roomErrorLimit":       "Sorry, je kan nu geen privé kanaal aanmaken op dit moment.",
         "roomErrorNotAllowed":  "Je mag op dit moment geen kanaal maken.",
- 
+
         "roomRenamed":          "Kanaal hernoemed naar: `$1`",
         "roomRenameDisabled":   "Je kan op deze guild kamers niet hernoemen!",
         "roomNoNameSpecified":  "Je moet wel een naam opgeven!",
@@ -39,10 +51,32 @@
         "userBlacklistRevoke":  "$1 staat niet meer op je blacklist.",
         "userBlacklistReset":   "Je blacklist is gereset.",
 
-        "errorGeneric":         "Er ging iets fout.",
-        "errorConfigNotFound":  "Er ging iets fout tijdens het laden van de instellingen van deze server.",
         "errorRoomsDisabled":   "Privé kanalen zijn uitgeschakeld in deze server.",
         "errorNotGuild":        "Kanalen kunnen alleen gemaakt worden via een server."
+
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Je moet een URL opgeven!",
+        "MusicNovoiceCon":      ":warning: Je moet in een voice-kanaal zitten!",
+        "MusicNoPermission":    "Je hebt geen toegang tot dit command.",
+
+        "MusicDifferentChannel":"Je kan niet stemmen zonder in het kanaal te zitten!",
+        "MusicVoteProgress":    "Je hebt gestemd om dit liedje over te slaan `$1`",
+        "MusicVoteAlreadyVoted":"Je hebt gestemd om dit liedje over te slaan `$1`",
+        "MusicVoteCompleted":   "Het liedje is overgeslagen. `$1`",
+
+        "MusicAddedToQueue":    "`$1` Is aan de afspeelijst toegevoegd",
+        "MusicNowPlaying":      "Nu te horen",
+        "MusicRequestedBy":     "Aangevraagd door",
+        "MusicVideoLength":     "Duurt",
+
+        "errorGeneric":         "Iets ging fout.",
+        "errorConfigNotFound":  "Iets ging fout tijdens het laden van de configuratie.",
+        "errorMusicDisabled":   "Muziek is uitgezet op deze server.",
+        "errorNotGuild":        "Je kan deze bot alleen vanaf een server gebruiken."
+
     }
-    
+
 }
