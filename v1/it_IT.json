@@ -1,0 +1,48 @@
+{
+
+    "lang_version": 1,
+    "lang_name":    "Italian",
+    "lang_short":   "it_IT",
+
+    "strings": {
+
+        "dataFetching":         ":black_circle: Recupero dei dati in corso...",
+        "dataCreating":         ":black_circle: Sto creando la tua stanza...",
+        "roomCreated":          ":large_blue_circle: Stanza creata!",
+        "roomAlreadyExists":    ":warning: Hai già creato una stanza!",
+        "roomRevoked":          ":large_blue_circle: Stanza rimossa.",
+        "roomRevokedInactive":  "La tua stanza è stata rimossa per inattività. Puoi crearla nuovamente con `$1`",
+        "roomName":             "Stanza Privata [$1]",
+        "roomErrorDisabled":    "Le stanze private sono disabilitate in questo server.",
+        "roomErrorLimit":        "Spiacente, in questo momento non puoi creare una stanza privata.",
+        "roomErrorNotAllowed":        "Non sei autorizzato a creare stanze private.",
+
+        "roomRenamed":        "Stanza rinominata in: `$1`",
+        "roomNoNameSpecified":        "Devi specificare un nome!",
+
+        "revokeComplete":       ":cyclone: Stanza rimossa.",
+        "revokeError":          ":no_good: Qualcosa è andato storto. Impossibile rimuovere la stanza.",
+        "revokeNotGuild":        "Le stanze possono essere rimosse solo all'interno di un server.",
+        "revokeNoRoom":         ":warning: Non hai creato nessuna stanza!",
+
+        "roomUserAdded":        "$1 è stato aggiunto alla tua stanza.",
+        "roomUserRemoved":      "$1 è stato rimosso dalla tua stanza.",
+        "roomUserBlocked":      "$1 è stato bloccato dalla tua stanza.",
+        "roomNoAdded":			"Nessuna modifica effettuata.",
+        "roomMadePublic":       "Da adesso tutti possono entrare nella tua stanza.",
+        "roomNotPublic":        "Da adesso solo i membri da te aggiunti possono entrare nella tua stanza.",
+
+        "userWhitelistAdd":     "$1 è stato aggiunto alla tua whitelist.",
+        "userWhitelistRevoke":  "$1 è stato rimosso dalla tua whitelist.",
+        "userWhitelistReset":   "La tua whitelist è stata resettata.",
+        "userBlacklistAdd":     "$1 è stato aggiunto alla tua blacklist.",
+        "userBlacklistRevoke":  "$1 è stato rimosso dalla tua blacklist.",
+        "userBlacklistReset":   "La tua blacklist è stata resettata.",
+
+        "errorGeneric":         "Qualcosa è andato storto.",
+        "errorConfigNotFound":  "Qualcosa è andato storto durante il recupero della configurazione di questo server.",
+        "errorRoomsDisabled":   "Le stanze private sono disabilitate in questo server.",
+        "errorNotGuild":        "Le stanze possono essere create solo all'interno di un server."
+    }
+    
+}

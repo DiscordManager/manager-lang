@@ -1,0 +1,43 @@
+{
+
+    "lang_version": 1,
+    "lang_name":    "French",
+    "lang_short":   "fr_FR",
+
+    "strings": {
+
+        "dataFetching":         ":black_circle: Récupération des données...",
+        "dataCreating":         ":black_circle: Création d'un salon vocal...",
+        "roomCreated":          ":large_blue_circle: Salon vocal créé !",
+        "roomAlreadyExists":    ":warning: Erreur : Vous avez déjà créé un salon vocal !",
+        "roomRevoked":          ":large_blue_circle: Salon vocal supprimé !",
+        "roomRevokedInactive":  "Votre salon vocal a été révoqué pour inactivité, re-créer en un en faisant `$1`",
+        "roomName":             "Salon de [$1]",
+        "roomErrorDisabled":    "Les salons vocaux privés sont désactivés sur ceux discord.",
+
+        "revokeComplete":       ":cyclone: Salon vocal supprimé !",
+        "revokeError":          ":no_good: Quelque chose s'est mal passé lors de la suppression de votre salon vocal.",
+        "revokeNotGuild":        "Vous pouvez supprimé votre salon vocal seuleument sur un serveur me possédant.",
+        "revokeNoRoom":         ":warning: Vous n'avez aucun salon vocal !",
+
+        "roomUserAdded":        "Ajout de $1 de votre salon vocal.",
+        "roomUserRemoved":      "Retrait de $1 de votre salon vocal.",
+        "roomUserBlocked":      "Blocage de $1 de votre salon vocal.",
+        "roomNoAdded":			"Aucun changement n'a été fait.",
+        "roomMadePublic":       "Tout le monde peut maintenant rejoindre votre salon vocal !",
+        "roomNotPublic":        "Seul les membres autorisés peuvent maintenant rejoindre votre salon vocal !",
+
+        "userWhitelistAdd":     "$1 est maintenant sur votre liste blanche.",
+        "userWhitelistRevoke":  "$1 n'est maintenant plus sur votre liste blanche.",
+        "userWhitelistReset":   "Votre liste blanche a été réinitialisée.",
+        "userBlacklistAdd":     "$1 est maintenant sur votre liste noire.",
+        "userBlacklistRevoke":  "$1 n'est maintenant plus sur votre liste noire.",
+        "userBlacklistReset":   "Votre liste noire a été réinitialisée",
+
+        "errorGeneric":         "Une erreur s'est produite. Veuillez réessayer.",
+        "errorConfigNotFound":  "Une erreur s'est produite lors de la récupération de la configuration du serveur.",
+        "errorRoomsDisabled":   "Les salons vocaux privées sont désactivées dans sur ce serveur.",
+        "errorNotGuild":        "Les salons vocaux privés ne peuvent être crées que sur un serveur."
+    }
+    
+}

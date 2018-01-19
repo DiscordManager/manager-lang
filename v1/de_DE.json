@@ -1,0 +1,48 @@
+{
+
+    "lang_version": 1,
+    "lang_name":    "Deutsch",
+    "lang_short":   "de_DE",
+
+    "strings": {
+
+        "dataFetching":         ":black_circle: Daten werden abgerufen...",
+        "dataCreating":         ":black_circle: Erstelle Kanal...",
+        "roomCreated":          ":large_blue_circle: Kanal erstellt!",
+        "roomAlreadyExists":    ":warning: Du hast schon irgendwo einen Kanal!",
+        "roomRevoked":          ":large_blue_circle: Kanal gelöscht!",
+        "roomRevokedInactive":  "Dein Kanal wurde gelöscht weil er inaktiv war. Du kannst deinen Kanal wiedererstellen mit `$1`",
+        "roomName":             "Privater Kanal [$1]",
+        "roomErrorDisabled":    "Private Kanäle sind auf diesem Server deaktiviert.",
+		"roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
+        "roomErrorNotAllowed":  "Dir fehlt die berechtigung einen Kanal zu erstellen.",
+		
+        "roomRenamed":          "Dein Kanal wurde zu `$1` umbenannt.",
+        "roomNoNameSpecified":  "Du must einen Namen angeben!",
+
+        "revokeComplete":       ":cyclone: Kanal gelöscht!",
+        "revokeError":          ":no_good: Irgend etwas ist schief gelaufen während dein Kanal gelöscht wurde.",
+        "revokeNotGuild":        "Du kannst dein Kanal nur in einem Server löschen.",
+        "revokeNoRoom":         ":warning: Du hast keinen Kanal!",
+
+        "roomUserAdded":        "$1 wurde zu deinem Kanal hinzugefügt.",
+        "roomUserRemoved":      "$1 wurde von deinem Kanal entfernt.",
+        "roomUserBlocked":      "Du hast $1 in deinem Kanal blokiert.",
+        "roomNoAdded":			"Es wurden keine veränderungen vorgenommen.",
+        "roomMadePublic":       "Jeder kann nun deinem Kanal beitreten.",
+        "roomNotPublic":        "Nur hinzugefügte Benutzer können nun deinem Kanal beitreten.",
+
+        "userWhitelistAdd":     "$1 ist nun auf deiner Weißen Liste.",
+        "userWhitelistRevoke":  "$1 ist nun nichtmehr auf deiner Weißen Liste.",
+        "userWhitelistReset":   "Deine Weiße Liste wurde zurückgesetzt.",
+        "userBlacklistAdd":     "$1 ist nun auf deiner Schwarzen Liste.",
+        "userBlacklistRevoke":  "$1 ist nun nicht mehr auf deiner Schwarzen Liste.",
+        "userBlacklistReset":   "Deine Schwarze Liste wurde zurückgesetzt",
+
+        "errorGeneric":         "Etwas ist schief gelaufen",
+        "errorConfigNotFound":  "Etwas ist schief gelaufen während des versuches die Konfigurationen abzurufen.",
+        "errorRoomsDisabled":   "Private Kanäle sind auf diesem Server deaktiviert.",
+        "errorNotGuild":        "Kanäle können nur in einem Server erstellt werden."
+    }
+    
+}
