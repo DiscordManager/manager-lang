@@ -1,0 +1,43 @@
+{
+
+    "lang_version": 1,
+    "lang_name":    "Português do Brasil",
+    "lang_short":   "pt_BR",
+
+    "strings": {
+
+        "dataFetching":         ":black_circle: Coletando dados...",
+        "dataCreating":         ":black_circle: Criando sala...",
+        "roomCreated":          ":large_blue_circle: Sala criada!",
+        "roomAlreadyExists":    ":warning: Você já tem uma sala criada em algum lugar!",
+        "roomRevoked":          ":large_blue_circle: Sala removida!",
+        "roomRevokedInactive":  "Seu canal foi removido por inatividade, você pode adiciona-lo novamente usando `$1`",
+        "roomName":             "Sala privada [$1]",
+        "roomErrorDisabled":    "Salas privativas estão desativadas neste grupo.",
+
+        "revokeComplete":       ":cyclone: Canal removido!",
+		"revokeError":          ":no_good: Aconteceu algo de errado durante a remoção de sua sala.",
+        "revokeNotGuild":        "Você somente pode remover a sua sala de um servidor.",
+        "revokeNoRoom":         ":warning: Você não tem nenhuma sala!",
+
+        "roomUserAdded":        "Adicionado $1 na sua sala.",
+        "roomUserRemoved":      "Removido $1 da sua sala.",
+        "roomUserBlocked":      "Bloqueado $1 da sua sala.",
+        "roomNoAdded":			"Nenhuma alteração foi feita.",
+        "roomMadePublic":       "Qualquer um pode entrar na sua sala.",
+        "roomNotPublic":        "Somente membros adicionados podem entrar na sua sala.",
+
+        "userWhitelistAdd":     "$1 agora está na sua lista de permitidos.",
+        "userWhitelistRevoke":  "$1 não está mais em sua lista de permitidos.",
+        "userWhitelistReset":   "Sua lista de permissões foi apagada.",
+        "userBlacklistAdd":     "$1 agora está na sua lista negra.",
+        "userBlacklistRevoke":  "$1 não está mais em sua lista negra.",
+        "userBlacklistReset":   "Sua lista negra foi apagada.",
+
+        "errorGeneric":         "Aconteceu algo de errado.",
+		"errorConfigNotFound":  "Houve algo de errado durante a coleta de dados para este grupo.",
+        "errorRoomsDisabled":   "Salas privativas estão desativadas neste grupo.",
+        "errorNotGuild":        "Salas podem ser criadas a partir deste grupo."
+    }
+    
+}
