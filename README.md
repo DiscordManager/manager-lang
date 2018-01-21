@@ -15,3 +15,4 @@ Language Files for channel manager, Use these to submit a custom language :)
 - Wolfram Walter#2790
 - GewoonJelle
 - xMANUELx#5064
+- zAndryZ
