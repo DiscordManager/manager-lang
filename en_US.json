@@ -75,8 +75,8 @@
         "errorGeneric":         "Something went wrong.",
         "errorConfigNotFound":  "Something went wrong while fetching this guilds configuration.",
         "errorMusicDisabled":   "Music Rooms are disabled on this guild.",
-        "errorNotGuild":        "Music Manager can only be summoned from a guild."
+        "errorNotGuild":        "Music can only be played from a guild."
 
     }
-    
+
 }
