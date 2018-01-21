@@ -75,7 +75,7 @@
         "errorGeneric":         "Iets ging fout.",
         "errorConfigNotFound":  "Iets ging fout tijdens het laden van de configuratie.",
         "errorMusicDisabled":   "Muziek is uitgezet op deze server.",
-        "errorNotGuild":        "Je kan deze bot alleen vanaf een server gebruiken."
+        "errorNotGuild":        "Je kunt alleen vanaf een server muziek afspelen."
 
     }
 
