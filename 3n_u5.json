@@ -1,0 +1,80 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "3n9l15H",
+    "lang_short":       "3n_u5",
+
+    "shared": {
+
+        "errorGeneric":         "50m3Th1N' w3Nt wR0N9.",
+        "errorNoPermission":    "j00 d0 N0T h4V3 p3rm15510N T0 D0 tH@.",
+        "errorConfigNotFound":  "5oM37h1n' W3N7 wron9 wH1L3 F37ch1n' 7h12 53RV3R2 KOnF19UR471on.",
+
+		"configFlushed":		"k4CH3 PH0r 53RV3r $1 phlU5H3d.",
+		"errorShutdownGrace":	"5ORry, joo kANno7 p3RfORm 7h12 Ac71On r19H7 nOw. 7RY a9a1N 1n A m1nU73 or 7wO."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Ph37ch1N' D474...",
+        "dataCreating":         ":black_circle: cR34TIn' r00m...",
+        "roomCreated":          ":large_blue_circle: r00m cr3473D!",
+        "roomAlreadyExists":    ":warning: J00 4LR34dY h4V3 4 R00m 5uMm0n3D 50m3wh3r3!",
+        "roomRevoked":          ":large_blue_circle: R00M r3v0k3D!",
+        "roomRevokedInactive":  "uR Ch4nN3l W42 r3V0k3d Du3 T0 1N4CT1v1Ty, u k4N r3sUMm0N 1T w1t `$1`",
+        "roomName":             "PR1VA7e R00m [$1]",
+        "roomErrorDisabled":    "pRIv473 rOOm2 R DI54bL3d ON 7HI2 53Rv3r.",
+        "roomErrorLimit":       "50rRy, J00 K4nN07 Cr3473 4 pR1V473 r00m r19h7 n0w.",
+        "roomErrorNotAllowed":  "u r KuRreN7lY n07 4Ll0WEd 70 CRe47e 4 R00M.",
+
+        "roomRenamed":          "R00m R3N4M3d 70: `$1`",
+        "roomRenameDisabled":   "Joo k4NNOt R3N4M3 room2 On ThI2 53rv3R.",
+        "roomNoNameSpecified":  "y0U neeD T0 5pEcIfy 4 n4ME!",
+
+        "revokeComplete":       ":cyclone: Ch4NN3L r3VoK3D!",
+        "revokeError":          ":no_good: 50M37HiN' W3N7 WR0N9 whIl3 R3v0kiN' UR R00M.",
+        "revokeNotGuild":       "j00 k4n 0NLY R3v0k3 j00R R00m fR0m 4 53RV3R.",
+        "revokeNoRoom":         ":warning: J00 H4v3 n0 r00M!",
+
+        "roomUserAdded":        "4dd3d $1 70 ur r00M.",
+        "roomUserRemoved":      "rEM0VeD $1 pHr0m J00R R00M.",
+        "roomUserBlocked":      "8l0CK3d $1 pHR0M J00R r00m.",
+        "roomNoAdded":			"N0 chan93z w3R3 MAd3.",
+        "roomMadePublic":       "4NY0n3 K4N n0W j01n y0UR R00M.",
+        "roomNotPublic":        "0nlY 4dd3D m3M83R2 C4N J01n J00r r00M N0W.",
+
+        "userWhitelistAdd":     "$1 1Z N0W 0n j00R WH173l1s7.",
+        "userWhitelistRevoke":  "$1 12 N0 l0N93R 0N Y0Ur Wh173L157.",
+        "userWhitelistReset":   "j00r Wh173l157 H4Z 833n r3537.",
+        "userBlacklistAdd":     "$1 IZ N0W 0N uR 8l4CKLI5T.",
+        "userBlacklistRevoke":  "$1 is nO LON93r On yOur 8l4cKl157.",
+        "userBlacklistReset":   "J00R 8l4Ckl157 h42 833N r3537.",
+
+        "errorRoomsDisabled":   "Pr1v473 r00M2 r D154bl3D 0n 7h12 53RV3R.",
+        "errorNotGuild":        "rOOm5 K4n ONLY 83 5umMOn3D PHroM 4 53rV3R."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: U n33d 70 pr0V1d3 4 v4L1D URl!",
+        "MusicNovoiceCon":      ":warning: j00 N33D 70 83 1n 4 V01C3 Ch4Nn3L!",
+        "MusicNoPermission":    "j00 d0 N07 H4V3 p3RmI55I0n 70 d0 7H@.",
+
+        "MusicDifferentChannel":"U KANN07 v07e 70 5KiP wi7h0u7 8EIN' iN 7Eh ChaNnel.",
+        "MusicVoteProgress":    "U vot3d tO 5k1P t3H kURr3nt v1d3O `$1`",
+        "MusicVoteAlreadyVoted":"J00 v0T3D T0 5kip t3h cuRr3Nt viD30 `$1`",
+        "MusicVoteCompleted":   "73H KURr3n7 5ON9 H42 B33n 5k1pP3d. `$1`",
+
+        "MusicAddedToQueue":    "4DD3D `$1` 70 73H qU3U3.",
+        "MusicNowPlaying":      "NOW Pl4Y1n'",
+        "MusicRequestedBy":     "r3KW35T3D 8y",
+        "MusicVideoLength":     "LENG7h",
+
+        "errorMusicDisabled":   "mU51c R00M2 r D1548L3D 0N 7H12 9u1lD.",
+        "errorNotGuild":        "MuS1c K4N 0NLy 8e sUMM0NEd pHr0M 4 9U1LD."
+
+    }
+
+}
