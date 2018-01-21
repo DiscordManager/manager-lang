@@ -27,7 +27,7 @@
         "roomName":             "Private Room [$1]",
         "roomErrorDisabled":    "Private rooms are disabled on this server.",
         "roomErrorLimit":       "Sorry, You cannot create a private room right now.",
-        "roomErrorNotAllowed":  "You are currently now allowed to create a room.",
+        "roomErrorNotAllowed":  "You are currently not allowed to create a room.",
 
         "roomRenamed":          "Room Renamed to: `$1`",
         "roomRenameDisabled":   "You cannot rename rooms on this server.",
