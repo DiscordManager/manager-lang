@@ -1,0 +1,82 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Italian",
+    "lang_short":       "it_IT",
+
+    "shared": {
+
+        "errorGeneric":         "Qualcosa è andato storto.",
+        "errorNoPermission":    "Non hai i permessi necessari per farlo.",
+        "errorConfigNotFound":  "Qualcosa è andato storto durante il recupero dei dati.",
+
+		"configFlushed":		"La cache per il server $1 è stata cancellata.",
+		"errorShutdownGrace":	"Spiacente, non puoi eseguire questa azione adesso. Prova di nuovo tra un paio di minuti."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Sto recuperando i dati...",
+        "dataCreating":         ":black_circle: Sto creando la stanza...",
+        "roomCreated":          ":large_blue_circle: Stanza Creata!",
+        "roomAlreadyExists":    ":warning: Hai già una stanza privata!",
+        "roomRevoked":          ":large_blue_circle: Stanza rimossa!",
+        "roomRevokedInactive":  "La tua stanza è stata rimossa per inattività. Puoi ricrearla con `$1`",
+        "roomName":             "Stanza Privata [$1]",
+        "roomErrorDisabled":    "Le stanze private sono disabilitate in questo server.",
+        "roomErrorLimit":       "Spiacente, non puoi creare una stanza privata adesso.",
+        "roomErrorNotAllowed":  "Al momento non sei autorizzato a creare una stanza.",
+
+        "roomRenamed":          "Stanza rinominata in: `$1`",
+        "roomRenameDisabled":   "Non puoi rinominare stanze in questo server.",
+        "roomNoNameSpecified":  "Devi specificare un nome!",
+
+        "revokeComplete":       ":cyclone: Stanza rimossa!",
+        "revokeError":          ":no_good: Qualcosa è andato storto nel rimuovere la tua stanza.",
+        "revokeNotGuild":        "Puoi rimuovere la tua stanza solo da un server.",
+        "revokeNoRoom":         ":warning: Non hai alcuna stanza.",
+
+        "roomUserAdded":        "$1 è stato aggiunto alla tua stanza.",
+        "roomUserRemoved":      "$1 è stato rimosso dalla tua stanza.",
+        "roomUserBlocked":      "$1 è stato bloccato dalla tua stanza.",
+        "roomNoAdded":			"Nessun cambiamento eseguito.",
+        "roomMadePublic":       "Da ora tutti possono entrare nella tua stanza.",
+        "roomNotPublic":        "Da ora solo chi hai aggiunto può entrare nella tua stanza.",
+
+        "userWhitelistAdd":     "$1 è stato aggiunto alla tua whitelist.",
+        "userWhitelistRevoke":  "$1 è stato rimosso dalla tua whitelist.",
+        "userWhitelistReset":   "La tua whitelist è stata resettata.",
+        "userBlacklistAdd":     "$1 è stato aggiunto alla tua blacklist",
+        "userBlacklistRevoke":  "$1 è stato rimosso dalla tua blacklist.",
+        "userBlacklistReset":   "La tua blacklist è stata resettata.",
+
+        "errorRoomsDisabled":   "Le stanze private sono disabilitate in questo server.",
+        "errorNotGuild":        "Le stanze possono essere create solo da un server."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Devi inserire un URL valido!",
+        "MusicNovoiceCon":      ":warning: Devi entrare in un canale vocale!",
+        "MusicNoPermission":    "Non hai il permesso di farlo.",
+
+        "MusicDifferentChannel":"Non puoi votare per saltare una canzone se non entri in un canale.",
+        "MusicVoteProgress":    "Hai votato per saltare il video `$1`",
+        "MusicVoteAlreadyVoted":"Hai votato per saltare il video `$1`",
+        "MusicVoteCompleted":   "La canzone è stata saltata: `$1`",
+
+        "MusicAddedToQueue":    "`$1` è stata aggiunta alla fila.",
+        "MusicNowPlaying":      "In riproduzione",
+        "MusicRequestedBy":     "Richiesta da",
+        "MusicVideoLength":     "Durata",
+
+        "errorGeneric":         "Qualcosa è andato storto..",
+        "errorConfigNotFound":  "Qualcosa è andato storto nel recupero della configurazione di questo server",
+        "errorMusicDisabled":   "Le stanze musicali sono disabilitate in questo server.",
+        "errorNotGuild":        "Music Manager può essere creato solo in un server."
+
+    }
+    
+}
