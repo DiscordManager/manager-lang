@@ -16,7 +16,7 @@
         "roomErrorDisabled":    "Private Kanäle sind auf diesem Server deaktiviert.",
 		"roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
         "roomErrorNotAllowed":  "Dir fehlt die berechtigung einen Kanal zu erstellen.",
-		
+
         "roomRenamed":          "Dein Kanal wurde zu `$1` umbenannt.",
         "roomNoNameSpecified":  "Du must einen Namen angeben!",
 
