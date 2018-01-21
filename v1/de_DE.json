@@ -1,10 +1,22 @@
 {
 
-    "lang_version": 1,
-    "lang_name":    "Deutsch",
-    "lang_short":   "de_DE",
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Deutsch",
+    "lang_short":       "de_DE",
 
-    "strings": {
+    "shared": {
+
+        "errorGeneric":         "Etwas ist schief gelaufen",
+        "errorNoPermission":    "Dir fehlen die Rechte um diese Aktion auszuführen.",
+        "errorConfigNotFound":  "Etwas ist schief gelaufen beim Versuche die Konfigurationen abzurufen.",
+
+		"configFlushed":		"Der Zwischenspeicher wurde vom server $1 geleert.",
+		"errorShutdownGrace":	"Sorry, zur Zeit kannst du diese Aktion nicht ausführen. Versuche es in 1 - 2 Minuten nochmal!"
+
+    },
+
+    "channel": {
 
         "dataFetching":         ":black_circle: Daten werden abgerufen...",
         "dataCreating":         ":black_circle: Erstelle Kanal...",
@@ -15,7 +27,7 @@
         "roomName":             "Privater Kanal [$1]",
         "roomErrorDisabled":    "Private Kanäle sind auf diesem Server deaktiviert.",
 		"roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
-        "roomErrorNotAllowed":  "Dir fehlt die berechtigung einen Kanal zu erstellen.",
+        "roomErrorNotAllowed":  "Dir fehlt die Berechtigung einen Kanal zu erstellen.",
 		
         "roomRenamed":          "Dein Kanal wurde zu `$1` umbenannt.",
         "roomNoNameSpecified":  "Du must einen Namen angeben!",
@@ -28,7 +40,7 @@
         "roomUserAdded":        "$1 wurde zu deinem Kanal hinzugefügt.",
         "roomUserRemoved":      "$1 wurde von deinem Kanal entfernt.",
         "roomUserBlocked":      "Du hast $1 in deinem Kanal blokiert.",
-        "roomNoAdded":			"Es wurden keine veränderungen vorgenommen.",
+        "roomNoAdded":			"Es wurde kein weiterer Nutzer zu deinem Kanal hinzugefügt.",
         "roomMadePublic":       "Jeder kann nun deinem Kanal beitreten.",
         "roomNotPublic":        "Nur hinzugefügte Benutzer können nun deinem Kanal beitreten.",
 
@@ -40,9 +52,32 @@
         "userBlacklistReset":   "Deine Schwarze Liste wurde zurückgesetzt",
 
         "errorGeneric":         "Etwas ist schief gelaufen",
-        "errorConfigNotFound":  "Etwas ist schief gelaufen während des versuches die Konfigurationen abzurufen.",
+        "errorConfigNotFound":  "Etwas ist schief gelaufen beim Versuche die Konfigurationen abzurufen.",
         "errorRoomsDisabled":   "Private Kanäle sind auf diesem Server deaktiviert.",
         "errorNotGuild":        "Kanäle können nur in einem Server erstellt werden."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Du musst einen gültigen Link angeben!",
+        "MusicNovoiceCon":      ":warning: Du musst dich in einem sprach Kanal befinden!",
+        "MusicNoPermission":    "Dir fehlen die Rechte um diese Aktion auszuführen.",
+
+        "MusicDifferentChannel":"Du kannst leider nicht überspringen wenn du dich nicht in einem sprach Kanal aufhältst.",
+        "MusicVoteProgress":    "Du hast abgestimmt das aktuelle Lied zu überspringen `$1`",
+        "MusicVoteAlreadyVoted":"Du hast schon abgestimmt das aktuelle Lied zu überspringen `$1`",
+        "MusicVoteCompleted":   "Das Lied wurde übersprungen. `$1`",
+
+        "MusicAddedToQueue":    "`$1` wurde zu der Warteschlange hinzugefügt.",
+        "MusicNowPlaying":      "Jetzt spielt",
+        "MusicRequestedBy":     "Angefordert von",
+        "MusicVideoLength":     "Dauer",
+
+        "errorGeneric":         "Etwas ist schief gelaufen",
+        "errorConfigNotFound":  "Etwas ist schief gelaufen beim Versuche die Konfigurationen abzurufen.",
+        "errorMusicDisabled":   "Musik Kanäle sind auf diesem Server deaktiviert.",
+        "errorNotGuild":        "Kanäle können nur in einem Server erstellt werden."
+
     }
     
 }
