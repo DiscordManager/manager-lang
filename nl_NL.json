@@ -12,7 +12,7 @@
         "errorConfigNotFound":  "Er ging iets fout tijdens het ophalen van de configuratie",
 
 		"configFlushed":		"Cache voor server $1 leeggemaakt.",
-		"errorShutdownGrace":	"Momenteel niet bruikbaar, Watch een minuut of twee"
+		"errorShutdownGrace":	"Momenteel niet bruikbaar, Wacht een minuut of twee"
 
     },
 
