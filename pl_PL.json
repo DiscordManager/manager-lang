@@ -1,0 +1,82 @@
+{
+ 
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Polski",
+    "lang_short":       "pl_PL",
+ 
+    "shared": {
+ 
+        "errorGeneric":         "Coś poszło nie tak.",
+        "errorNoPermission":    "Nie masz uprawnień do tej akcji.",
+        "errorConfigNotFound":  "Wystąpił błąd podczas próby uzyskania konfiguracji.",
+ 
+        "configFlushed":        "Pamięć podręczna z serwera $1 została przepłukana.",
+        "errorShutdownGrace":   "Niestety, nie możesz teraz wykonać tej czynności. Spróbuj ponownie za 1 lub 2 minuty."
+ 
+    },
+ 
+    "channel": {
+ 
+        "dataFetching":         ":black_circle: Pobierania danych...",
+        "dataCreating":         ":black_circle: Tworzenie kanał...",
+        "roomCreated":          ":large_blue_circle: Utworzono kanał!",
+        "roomAlreadyExists":    ":warning: Masz już gdzieś kanał!",
+        "roomRevoked":          ":large_blue_circle: Kanał usunięty!",
+        "roomRevokedInactive":  "Twój kanał był nieaktywny i został usunięty. Możesz przywrócić swój kanał za pomocą `$ 1`.",
+        "roomName":             "Kanały prywatne [$1]",
+        "roomErrorDisabled":    "Kanały prywatne są dezaktywowane na tym serwerze.",
+        "roomErrorLimit":       "Niestety, nie możesz teraz utworzyć prywatnego kanału.",
+        "roomErrorNotAllowed":  "Nie masz uprawnień do utworzenia kanału.",
+ 
+        "roomRenamed":          "Twój kanał został przemianowany na `$1`.",
+        "roomRenameDisabled":   "Nie można zmienić nazwy kanałów na tym serwerze.",
+        "roomNoNameSpecified":  "Musisz podać imię!",
+ 
+        "revokeComplete":       ":cyclone: Kanał został usunięty!",
+        "revokeError":          ":no_good: Coś poszło nie tak podczas usuwania Twojego kanału.",
+        "revokeNotGuild":       "Możesz usunąć swój kanał tylko na serwerze!",
+        "revokeNoRoom":         ":warning: Nie masz kanału!",
+ 
+        "roomUserAdded":        "$1 został dodany do Twojego kanału.",
+        "roomUserRemoved":      "$1 został usunięty z Twojego kanału.",
+        "roomUserBlocked":      "$1 został zablokowany z Twojego kanału.",
+        "roomNoAdded":          "Nie wprowadzono żadnych zmian.",
+        "roomMadePublic":       "Każdy może teraz dołączyć do Twojego kanału.",
+        "roomNotPublic":        "Tylko dodani użytkownicy mogą teraz dołączyć do Twojego kanału.",
+ 
+        "userWhitelistAdd":     "$1 jest teraz na twojej białej liście.",
+        "userWhitelistRevoke":  "$1 nie jest już na twojej białej liście.",
+        "userWhitelistReset":   "Twoja biała lista została zresetowana.",
+        "userBlacklistAdd":     "$1 jest teraz na twojej czarnej liście.",
+        "userBlacklistRevoke":  "$1 nie jest już na twojej czarnej liście.",
+        "userBlacklistReset":   "Twoja czarna lista została zresetowana.",
+ 
+        "errorRoomsDisabled":   "Kanały prywatne są dezaktywowane na tym serwerze.",
+        "errorNotGuild":        "Kanały prywatne można tworzyć tylko na serwerze."
+    },
+ 
+    "music": {
+ 
+        "MusicNoURL":           ":warning: Musisz podać działający adres URL!",
+        "MusicNovoiceCon":      ":warning: Musisz być w kanale głosowym!",
+        "MusicNoPermission":    "Nie masz uprawnień do tej akcji.",
+ 
+        "MusicDifferentChannel":"Nie możesz głosować, aby pominąć, jeśli nie jesteś w kanale głosowym.",
+        "MusicVoteProgress":    "Głosowałeś, aby pominąć ten film wideo. `$1`",
+        "MusicVoteAlreadyVoted":"Już głosowałeś, aby pominąć ten film wideo. `$1`",
+        "MusicVoteCompleted":   "Film został pominię. `$1`",
+ 
+        "MusicAddedToQueue":    "`$1` został dodany do listy oczekujących.",
+        "MusicNowPlaying":      "Teraz odtwarzane:",
+        "MusicRequestedBy":     "Żądany przez",
+        "MusicVideoLength":     "Trwanie:",
+ 
+        "errorGeneric":         "Coś poszło nie tak.",
+        "errorConfigNotFound":  "Coś poszło nie tak podczas próby załadowania konfiguracji.",
+        "errorMusicDisabled":   "Kanały muzyczne są wyłączone na tym serwerze.",
+        "errorNotGuild":        "Poleceń można używać tylko na serwerze."
+ 
+    }
+   
+}

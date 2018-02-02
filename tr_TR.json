@@ -1,0 +1,82 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Turkish",
+    "lang_short":       "tr_TR",
+
+    "shared": {
+
+        "errorGeneric":         "Birşey ters gitti.",
+        "errorNoPermission":    "Bunu yapmak için yeterli yetkiniz yok.",
+        "errorConfigNotFound":  "Bu sunucunun ayarlarını alırken birşeyler ters gitti.",
+
+		"configFlushed":		"$1 sunucusunun önbelleği boşaltıldı.",
+		"errorShutdownGrace":	"Özür dileriz, Bu aksiyonu şuanda yerine getiremiyorsunuz. Birkaç dakika sonra tekrar deneyiniz."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Veriler toplanıyor...",
+        "dataCreating":         ":black_circle: Odanız açılıyor...",
+        "roomCreated":          ":large_blue_circle: Odanız açıldı!",
+        "roomAlreadyExists":    ":warning: Zaten bir odanız bulunmakta!",
+        "roomRevoked":          ":large_blue_circle: Odanız kapandı!",
+        "roomRevokedInactive":  "Odanız kullanılmadığından dolayı kapandı, `$1` kullanarak tekrar açabilirsiniz.",
+        "roomName":             "Özel Oda [$1]",
+        "roomErrorDisabled":    "Bu sunucuda özel odalar engellenmiş.",
+        "roomErrorLimit":       "Üzgünüm, şu anda özel oda açamazsınız.",
+        "roomErrorNotAllowed":  "Özel oda açmak için izniniz bulunmamaktadır.",
+
+        "roomRenamed":          "Odanın ismi `$1` olarak değiştirildi.",
+        "roomRenameDisabled":   "Bu sunucuda oda isminizi değiştiremezsiniz.",
+        "roomNoNameSpecified":  "Bir isim belirtmek zorundasınız!",
+
+        "revokeComplete":       ":cyclone: Oda Kapandı!",
+        "revokeError":          ":no_good: Özel odanızı kapatılırken bir problemle karşılaşıldı.",
+        "revokeNotGuild":        "Sunucuda sadece kendi odanızı kapatabilirsiniz.",
+        "revokeNoRoom":         ":warning: Odanız yok!",
+
+        "roomUserAdded":        "Odanıza $1 eklendi.",
+        "roomUserRemoved":      "Odanızdan $1 çıkarıldı.",
+        "roomUserBlocked":      "Odanızdan $1 engellendi.",
+        "roomNoAdded":          "Hiçbir değişiklilik yapılmadı.",
+        "roomMadePublic":       "Odanıza artık herkes katılabilir.",
+        "roomNotPublic":        "Odanıza artık eklediğiniz kişiler girebilir.",
+
+        "userWhitelistAdd":     "$1 artık beyaz listenizde.",
+        "userWhitelistRevoke":  "$1 artık beyaz listenizde değil.",
+        "userWhitelistReset":   "Beyaz listeniz sıfırlanmıştır.",
+        "userBlacklistAdd":     "$1 artık kara listenizde.",
+        "userBlacklistRevoke":  "$1 artık kara listenizde değil.",
+        "userBlacklistReset":   "Kara listeniz sıfırlanmıştır.",
+
+        "errorRoomsDisabled":   "Özel odalar bu sunucuda kapalıdır.",
+        "errorNotGuild":        "Odalar sadece bir sunucudayken açılabilir."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Geçerli bir link vermeniz gerekiyor!",
+        "MusicNovoiceCon":      ":warning: Herhangi bir ses kanalında olmanız gerekiyor!",
+        "MusicNoPermission":    "Bunu yapmak için yeterli yetkiniz yok.",
+
+        "MusicDifferentChannel":"Müzik dinlenilen kanalda olmadan müziğin geçilmesi için oy veremezsiniz.",
+        "MusicVoteProgress":    "Geçerli şarkıyı geçmek için oy verdin `$1`",
+        "MusicVoteAlreadyVoted":"Geçerli şarkıyı geçmek için zaten oy verdin `$1`",
+        "MusicVoteCompleted":   "Geçerli şarkı geçildi. `$1`",
+
+        "MusicAddedToQueue":    "`$1` sıraya eklendi.",
+        "MusicNowPlaying":      "Şuanda Çalan",
+        "MusicRequestedBy":     "İsteyen",
+        "MusicVideoLength":     "Uzunluk",
+
+        "errorGeneric":         "Bir şeyler ters gitti.",
+        "errorConfigNotFound":  "Bu sunucunun ayarlarını toparlarken bir şeyler ters gitti.",
+        "errorRoomsDisabled":   "Bu sunucuda özel odalar devredışı bırakılmış.",
+        "errorNotGuild":        "Odalar sadece bir sunucuda açılabilir."
+
+    }
+
+}
