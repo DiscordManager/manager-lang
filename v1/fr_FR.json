@@ -1,6 +1,6 @@
 {
 
-    "lang_version": 1,
+    "lang_version": 2,
     "lang_name":    "French",
     "lang_short":   "fr_FR",
 
@@ -8,12 +8,12 @@
 
         "dataFetching":         ":black_circle: Récupération des données...",
         "dataCreating":         ":black_circle: Création d'un salon vocal...",
-        "roomCreated":          ":large_blue_circle: Salon vocal créé !",
-        "roomAlreadyExists":    ":warning: Erreur : Vous avez déjà créé un salon vocal !",
+        "roomCreated":          ":large_blue_circle: Salon vocal crée !",
+        "roomAlreadyExists":    ":warning: Erreur : Vous avez déjà crée un salon vocal !",
         "roomRevoked":          ":large_blue_circle: Salon vocal supprimé !",
         "roomRevokedInactive":  "Votre salon vocal a été révoqué pour inactivité, re-créer en un en faisant `$1`",
         "roomName":             "Salon de [$1]",
-        "roomErrorDisabled":    "Les salons vocaux privés sont désactivés sur ceux discord.",
+        "roomErrorDisabled":    "Les salons vocaux privés sont désactivés sur ce discord.",
 
         "revokeComplete":       ":cyclone: Salon vocal supprimé !",
         "revokeError":          ":no_good: Quelque chose s'est mal passé lors de la suppression de votre salon vocal.",
