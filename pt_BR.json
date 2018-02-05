@@ -11,7 +11,7 @@
         "errorNoPermission":    "Você não tem permissão para fazer isso.",
         "errorConfigNotFound":  "Algo deu errado ao buscar as configurações deste servidor.",
 
-		"configFlushed":		"Cache para o servidor $1 foi limpo.",
+		"configFlushed":		"Cache para o servidor $1 foi apagado.",
 		"errorShutdownGrace":	"Desculpe, você não pode executar esta ação agora. Tente novamente em um minuto ou dois."
 
     },
@@ -21,29 +21,29 @@
         "dataFetching":         ":black_circle: Obtendo dados...",
         "dataCreating":         ":black_circle: Criando sala...",
         "roomCreated":          ":large_blue_circle: Sala criada!",
-        "roomAlreadyExists":    ":warning: Você já tem uma sala ativa em algum lugar",
+        "roomAlreadyExists":    ":warning: Você já tem uma sala criada em algum lugar!",
         "roomRevoked":          ":large_blue_circle: Sala removida!",
-        "roomRevokedInactive":  "Seu canal foi removido por inatividade, você pode cria-lo novamente usando `$1`",
-        "roomName":             "Sala Privada [$1]",
-        "roomErrorDisabled":    "As salas privadas estão desativadas neste servidor.",
-        "roomErrorLimit":       "Desculpe, você não pode criar uma sala privada agora.",
+        "roomRevokedInactive":  "Sua sala foi removida por inatividade, você pode criá-la novamente usando `$1`",
+        "roomName":             "Sala privada [$1]",
+        "roomErrorDisabled":    "As salas privadas estão desabilitadas neste servidor.",
+        "roomErrorLimit":       "Desculpe, você não pode criar uma sala privada no momento.",
         "roomErrorNotAllowed":  "Atualmente, você não tem permissão para criar uma sala.",
 
         "roomRenamed":          "Sala renomeada para: `$1`",
-        "roomRenameDisabled":   "Você não pode renomear as salas neste servidor.",
+        "roomRenameDisabled":   "Você não pode renomear salas neste servidor.",
         "roomNoNameSpecified":  "Você precisa especificar um nome!",
 
         "revokeComplete":       ":cyclone: Canal removido!",
         "revokeError":          ":no_good: Algo deu errado ao remover a sua sala.",
-        "revokeNotGuild":        "Você só pode remover sua sala de um servidor.",
-        "revokeNoRoom":         ":warning: Você não tem uma sala!",
+        "revokeNotGuild":        "Você só pode remover sua sala a partir de um servidor.",
+        "revokeNoRoom":         ":warning: Você não tem nenhuma sala!",
 
-        "roomUserAdded":        "$1 foi adicionado(a) a sua sala.",
+        "roomUserAdded":        "$1 foi adicionado(a) à sua sala.",
         "roomUserRemoved":      "$1 foi removido(a) de sua sala.",
-        "roomUserBlocked":      "$1 foi bloqueado(a) de sua sala.",
-        "roomNoAdded":			"Nenhuma mudança foi feita.",
-        "roomMadePublic":       "Qualquer um pode agora juntar-se a sua sala.",
-        "roomNotPublic":        "Somente membros adicionados podem se juntar a sua sala agora.",
+        "roomUserBlocked":      "$1 foi bloqueado(a) de acessar sua sala.",
+        "roomNoAdded":			"Nenhuma alteração foi feita.",
+        "roomMadePublic":       "Qualquer um pode se juntar à sua sala.",
+        "roomNotPublic":        "Somente membros adicionados podem se juntar à sua sala agora.",
 
         "userWhitelistAdd":     "$1 está agora em sua lista branca.",
         "userWhitelistRevoke":  "$1 não está mais em sua lista branca.",
@@ -52,8 +52,8 @@
         "userBlacklistRevoke":  "$1 não está mais em sua lista negra.",
         "userBlacklistReset":   "Sua lista negra foi apagada.",
 
-        "errorRoomsDisabled":   "As salas privadas estão desativadas neste servidor.",
-        "errorNotGuild":        "Salas só podem ser criadas de um servidor."
+        "errorRoomsDisabled":   "As salas privadas estão desabilitadas neste servidor.",
+        "errorNotGuild":        "As salas só podem ser criadas a partir de um servidor."
     },
 
     "music": {
@@ -65,17 +65,17 @@
         "MusicDifferentChannel":"Você não pode votar para pular sem estar no canal.",
         "MusicVoteProgress":    "Você votou para pular o vídeo atual `$1`",
         "MusicVoteAlreadyVoted":"Você votou para pular o vídeo atual `$1`",
-        "MusicVoteCompleted":   "A música atual foi pulada. `$1`",
+        "MusicVoteCompleted":   "A música atual foi pulada `$1`",
 
-        "MusicAddedToQueue":    "`$1` foi adicionado a fila.",
+        "MusicAddedToQueue":    "`$1` foi adicionado à fila.",
         "MusicNowPlaying":      "Agora tocando",
         "MusicRequestedBy":     "Solicitado por",
         "MusicVideoLength":     "Duração",
 
         "errorGeneric":         "Algo deu errado.",
         "errorConfigNotFound":  "Algo deu errado ao buscar as configurações desta guilda.",
-        "errorMusicDisabled":   "As salas de música estão desativados nesta guilda.",
-        "errorNotGuild":        "A música só pode ser tocada de uma guilda."
+        "errorMusicDisabled":   "As salas de música estão desabilitadas nesta guilda.",
+        "errorNotGuild":        "As músicas só podem ser tocadas a partir de uma guilda."
 
     }
 
