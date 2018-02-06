@@ -1,7 +1,7 @@
 {
 
     "lang_version":     2,
-    "lang_revision":    "dev0",
+    "lang_revision":    "r2",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -12,8 +12,11 @@
         "errorConfigNotFound":  "Something went wrong while fetching this servers configuration.",
 
 		"configFlushed":		"Cache for server $1 flushed.",
-		"errorShutdownGrace":	"Sorry, You cannot perform this action right now. Try again in a minute or two."
-
+        "errorShutdownGrace":	"Sorry, You cannot perform this action right now. Try again in a minute or two.",
+         
+        "errorTooManyMatched":  "Found too many matches, Maximum: `$1`",
+        "errorTooLittleMatched":"Found too little matches, Minumum: `$1`",
+        "matchResponseBig":      "`$1` matches. View all -> $2"
     },
 
     "channel": {
