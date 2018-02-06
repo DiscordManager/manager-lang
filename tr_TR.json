@@ -1,7 +1,7 @@
 {
 
     "lang_version":     2,
-    "lang_revision":    "dev0",
+    "lang_revision":    "r2",
     "lang_name":        "Turkish",
     "lang_short":       "tr_TR",
 
@@ -12,8 +12,11 @@
         "errorConfigNotFound":  "Bu sunucunun ayarlarını alırken birşeyler ters gitti.",
 
 		"configFlushed":		"$1 sunucusunun önbelleği boşaltıldı.",
-		"errorShutdownGrace":	"Özür dileriz, Bu aksiyonu şuanda yerine getiremiyorsunuz. Birkaç dakika sonra tekrar deneyiniz."
-
+		"errorShutdownGrace":	"Özür dileriz, Bu aksiyonu şuanda yerine getiremiyorsunuz. Birkaç dakika sonra tekrar deneyiniz.",
+        
+        "errorTooManyMatched":  "Çok fazla eşleştirme bulundu, Maksimum: `$1`",
+        "errorTooLittleMatched":"Çok az eşleştirme bulundu, Minimum: `$1`",
+        "matchResponseBig":      "`$1` eşleşme. Hepsini görüntüle -> $2"
     },
 
     "channel": {
