@@ -15,7 +15,7 @@
         "errorShutdownGrace":	"Sorry, You cannot perform this action right now. Try again in a minute or two.",
          
         "errorTooManyMatched":  "Found too many matches, Maximum: `$1`",
-        "errorTooLittleMatched":"Found too little matches, Minumum: `$1`",
+        "errorTooLittleMatched":"Found too little matches, Minimum: `$1`",
         "matchResponseBig":      "`$1` matches. View all -> $2"
     },
 
