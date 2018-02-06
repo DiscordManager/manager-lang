@@ -1,7 +1,7 @@
 {
 
     "lang_version":     2,
-    "lang_revision":    "dev0",
+    "lang_revision":    "r2",
     "lang_name":        "Português do Brasil",
     "lang_short":       "pt_BR",
 
@@ -12,8 +12,11 @@
         "errorConfigNotFound":  "Algo deu errado ao buscar as configurações deste servidor.",
 
 		"configFlushed":		"Cache para o servidor $1 foi apagado.",
-		"errorShutdownGrace":	"Desculpe, você não pode executar esta ação agora. Tente novamente em um minuto ou dois."
-
+	"errorShutdownGrace":	"Desculpe, você não pode executar esta ação agora. Tente novamente em um minuto ou dois.",
+	
+	"errorTooManyMatched":  "Muitas combinações encontradas, máximo: `$1`",
+	"errorTooLittleMatched":"Poucas combinações encontradas, mínimo: `$1`",
+	"matchResponseBig":      "`$1` combinações. Ver todas -> $2"
     },
 
     "channel": {
