@@ -1,0 +1,86 @@
+
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Swedish",
+    "lang_short":       "sv_SV",
+
+    "shared": {
+
+        "errorGeneric":         "Någonting gick snett.",
+        "errorNoPermission":    "Du har inte tillåtelse att göra så.",
+        "errorConfigNotFound":  "Kunde inte hämta konfigurationsfil.",
+
+		"configFlushed":		"Cache för server $1 rensad.",
+        "errorShutdownGrace":	"Lesen, du kan inte utföra denna handlingen just nu. Försök igen om ett tag.",
+         
+        "errorTooManyMatched":  "Hittade för många matchningar, Maximalt antal: `$1`",
+        "errorTooLittleMatched":"Hittade för få matchningar, Minst antal: `$1`",
+        "matchResponseBig":      "`$1` matchningar. Visa alla -> $2"
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Hämtar data...",
+        "dataCreating":         ":black_circle: Skapar rum...",
+        "roomCreated":          ":large_blue_circle: Rum skapat!",
+        "roomAlreadyExists":    ":warning: Du har redan gjort ett rum!",
+        "roomRevoked":          ":large_blue_circle: Rum borttaget!",
+        "roomRevokedInactive":  "Ditt rum togs bort på grund av inaktivitet, Du kan återskapa det med `$1`",
+        "roomName":             "Privat rum [$1]",
+        "roomErrorDisabled":    "Privata rum är avstängda på denna server.",
+        "roomErrorLimit":       "Ledsen, Du kan inte skapa ett privat rum just nu.",
+        "roomErrorNotAllowed":  "Du har för nuvarande inte tillåtelse att skapa ett rum.",
+
+        "roomRenamed":          "Döpte om rum till: `$1`",
+        "roomRenameDisabled":   "Du kan inte döpa om rum på denna server.",
+        "roomNoNameSpecified":  "Du måste ange ett namn!",
+
+        "revokeComplete":       ":cyclone: Kanal borttagen!",
+        "revokeError":          ":no_good: Någonting gick snett när ditt rum skulle tas bort.",
+        "revokeNotGuild":        "Du kan enbart ta bort ditt frum från en server.",
+        "revokeNoRoom":         ":warning: Du har inget rum!",
+
+        "roomUserAdded":        "Lade till $1 till ditt rum.",
+        "roomUserRemoved":      "Tog bort $1 från ditt rum.",
+        "roomUserBlocked":      "Blockerade $1 från ditt rum.",
+        "roomNoAdded":			"Inga förändringar verkställdes.",
+        "roomMadePublic":       "Vem som helst kan nu gå med i ditt rum.",
+        "roomNotPublic":        "Enbart tillagda medlemmar kan nu gå med i ditt rum.",
+
+        "userWhitelistAdd":     "$1 är nu tillagd på din vitlista.",
+        "userWhitelistRevoke":  "$1 är nu borttagen från din vitlista.",
+        "userWhitelistReset":   "Din vitlista har återställts.",
+        "userBlacklistAdd":     "$1 är nu tillagd på din svartlista.",
+        "userBlacklistRevoke":  "$1 är nu borttagen från din svartlista.",
+        "userBlacklistReset":   "Din svartlista har återställts.",
+
+        "errorRoomsDisabled":   "Privata rum är avstängda på denna server.",
+        "errorNotGuild":        "Rum kan enbart skapas från en server."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Du måste anget en giltig länk!",
+        "MusicNovoiceCon":      ":warning: Du måste vara i en röstkanal!",
+        "MusicNoPermission":    "Du har inte tillåtelse att göra så.",
+
+        "MusicDifferentChannel":"Du kan inte rösta för att hoppa över om du inte är i rummet.",
+        "MusicVoteProgress":    "Du röstade för att hoppa över nuvarande video `$1`",
+        "MusicVoteAlreadyVoted":"Du har redan röstat för att hoppa över nuvarande video `$1`",
+        "MusicVoteCompleted":   "Den nuvarande låten hoppades över. `$1`",
+
+        "MusicAddedToQueue":    "Lade till `$1` i kön.",
+        "MusicNowPlaying":      "Nu seplas",
+        "MusicRequestedBy":     "Önskad av",
+        "MusicVideoLength":     "Längd",
+
+        "errorGeneric":         "Någonting gick snett.",
+        "errorConfigNotFound":  "Kunde inte hämta guildens konfigurationsfil.",
+        "errorMusicDisabled":   "Musikrum är avstängda inom denna guild.",
+        "errorNotGuild":        "Musik kan enbart spelas från en guild."
+
+    }
+
+}
