@@ -18,7 +18,7 @@
 	
 	"errorTooManyMatched":  "Muitas combinações encontradas, máximo: `$1`",
 	"errorTooLittleMatched":"Poucas combinações encontradas, mínimo: `$1`",
-	"matchResponseBig":      "`$1` combinações. Ver todas -> $2"
+	"matchResponseBig":      "`$1` combinações. Ver todas -> $2",
 	    
         "missingPermission":    "A permissão `$1` é necessária para fazer isso."
 
@@ -61,7 +61,7 @@
         "userBlacklistReset":   "Sua lista negra foi apagada.",
 
         "errorRoomsDisabled":   "As salas privadas estão desabilitadas neste servidor.",
-        "errorNotGuild":        "As salas só podem ser criadas a partir de um servidor."
+        "errorNotGuild":        "As salas só podem ser criadas a partir de um servidor.",
 	    
         "roomsNewOwner":        "Você agora é o novo dono da sala do(a) $1.",
         "roomsNewOwnerNotify":  "Sua sala privada foi passada para outro membro."
