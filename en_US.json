@@ -1,7 +1,7 @@
 {
 
     "lang_version":     2,
-    "lang_revision":    "r2",
+    "lang_revision":    "r3",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -10,13 +10,18 @@
         "errorGeneric":         "Something went wrong.",
         "errorNoPermission":    "You do not have permission to do that.",
         "errorConfigNotFound":  "Something went wrong while fetching this servers configuration.",
+        "errorCoolDown":        "Please wait $1 seconds before trying again.",
+        "errorNotNSFW":         "You need to be in a NSFW Channel.",
 
 		"configFlushed":		"Cache for server $1 flushed.",
         "errorShutdownGrace":	"Sorry, You cannot perform this action right now. Try again in a minute or two.",
          
         "errorTooManyMatched":  "Found too many matches, Maximum: `$1`",
         "errorTooLittleMatched":"Found too little matches, Minimum: `$1`",
-        "matchResponseBig":      "`$1` matches. View all -> $2"
+        "matchResponseBig":     "`$1` matches. View all -> $2",
+
+        "missingPermission":    "the `$1` permission is required to do that."
+
     },
 
     "channel": {
@@ -56,9 +61,49 @@
         "userBlacklistReset":   "Your blacklist has been reset.",
 
         "errorRoomsDisabled":   "Private Rooms are disabled on this server.",
-        "errorNotGuild":        "Rooms can only be summoned from a server."
+        "errorNotGuild":        "Rooms can only be summoned from a server.",
+
+        "roomsNewOwner":        "You are now the new owner of $1's Private room.",
+        "roomsNewOwnerNotify":  "Your private room was re-assigned to another member."
+
     },
 
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Working on it!",
+        "noImage":              "Supply an image, Please!",
+        "defaultAvatar":        "This user has the default avatar!"
+
+    },
+
+    "genericCommands": {
+
+        "whoisTitle":           "User card for $1",
+        "username":             "Username",
+        "nickname":             "Nickname",
+        "roles":                "Roles",
+        "accountCreated":       "Created On",
+        "joinedServerDate":     "Joined On",
+        "status":               "Status",
+
+        "serverName":           "Name",
+        "serverMembers":        "Members",
+        "serverOwner":          "Owner",
+        "serverCreated":        "Created On",
+        "serverRegion":         "Region"
+
+    },
+
+    "arenaGame": {
+
+        "day":                  "Day $1. $2 Participants Alive.",
+        "night":                "Night $1. $2 Participants Alive.",
+
+        "gameStart1":           "You wake up in a dense forest. A Couple seconds later a voice can be heard from seemingly everywhere. 'Welcome to the arena, You and $1 others are trapped. Only the sole survivor will be allowed exit, Good Luck'",
+        "gameStart2":           "The sun shines in your eyes as the platform you stand on rises to the surface. You briefly take a glance at most of the other participants before the countdown starts."
+
+    },
+    
     "music": {
 
         "MusicNoURL":           ":warning: You need to provide a valid URL!",
