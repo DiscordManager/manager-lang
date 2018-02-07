@@ -93,16 +93,6 @@
         "serverRegion":         "Region"
 
     },
-
-    "arenaGame": {
-
-        "day":                  "Day $1. $2 Participants Alive.",
-        "night":                "Night $1. $2 Participants Alive.",
-
-        "gameStart1":           "You wake up in a dense forest. A Couple seconds later a voice can be heard from seemingly everywhere. 'Welcome to the arena, You and $1 others are trapped. Only the sole survivor will be allowed exit, Good Luck'",
-        "gameStart2":           "The sun shines in your eyes as the platform you stand on rises to the surface. You briefly take a glance at most of the other participants before the countdown starts."
-
-    },
     
     "music": {
 
