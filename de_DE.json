@@ -14,11 +14,11 @@
         "errorNotNSFW":         "Du musst dich in einem NSFW Kanal befinden.",
 
 		"configFlushed":		"Der Zwischenspeicher  wurde vom server $1 geleert.",
-		"errorShutdownGrace":	"Sorry, zur Zeit kannst du diese Aktion nicht ausführen. Versuche es in 1 - 2 Minuten nochmal!"
+		"errorShutdownGrace":	"Sorry, zur Zeit kannst du diese Aktion nicht ausführen. Versuche es in 1 - 2 Minuten nochmal!",
          
         "errorTooManyMatched":  "Es wurden zu viele Übereinstimmungen gefunden, Maximum: `$1`",
         "errorTooLittleMatched":"Es wurden zu wenig Übereinstimmungen gefunden, Minimum: `$1`",
-        "matchResponseBig":      "`$1` Übereinstimmungen. Alle ansehen -> $2"
+        "matchResponseBig":      "`$1` Übereinstimmungen. Alle ansehen -> $2",
 
         "missingPermission":    "Die `$1` Berechtigung wird dafür benötigt um diese Aktion auszuführen."
 
@@ -92,7 +92,7 @@
         "serverCreated":        "Erstellt am",
         "serverRegion":         "Standort"
 
-    }
+    },
 	
     "music": {
 
