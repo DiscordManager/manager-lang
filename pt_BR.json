@@ -1,7 +1,7 @@
 {
 
     "lang_version":     2,
-    "lang_revision":    "dev0",
+    "lang_revision":    "r3",
     "lang_name":        "Português do Brasil",
     "lang_short":       "pt_BR",
 
@@ -10,9 +10,17 @@
         "errorGeneric":         "Algo deu errado.",
         "errorNoPermission":    "Você não tem permissão para fazer isso.",
         "errorConfigNotFound":  "Algo deu errado ao buscar as configurações deste servidor.",
+        "errorCoolDown":        "Por favor, aguarde $1 segundos antes de tentar novamente.",
+        "errorNotNSFW":         "Você precisa estar em um canal NSFW.",
 
-		"configFlushed":		"Cache para o servidor $1 foi apagado.",
-		"errorShutdownGrace":	"Desculpe, você não pode executar esta ação agora. Tente novamente em um minuto ou dois."
+	"configFlushed":	"Cache para o servidor $1 foi apagado.",
+	"errorShutdownGrace":	"Desculpe, você não pode executar esta ação agora. Tente novamente em um minuto ou dois.",
+	
+	"errorTooManyMatched":  "Muitas combinações encontradas, máximo: `$1`",
+	"errorTooLittleMatched":"Poucas combinações encontradas, mínimo: `$1`",
+	"matchResponseBig":      "`$1` combinações. Ver todas -> $2",
+	    
+        "missingPermission":    "A permissão `$1` é necessária para fazer isso."
 
     },
 
@@ -35,13 +43,13 @@
 
         "revokeComplete":       ":cyclone: Canal removido!",
         "revokeError":          ":no_good: Algo deu errado ao remover a sua sala.",
-        "revokeNotGuild":        "Você só pode remover sua sala a partir de um servidor.",
+        "revokeNotGuild":       "Você só pode remover sua sala a partir de um servidor.",
         "revokeNoRoom":         ":warning: Você não tem nenhuma sala!",
 
         "roomUserAdded":        "$1 foi adicionado(a) à sua sala.",
         "roomUserRemoved":      "$1 foi removido(a) de sua sala.",
         "roomUserBlocked":      "$1 foi bloqueado(a) de acessar sua sala.",
-        "roomNoAdded":			"Nenhuma alteração foi feita.",
+        "roomNoAdded":		"Nenhuma alteração foi feita.",
         "roomMadePublic":       "Qualquer um pode se juntar à sua sala.",
         "roomNotPublic":        "Somente membros adicionados podem se juntar à sua sala agora.",
 
@@ -53,7 +61,47 @@
         "userBlacklistReset":   "Sua lista negra foi apagada.",
 
         "errorRoomsDisabled":   "As salas privadas estão desabilitadas neste servidor.",
-        "errorNotGuild":        "As salas só podem ser criadas a partir de um servidor."
+        "errorNotGuild":        "As salas só podem ser criadas a partir de um servidor.",
+	    
+        "roomsNewOwner":        "Você agora é o novo dono da sala do(a) $1.",
+        "roomsNewOwnerNotify":  "Sua sala privada foi passada para outro membro."
+    
+    },
+	
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Trabalhando nisso!",
+        "noImage":              "Por favor, forneça uma imagem!",
+        "defaultAvatar":        "Este usuário tem o avatar padrão!"
+
+    },
+
+    "genericCommands": {
+
+        "whoisTitle":           "Cartão de usuário para $1",
+        "username":             "Usuário",
+        "nickname":             "Apelido",
+        "roles":                "Cargos",
+        "accountCreated":       "Criado em",
+        "joinedServerDate":     "Entrou em",
+        "status":               "Status",
+
+        "serverName":           "Nome",
+        "serverMembers":        "Membros",
+        "serverOwner":          "Dono",
+        "serverCreated":        "Criado em",
+        "serverRegion":         "Região"
+
+    },
+
+    "arenaGame": {
+
+        "day":                  "Dia $1. $2 participantes vivos.",
+        "night":                "Noite $1. $2 participantes vivos.",
+
+        "gameStart1":           "Você acorda em uma densa floresta. Alguns segundos depois, uma voz pode ser ouvida aparentemente em todos os lugares. 'Bem-vindo à arena, você e $1 outros estão presos. Somente um único sobrevivente sairá vivo, boa sorte'.",
+        "gameStart2":           "O sol brilha nos seus olhos enquanto a plataforma em que você está sobre sobe para a superfície. Você rapidamente observa a maioria dos outros participantes antes que a contagem regressiva comece."
+
     },
 
     "music": {
