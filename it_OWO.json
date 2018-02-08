@@ -1,0 +1,82 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Italian",
+    "lang_short":       "it_OWO",
+
+    "shared": {
+
+        "errorGeneric":         "Qualcosa è andato stovto.",
+        "errorNoPermission":    "Non hai i pevmessi necessavi pev favlo.",
+        "errorConfigNotFound":  "Qualcosa è andato stovto duvante il vecupevo dei dati.",
+
+		"configFlushed":		"La cache pev il sevvev $1 è stata cancellata.",
+		"errorShutdownGrace":	"Spiacente, non puoi eseguive questa azione adesso. Pvova di nuovo tva un paio di minuti."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Sto vecupevando i dati...",
+        "dataCreating":         ":black_circle: Sto cveando la stanza...",
+        "roomCreated":          ":large_blue_circle: Stanza Cveata!",
+        "roomAlreadyExists":    ":warning: Hai già una stanza pvivata!",
+        "roomRevoked":          ":large_blue_circle: Stanza vimossa!",
+        "roomRevokedInactive":  "La tua stanza è stata vimossa pev inattività. Puoi vicveavla con `$1`",
+        "roomName":             "Stanza Pvivata [$1]",
+        "roomErrorDisabled":    "Le stanze pvivate sono disabilitate in questo sevvev.",
+        "roomErrorLimit":       "Spiacente, non puoi cveave una stanza pvivata adesso.",
+        "roomErrorNotAllowed":  "Al momento non sei autovizzato a cveave una stanza.",
+
+        "roomRenamed":          "Stanza vinominata in: `$1`",
+        "roomRenameDisabled":   "Non puoi vinominave stanze in questo sevvev.",
+        "roomNoNameSpecified":  "Devi specificave un nome!",
+
+        "revokeComplete":       ":cyclone: Stanza vimossa!",
+        "revokeError":          ":no_good: Qualcosa è andato stovto nel vimuoveve la tua stanza.",
+        "revokeNotGuild":        "Puoi vimuoveve la tua stanza solo da un sevvev.",
+        "revokeNoRoom":         ":warning: Non hai alcuna stanza.",
+
+        "roomUserAdded":        "$1 è stato aggiunto alla tua stanza.",
+        "roomUserRemoved":      "$1 è stato vimosso dalla tua stanza.",
+        "roomUserBlocked":      "$1 è stato bloccato dalla tua stanza.",
+        "roomNoAdded":			"Nessun cambiamento eseguito.",
+        "roomMadePublic":       "Da ova tutti possono entvave nella tua stanza.",
+        "roomNotPublic":        "Da ova solo chi hai aggiunto può entvave nella tua stanza.",
+
+        "userWhitelistAdd":     "$1 è stato aggiunto alla tua whitelist.",
+        "userWhitelistRevoke":  "$1 è stato vimosso dalla tua whitelist.",
+        "userWhitelistReset":   "La tua whitelist è stata vesettata.",
+        "userBlacklistAdd":     "$1 è stato aggiunto alla tua blacklist",
+        "userBlacklistRevoke":  "$1 è stato vimosso dalla tua blacklist.",
+        "userBlacklistReset":   "La tua blacklist è stata vesettata.",
+
+        "errorRoomsDisabled":   "Le stanze pvivate sono disabilitate in questo sevvev.",
+        "errorNotGuild":        "Le stanze possono esseve cveate solo da un sevvev."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Devi insevive un UVL valido!",
+        "MusicNovoiceCon":      ":warning: Devi entvave in un canale vocale!",
+        "MusicNoPermission":    "Non hai il pevmesso di favlo.",
+
+        "MusicDifferentChannel":"Non puoi votave pev saltave una canzone se non entvi in un canale.",
+        "MusicVoteProgress":    "Hai votato pev saltave il video `$1`",
+        "MusicVoteAlreadyVoted":"Hai votato pev saltave il video `$1`",
+        "MusicVoteCompleted":   "La canzone è stata saltata: `$1`",
+
+        "MusicAddedToQueue":    "`$1` è stata aggiunta alla fila.",
+        "MusicNowPlaying":      "In vipvoduzione",
+        "MusicRequestedBy":     "Vichiesta da",
+        "MusicVideoLength":     "Duvata",
+
+        "errorGeneric":         "Qualcosa è andato stovto..",
+        "errorConfigNotFound":  "Qualcosa è andato stovto nel vecupevo della configuvazione di questo sevvev",
+        "errorMusicDisabled":   "Le stanze musicali sono disabilitate in questo sevvev.",
+        "errorNotGuild":        "Music Managev può esseve cveato solo in un sevvev."
+
+    }
+    
+}
