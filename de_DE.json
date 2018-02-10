@@ -48,7 +48,7 @@
 
         "roomUserAdded":        "$1 wurde zu deinem Kanal hinzugefügt.",
         "roomUserRemoved":      "$1 wurde von deinem Kanal entfernt.",
-        "roomUserBlocked":      "Du hast $1 in deinem Kanal blokiert.",
+        "roomUserBlocked":      "Du hast $1 in deinem Kanal blockiert.",
         "roomNoAdded":			"Es wurden keine veränderungen vorgenommen.",
         "roomMadePublic":       "Jeder kann nun deinem Kanal beitreten.",
         "roomNotPublic":        "Nur hinzugefügte Benutzer können nun deinem Kanal beitreten.",
