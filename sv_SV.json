@@ -99,7 +99,7 @@
         "day":                  "Dag $1. $2 Deltagare vid liv.",
         "night":                "Natt $1. $2 Deltagare vid liv.",
 
-        "gameStart1":           "Du vaknar upp i en tät skog. Några sekunder senare hör du en röst, till synes från ingenstans. 'Välkommen till arenan, du och $1 andra är fast här. Enbart den ensamma överlevaren kan ta sig ut, Lycka till!'",
+        "gameStart1":           "Du vaknar upp i en tät skog. Några sekunder senare hör du en röst, till synes från ingenstans. 'Välkommen till arenan, du och $1 andra är fast här. Enbart den ensamma överlevaren kan ta sig ut, lycka till!'",
         "gameStart2":           "Solen skiner i dina ögon medan plattformen du står på lyfts upp mot markytan. Du kastar en snabb blick mot dina motståndare innan nedräkningen påbörjas."
 
     },
