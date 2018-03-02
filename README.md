@@ -9,7 +9,7 @@ Language Files for channel manager, Use these to submit a custom language :)
 ## Thanks to these people for translating!
 - Truji
 - XCanG
-- Kael241
+- Kael#1961
 - Kolkies
 - KerwanS
 - Wolfram Walter#2790
