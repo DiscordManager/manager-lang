@@ -1,7 +1,7 @@
 {
 
     "lang_version":     2,
-    "lang_revision":    "r2",
+    "lang_revision":    "r3",
     "lang_name":        "Turkish",
     "lang_short":       "tr_TR",
 
@@ -10,13 +10,18 @@
         "errorGeneric":         "Birşey ters gitti.",
         "errorNoPermission":    "Bunu yapmak için yeterli yetkiniz yok.",
         "errorConfigNotFound":  "Bu sunucunun ayarlarını alırken birşeyler ters gitti.",
-
-		"configFlushed":		"$1 sunucusunun önbelleği boşaltıldı.",
-		"errorShutdownGrace":	"Özür dileriz, Bu aksiyonu şuanda yerine getiremiyorsunuz. Birkaç dakika sonra tekrar deneyiniz.",
+	"errorCoolDown":        "Tekrar denemek için $1 saniye bekleyiniz.",
+        "errorNotNSFW":         "Uygunsuz kanalda olmanız gerekiyor.",
+	    
+	"configFlushed":	"$1 sunucusunun önbelleği boşaltıldı.",
+	"errorShutdownGrace":	"Özür dileriz, Bu aksiyonu şuanda yerine getiremiyorsunuz. Birkaç dakika sonra tekrar deneyiniz.",
         
         "errorTooManyMatched":  "Çok fazla eşleştirme bulundu, Maksimum: `$1`",
         "errorTooLittleMatched":"Çok az eşleştirme bulundu, Minimum: `$1`",
         "matchResponseBig":      "`$1` eşleşme. Hepsini görüntüle -> $2"
+	    
+        "missingPermission":    "Bunu yapabilmeniz için `$1` iznine ihtiyacınız var."
+	    
     },
 
     "channel": {
@@ -57,8 +62,38 @@
 
         "errorRoomsDisabled":   "Özel odalar bu sunucuda kapalıdır.",
         "errorNotGuild":        "Odalar sadece bir sunucudayken açılabilir."
+
+        "roomsNewOwner":        "Artık $1 kullanıcısı'nın özel odası size ait.",
+        "roomsNewOwnerNotify":  "Özel odanız başka kullanıcıya verilmiştir."
+
+    },
+	 
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Şu anda üzerinde çalışılıyor!",
+        "noImage":              "Lütfen bir resim sağlayın!",
+        "defaultAvatar":        "Bu kullanıcı standart profil fotoğrafını kullanıyor."
+
     },
 
+    "genericCommands": {
+
+        "whoisTitle":           "$1 için kullanıcı kartı",
+        "username":             "Kullanıcı Adı",
+        "nickname":             "Takma Adı",
+        "roles":                "Rolleri",
+        "accountCreated":       "Hesap Oluşturma Tarihi",
+        "joinedServerDate":     "Sunucuya Katılma Tarihi",
+        "status":               "Durum",
+
+        "serverName":           "Sunucu İsmi",
+        "serverMembers":        "Üye Sayısı",
+        "serverOwner":          "Sahibi",
+        "serverCreated":        "Oluşturulma Tarihi",
+        "serverRegion":         "Sunucu Bölgesi"
+
+    },
+	
     "music": {
 
         "MusicNoURL":           ":warning: Geçerli bir link vermeniz gerekiyor!",
