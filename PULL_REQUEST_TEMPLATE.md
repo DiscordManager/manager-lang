@@ -6,4 +6,4 @@ This request is to..
 .. For the language **en_US**
 
 Comments:
-< Extra Comments go here >
+Extra Comments go here
