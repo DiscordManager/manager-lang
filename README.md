@@ -17,3 +17,4 @@ Language Files for channel manager, Use these to submit a custom language :)
 - xMANUELx#5064
 - zAndryZ
 - Nekzus#2212
+- Cilooth
