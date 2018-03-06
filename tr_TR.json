@@ -18,7 +18,7 @@
         
         "errorTooManyMatched":  "Çok fazla eşleştirme bulundu, Maksimum: `$1`",
         "errorTooLittleMatched":"Çok az eşleştirme bulundu, Minimum: `$1`",
-        "matchResponseBig":      "`$1` eşleşme. Hepsini görüntüle -> $2"
+        "matchResponseBig":      "`$1` eşleşme. Hepsini görüntüle -> $2",
 	    
         "missingPermission":    "Bunu yapabilmeniz için `$1` iznine ihtiyacınız var."
 	    
@@ -61,7 +61,7 @@
         "userBlacklistReset":   "Kara listeniz sıfırlanmıştır.",
 
         "errorRoomsDisabled":   "Özel odalar bu sunucuda kapalıdır.",
-        "errorNotGuild":        "Odalar sadece bir sunucudayken açılabilir."
+        "errorNotGuild":        "Odalar sadece bir sunucudayken açılabilir.",
 
         "roomsNewOwner":        "Artık $1 kullanıcısı'nın özel odası size ait.",
         "roomsNewOwnerNotify":  "Özel odanız başka kullanıcıya verilmiştir."

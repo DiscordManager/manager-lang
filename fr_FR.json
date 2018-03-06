@@ -51,7 +51,7 @@
         "roomUserBlocked":      "Bloquage de $1 de votre salon.",
         "roomNoAdded":			"Aucun changement n'as eu lieux.",
         "roomMadePublic":       "Tout le monde peut rejoindre votre salon.",
-        "roomNotPublic":        Seul les membres ajoutés peuvent rejoindre votre salon maintenant",
+        "roomNotPublic":        "Seul les membres ajoutés peuvent rejoindre votre salon maintenant",
 
         "userWhitelistAdd":     "$1 est maintenant sur votre whitelist.",
         "userWhitelistRevoke":  "$1 n'est plus sur votre whitelist",
@@ -61,7 +61,7 @@
         "userBlacklistReset":   "Votre blacklist à bien été reset.",
 
         "errorRoomsDisabled":   "Les salons privés sont actuellement désactivés sur ce serveur.",
-        "errorNotGuild":        "Les salons privés peuvent être créés uniquement depuis un serveur,
+        "errorNotGuild":        "Les salons privés peuvent être créés uniquement depuis un serveur",
 
         "roomsNewOwner":        "Vous êtes maintenant le propriétaire du salon privé de $1.",
         "roomsNewOwnerNotify":  "Votre salon privé appartient à un nouveau membre."
