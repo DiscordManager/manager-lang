@@ -51,7 +51,7 @@
         "roomUserBlocked":      "Odanızdan $1 engellendi.",
         "roomNoAdded":          "Hiçbir değişiklilik yapılmadı.",
         "roomMadePublic":       "Odanıza artık herkes katılabilir.",
-        "roomNotPublic":        "Odanıza artık eklediğiniz kişiler girebilir.",
+        "roomNotPublic":        "Odanıza artık sadece belirlediğiniz kişiler girebilir.",
 
         "userWhitelistAdd":     "$1 artık beyaz listenizde.",
         "userWhitelistRevoke":  "$1 artık beyaz listenizde değil.",
