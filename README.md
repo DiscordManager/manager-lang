@@ -18,3 +18,4 @@ Language Files for channel manager, Use these to submit a custom language :)
 - zAndryZ
 - Nekzus#2212
 - Cilooth
+- radostik1
