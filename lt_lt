@@ -1,0 +1,120 @@
+{
+
+    "lang_version":     1,
+    "lang_revision":    "r1",
+    "lang_name":        "Lietuvių kalba",
+    "lang_short":       "lt_LT",
+
+    "shared": {
+
+        "errorGeneric":         "Kažkas nutiko.",
+        "errorNoPermission":    "Jūs neturite leidimo tai daryti.",
+        "errorConfigNotFound":  "Šio serverio konfigūravimo metu pasirodydavo klaida.",
+        "errorCoolDown":        "Palauk keles sekundes prieš bandydamas dar kartą.",
+        "errorNotNSFW":         "Tau reikia būti NSFW kanale.",
+
+		"configFlushed":		"Cache for server $1 flushed.",
+        "errorShutdownGrace":	"Deja, Tu negalite atlikti šio veiksmo dabar. Pabandykite dar kartą po minutės.",
+         
+        "errorTooManyMatched":  "Surasta per daug atitikčių, Maksimalus: `$1`",
+        "errorTooLittleMatched":"Rasta per mažai atitikčių, Minimalus: `$1`",
+        "matchResponseBig":     "`$1` matches. View all -> $2",
+
+        "missingPermission":    "the `$1` permission is required to do that."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Parsisiunčiami duomenys ...",
+        "dataCreating":         ":black_circle: Sukuriamas kanalas",
+        "roomCreated":          ":large_blue_circle: Kanalas sukurtas!",
+        "roomAlreadyExists":    ":warning: Jūs jau turite savo kanalą!",
+        "roomRevoked":          ":large_blue_circle: Kanalas atšauktas!",
+        "roomRevokedInactive":  "Jūsų kanalas buvo ištrintas dėl neaktyvumo, galite jį atkurti su komanda: `$1`",
+        "roomName":             "Privatus kanalas [$1]",
+        "roomErrorDisabled":    "Privatūs kanalai šiame serveryje yra išjungti.",
+        "roomErrorLimit":       "Atsiprašau, šiuo metu negali sukurti privataus kanalo.",
+        "roomErrorNotAllowed":  "Tau šiuo metu neleidžiama kurti kanalo.",
+
+        "roomRenamed":          "Kanalas pervadintas į: `$1`",
+        "roomRenameDisabled":   "Negali pervadinti šio serverio kanalų.",
+        "roomNoNameSpecified":  "Tau reikia nurodyti pavadinimą!",
+
+        "revokeComplete":       ":cyclone: Kanalas atšauktas!",
+        "revokeError":          ":no_good: Kažkas nutiko, kai bandei panaikinti kanalą.",
+        "revokeNotGuild":       "Savo kanalą galite atšaukti tik iš serverio.",
+        "revokeNoRoom":         ":warning: Jūs neturite kanalo!",
+
+        "roomUserAdded":        "$1 Prididėtas prie kanalo",
+        "roomUserRemoved":      "$1 Išmestas iš kanalo.",
+        "roomUserBlocked":      "Užblokuotas $1 iš tavo kanalo.",
+        "roomNoAdded":			"Nebuvo padaryta jokių pakeitimų.",
+        "roomMadePublic":       "Dabar kiekvienas gali prisijungti prie tavo kambario.",
+        "roomNotPublic":        "Dabar prisijungi gali tik pridėti nariai.",
+
+        "userWhitelistAdd":     "$1 is now on your whitelist.",
+        "userWhitelistRevoke":  "$1 is no longer on your whitelist.",
+        "userWhitelistReset":   "Your whitelist has been reset.",
+        "userBlacklistAdd":     "$1 is now on your blacklist.",
+        "userBlacklistRevoke":  "$1 is no longer on your blacklist.",
+        "userBlacklistReset":   "Your blacklist has been reset.",
+
+        "errorRoomsDisabled":   "Privatūs kanalai yra išjungti šiame serveryje.",
+        "errorNotGuild":        "Rooms can only be summoned from a server.",
+
+        "roomsNewOwner":        "Dabar esi naujas savininkas $1's",
+        "roomsNewOwnerNotify":  "Jūsų privatus kambarys buvo perduotas kitam nariui."
+
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Working on it!",
+        "noImage":              "Supply an image, Please!",
+        "defaultAvatar":        "This user has the default avatar!"
+
+    },
+
+    "genericCommands": {
+
+        "whoisTitle":           "User card for $1",
+        "username":             "Username",
+        "nickname":             "Nickname",
+        "roles":                "Roles",
+        "accountCreated":       "Created On",
+        "joinedServerDate":     "Joined On",
+        "status":               "Status",
+
+        "serverName":           "Name",
+        "serverMembers":        "Members",
+        "serverOwner":          "Owner",
+        "serverCreated":        "Created On",
+        "serverRegion":         "Region"
+
+    },
+    
+    "music": {
+
+        "MusicNoURL":           ":warning: You need to provide a valid URL!",
+        "MusicNovoiceCon":      ":warning: You need to be in a Voice Channel!",
+        "MusicNoPermission":    "You do not have permission to do that.",
+
+        "MusicDifferentChannel":"You cannot vote to skip without being in the channel.",
+        "MusicVoteProgress":    "You voted to skip the current video `$1`",
+        "MusicVoteAlreadyVoted":"You voted to skip the current video `$1`",
+        "MusicVoteCompleted":   "The current song has been skipped. `$1`",
+
+        "MusicAddedToQueue":    "Added `$1` To the queue.",
+        "MusicNowPlaying":      "Now Playing",
+        "MusicRequestedBy":     "Requested By",
+        "MusicVideoLength":     "Length",
+
+        "errorGeneric":         "Kažkas nutiko.",
+        "errorConfigNotFound":  "Something went wrong while fetching this guilds configuration.",
+        "errorMusicDisabled":   "Music Rooms are disabled on this guild.",
+        "errorNotGuild":        "Music can only be played from a guild."
+
+    }
+
+}
