@@ -18,9 +18,9 @@
          
         "errorTooManyMatched":  "Surasta per daug atitikčių, Maksimalus: `$1`",
         "errorTooLittleMatched":"Rasta per mažai atitikčių, Minimalus: `$1`",
-        "matchResponseBig":     "`$1` matches. View all -> $2",
+        "matchResponseBig":     "`$1` matches. Peržiūrėti visus -> $2",
 
-        "missingPermission":    "the `$1` permission is required to do that."
+        "missingPermission":    "the `$1` reikalingas leidimas."
 
     },
 
@@ -49,19 +49,19 @@
         "roomUserAdded":        "$1 Prididėtas prie kanalo",
         "roomUserRemoved":      "$1 Išmestas iš kanalo.",
         "roomUserBlocked":      "Užblokuotas $1 iš tavo kanalo.",
-        "roomNoAdded":			"Nebuvo padaryta jokių pakeitimų.",
+        "roomNoAdded":		"Nebuvo padaryta jokių pakeitimų.",
         "roomMadePublic":       "Dabar kiekvienas gali prisijungti prie tavo kambario.",
         "roomNotPublic":        "Dabar prisijungi gali tik pridėti nariai.",
 
-        "userWhitelistAdd":     "$1 is now on your whitelist.",
-        "userWhitelistRevoke":  "$1 is no longer on your whitelist.",
-        "userWhitelistReset":   "Your whitelist has been reset.",
-        "userBlacklistAdd":     "$1 is now on your blacklist.",
-        "userBlacklistRevoke":  "$1 is no longer on your blacklist.",
-        "userBlacklistReset":   "Your blacklist has been reset.",
+        "userWhitelistAdd":     "$1 dabar yra tavo saraše.",
+        "userWhitelistRevoke":  "$1 nebėra tavo saraše.",
+        "userWhitelistReset":   "Tavo sąrašas buvo iš naujo nustatytas.",
+        "userBlacklistAdd":     "$1 dabar yra tavo juodajame sąraše.",
+        "userBlacklistRevoke":  "$1 nebėra tavo juodajame sąraše.",
+        "userBlacklistReset":   "Tavo juodasis sąrašas buvo iš naujo nustatytas.",
 
         "errorRoomsDisabled":   "Privatūs kanalai yra išjungti šiame serveryje.",
-        "errorNotGuild":        "Rooms can only be summoned from a server.",
+        "errorNotGuild":        "Kanalus galima iškviesti tik iš serverio.",
 
         "roomsNewOwner":        "Dabar esi naujas savininkas $1's",
         "roomsNewOwnerNotify":  "Jūsų privatus kambarys buvo perduotas kitam nariui."
@@ -70,27 +70,27 @@
 
     "imageCommands": {
 
-        "processingImage":      "<a:manager_loading:409298228954136577> Working on it!",
-        "noImage":              "Supply an image, Please!",
-        "defaultAvatar":        "This user has the default avatar!"
+        "processingImage":      "<a:manager_loading:409298228954136577> Dirbk su juo!",
+        "noImage":              "Pateik vaizdą, prašau!",
+        "defaultAvatar":        "jo vartotojas turi numatytąją avatarą!"
 
     },
 
     "genericCommands": {
 
-        "whoisTitle":           "User card for $1",
-        "username":             "Username",
-        "nickname":             "Nickname",
+        "whoisTitle":           "Vartotojo kortelė $1",
+        "username":             "Vartotojo vardas",
+        "nickname":             "Slapyvardis",
         "roles":                "Roles",
-        "accountCreated":       "Created On",
-        "joinedServerDate":     "Joined On",
-        "status":               "Status",
+        "accountCreated":       "Sukurtas",
+        "joinedServerDate":     "Prisijungė prie",
+        "status":               "Statusas",
 
-        "serverName":           "Name",
-        "serverMembers":        "Members",
-        "serverOwner":          "Owner",
-        "serverCreated":        "Created On",
-        "serverRegion":         "Region"
+        "serverName":           "vardas",
+        "serverMembers":        "Nariai",
+        "serverOwner":          "Savininkas",
+        "serverCreated":        "Sukurtas",
+        "serverRegion":         "Regionas"
 
     },
     
