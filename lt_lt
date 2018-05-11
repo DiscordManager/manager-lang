@@ -18,7 +18,7 @@
          
         "errorTooManyMatched":  "Surasta per daug atitikčių, Maksimalus: `$1`",
         "errorTooLittleMatched":"Rasta per mažai atitikčių, Minimalus: `$1`",
-        "matchResponseBig":     "`$1` matches. Peržiūrėti visus -> $2",
+        "matchResponseBig":     "`$1`. Peržiūrėti visus -> $2",
 
         "missingPermission":    "the `$1` reikalingas leidimas."
 
