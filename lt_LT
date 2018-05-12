@@ -13,7 +13,7 @@
         "errorCoolDown":        "Palauk keles sekundes prieš bandydamas dar kartą.",
         "errorNotNSFW":         "Tau reikia būti NSFW kanale.",
 
-		"configFlushed":		"Cache for server $1 flushed.",
+	"configFlushed":	"Cache for server $1 flushed.",
         "errorShutdownGrace":	"Deja, Tu negalite atlikti šio veiksmo dabar. Pabandykite dar kartą po minutės.",
          
         "errorTooManyMatched":  "Surasta per daug atitikčių, Maksimalus: `$1`",
@@ -30,7 +30,7 @@
         "dataCreating":         ":black_circle: Sukuriamas kanalas",
         "roomCreated":          ":large_blue_circle: Kanalas sukurtas!",
         "roomAlreadyExists":    ":warning: Jūs jau turite savo kanalą!",
-        "roomRevoked":          ":large_blue_circle: Kanalas atšauktas!",
+        "roomRevoked":          ":large_blue_circle: Kanalas ištrintas!",
         "roomRevokedInactive":  "Jūsų kanalas buvo ištrintas dėl neaktyvumo, galite jį atkurti su komanda: `$1`",
         "roomName":             "Privatus kanalas [$1]",
         "roomErrorDisabled":    "Privatūs kanalai šiame serveryje yra išjungti.",
@@ -49,7 +49,7 @@
         "roomUserAdded":        "$1 Prididėtas prie kanalo",
         "roomUserRemoved":      "$1 Išmestas iš kanalo.",
         "roomUserBlocked":      "Užblokuotas $1 iš tavo kanalo.",
-        "roomNoAdded":		    "Nebuvo padaryta jokių pakeitimų.",
+        "roomNoAdded":		"Nebuvo padaryta jokių pakeitimų.",
         "roomMadePublic":       "Dabar kiekvienas gali prisijungti prie tavo kanalo.",
         "roomNotPublic":        "Dabar prisijungi gali tik pridėti nariai.",
 
@@ -64,13 +64,13 @@
         "errorNotGuild":        "Kanalus galima iškviesti tik iš serverio.",
 
         "roomsNewOwner":        "Dabar esi naujas savininkas $1's",
-        "roomsNewOwnerNotify":  "Jūsų privatus kambarys buvo perduotas kitam nariui."
+        "roomsNewOwnerNotify":  "Jūsų privatus kanalas buvo perduotas kitam nariui."
 
     },
 
     "imageCommands": {
 
-        "processingImage":      "<a:manager_loading:409298228954136577> Dirbk su juo!",
+        "processingImage":      "<a:manager_loading:409298228954136577> sekundėlę, dirbama!",
         "noImage":              "Pateik vaizdą, prašau!",
         "defaultAvatar":        "jo vartotojas turi numatytąją avatarą!"
 
@@ -86,10 +86,10 @@
         "joinedServerDate":     "Prisijungė prie",
         "status":               "Statusas",
 
-        "serverName":           "vardas",
+        "serverName":           "Serverio pavadinimas",
         "serverMembers":        "Nariai",
-        "serverOwner":          "Savininkas",
-        "serverCreated":        "Sukurtas",
+        "serverOwner":          "Serverio savininkas",
+        "serverCreated":        "Serveris sukurtas",
         "serverRegion":         "Regionas"
 
     },
