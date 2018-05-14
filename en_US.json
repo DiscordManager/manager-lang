@@ -33,7 +33,8 @@
 		"errorUnknown":         	"Something went wrong.",
 		"errorBotPermissionU":  	"Manager is missing some permissions to do that.",
 		"errorBotPermissionS":  	"Manager is missing the `{$1}` permissions to do that.",
-		"errorYouPermission":   	"You don't have sufficient permission.",
+        "errorYouPermission":   	"You don't have sufficient permission.",
+        "errorNoEmbedsForLog":      "Manager cannot display this logging item because it's missing the 'Embed Links' Permission node.",
 		"errorNoConfig":   			"Cannot load the config for this file, Please try again in a couple seconds.",
 		"errorNotNSFW":   			"This can only be done in a NSFW channel.",
         "errorBotUnavailable":  	"Manager is temporarily not available. Try again in a couple minutes!"
@@ -65,8 +66,16 @@
 
         "banNone":               "You need to specify at least 1 person to ban.",
         "banTooMany":            "You can only ban up to {$1} people at a time.",
-        "banSuccess":            "You banned: {$1}"
+        "banSuccess":            "You banned: {$1}",
+
+        "optionName":               "Changed your Channels `name` to `{$1}`",
+        "optionUnlocked":           "Changed your Channels `privacy` to `{$1}`",
+        "optionMemberlimit":        "Changed your Voice Channel's `Max Members` to `{$1}`",
+        "optionBitrate":            "Changed your Voice Channel's `Bitrate` to `{$1}`",
+        "optionEmbed":              "Changed your Text Channel's `Embed Permission` to `{$1}`",
+        "optionNSFW":               "Changed your Text Channel's `NSFW Warning` to `{$1}`",
+        "optionReactions":          "Changed your Text Channel's `Reaction Permission` to `{$1}`"
 	
-	}
+    }
 
 }
