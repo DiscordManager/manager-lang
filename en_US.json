@@ -36,7 +36,7 @@
 		"errorYouPermission":   	"You don't have sufficient permission.",
 		"errorNoConfig":   			"Cannot load the config for this file, Please try again in a couple seconds.",
 		"errorNotNSFW":   			"This can only be done in a NSFW channel.",
-		"errorBotUnavailable":  	"Manager is temporarily not available. Try again in a couple minutes!"
+        "errorBotUnavailable":  	"Manager is temporarily not available. Try again in a couple minutes!"
 	
 	},
 	
@@ -53,7 +53,19 @@
 		"summonedText":				":manager: Summoned your Text Channel.",
 		"summonedBoth":				":manager: Summoned your Channels.",
 		
-		"roomPasscode":				"The passcode for your room is `{1}`"
+        "roomPasscode":				"The passcode for your room is `{1}`",
+                
+        "inviteNone":               "You need to specifiy at least 1 person to invite.",
+        "inviteTooMany":            "You can only invite up to {$1} people at a time.",
+        "inviteSuccess":            "You invited: {$1}",
+                
+        "kickNone":               "You need to specify at least 1 person to kick.",
+        "kickTooMany":            "You can only kick up to {$1} people at a time.",
+        "kickSuccess":            "You kicked: {$1}",
+
+        "banNone":               "You need to specify at least 1 person to ban.",
+        "banTooMany":            "You can only ban up to {$1} people at a time.",
+        "banSuccess":            "You banned: {$1}"
 	
 	}
 
