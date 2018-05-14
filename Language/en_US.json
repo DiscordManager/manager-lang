@@ -33,11 +33,12 @@
 		"errorUnknown":         	"Something went wrong.",
 		"errorBotPermissionU":  	"Manager is missing some permissions to do that.",
 		"errorBotPermissionS":  	"Manager is missing the `{$1}` permissions to do that.",
-        "errorYouPermission":   	"You don't have sufficient permission.",
-        "errorNoEmbedsForLog":      "Manager cannot display this logging item because it's missing the 'Embed Links' Permission node.",
+		"errorYouPermission":   	"You don't have sufficient permission.",
 		"errorNoConfig":   			"Cannot load the config for this file, Please try again in a couple seconds.",
 		"errorNotNSFW":   			"This can only be done in a NSFW channel.",
-        "errorBotUnavailable":  	"Manager is temporarily not available. Try again in a couple minutes!"
+        "errorBotUnavailable":  	"Manager is temporarily not available. Try again in a couple minutes!",
+
+        "errorCannotChangeValue":   "You cannot change this value."
 	
 	},
 	
@@ -60,13 +61,13 @@
         "inviteTooMany":            "You can only invite up to {$1} people at a time.",
         "inviteSuccess":            "You invited: {$1}",
                 
-        "kickNone":               "You need to specify at least 1 person to kick.",
-        "kickTooMany":            "You can only kick up to {$1} people at a time.",
-        "kickSuccess":            "You kicked: {$1}",
+        "kickNone":                 "You need to specify at least 1 person to kick.",
+        "kickTooMany":              "You can only kick up to {$1} people at a time.",
+        "kickSuccess":              "You kicked: {$1}",
 
-        "banNone":               "You need to specify at least 1 person to ban.",
-        "banTooMany":            "You can only ban up to {$1} people at a time.",
-        "banSuccess":            "You banned: {$1}",
+        "banNone":                  "You need to specify at least 1 person to ban.",
+        "banTooMany":               "You can only ban up to {$1} people at a time.",
+        "banSuccess":               "You banned: {$1}",
 
         "optionName":               "Changed your Channels `name` to `{$1}`",
         "optionUnlocked":           "Changed your Channels `privacy` to `{$1}`",
@@ -74,8 +75,44 @@
         "optionBitrate":            "Changed your Voice Channel's `Bitrate` to `{$1}`",
         "optionEmbed":              "Changed your Text Channel's `Embed Permission` to `{$1}`",
         "optionNSFW":               "Changed your Text Channel's `NSFW Warning` to `{$1}`",
-        "optionReactions":          "Changed your Text Channel's `Reaction Permission` to `{$1}`"
+        "optionReactions":          "Changed your Text Channel's `Reaction Permission` to `{$1}`",
+
+        "optionNotChangable":       "You are not allowed to change that option."
 	
+	},
+    
+    "logging": {
+
+        "guildUpdate":          "Server Settings Changed",
+        
+        "channelCreate":        "Channel Created",
+        "channelUpdate":        "Channel Edited",
+        "channelDelete":          "Channel Deleted",
+        "channelPinsUpdate":          "Pinned Message",
+
+        "guildBanAdd":          "Member Banned",
+        "guildBanRemove":          "member Unbanned",
+
+        "messageUpdate":          "Message Edited",
+        "messageDelete":          "Message Deleted",
+
+        "guildMemberAdd":          "Member Join",
+        "guildMemberRemove":          "Member Left",
+        "guildMemberUpdate":    "Member Updated",
+
+        "emojiCreate":          "Emoji Added",
+        "emojiUpdate":          "Emoji Edited",
+        "emojiDelete":          "Emoji Deleted",
+
+        "roleCreate":          "Role Created",
+        "roleDelete":          "Role Deleted",
+        "roleUpdate":          "Role Edited",
+
+        "roomSummon":          "Private Room Created",
+        "roomRevoke":          "Private Room Deleted",
+        "roomUpdate":          "Private Edited",
+
+        "configChanged":          "Config Updated"
     }
 
 }
