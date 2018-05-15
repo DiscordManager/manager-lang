@@ -48,7 +48,10 @@
 		"noPermission":				"You cannot summon a private room.",
 		"noRoom":					"You don't seem to have a room.",
 		"noRoomsAvailable":			"There are too many rooms active at the moment.",
-		"alreadyHasRoom":			"You already have a room.",
+        "alreadyHasRoom":			"You already have a room.",
+        
+		"noVoiceChannel":			"You don't seem to have a Voice Channel.",
+		"noTextChannel":			"You don't seem to have a Text Channel.",
 		
 		"summoning":				":manager_loading: Setting up your room!",
 		"summonedVoice":			":manager: Summoned your Voice Channel.",
@@ -69,7 +72,8 @@
         "banTooMany":               "You can only ban up to {$1} people at a time.",
         "banSuccess":               "You banned: {$1}",
 
-        "optionName":               "Changed your Channels `name` to `{$1}`",
+        "optionName":               "Changed your {$1} Channel `name` to `{$2}`",
+        "optionNameFailed":         "Could not change {$1} channel name, Is it a valid channel name?",
         "optionUnlocked":           "Changed your Channels `privacy` to `{$1}`",
         "optionMemberlimit":        "Changed your Voice Channel's `Max Members` to `{$1}`",
         "optionBitrate":            "Changed your Voice Channel's `Bitrate` to `{$1}`",
@@ -77,7 +81,8 @@
         "optionNSFW":               "Changed your Text Channel's `NSFW Warning` to `{$1}`",
         "optionReactions":          "Changed your Text Channel's `Reaction Permission` to `{$1}`",
 
-        "optionNotChangable":       "You are not allowed to change that option."
+        "optionNotChangable":       "You are not allowed to change that option.",
+        "optionInvalidValue":       "Please use one of the following values: `{$1}`"
 	
 	},
     
