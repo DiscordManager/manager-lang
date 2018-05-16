@@ -1,16 +1,16 @@
 {
 
     "lang_version":     2,
-    "lang_revision":    "r3",
+    "lang_revision":    "r4",
     "lang_name":        "Deutsch",
     "lang_short":       "de_DE",
 
     "shared": {
 
         "errorGeneric":         "Etwas ist schief gelaufen.",
-        "errorNoPermission":    "Dir fehlen die Rechte diese Aktion auszuführen.",
+        "errorNoPermission":    "Dir fehlen die Rechte, diese Aktion auszuführen.",
         "errorConfigNotFound":  "Etwas ist schief gelaufen beim Versuch die Konfigurationen abzurufen.",
-        "errorCoolDown":        "Bitte warte $1 Sekunden bevor du es erneut versuchst.",
+        "errorCoolDown":        "Bitte warte $1 Sekunden, bevor du es erneut versuchst.",
         "errorNotNSFW":         "Du musst dich in einem NSFW Kanal befinden.",
 
 		"configFlushed":		"Der Zwischenspeicher von $1 wurde geleert.",
@@ -31,11 +31,11 @@
         "roomCreated":          ":large_blue_circle: Kanal erstellt!",
         "roomAlreadyExists":    ":warning: Du hast bereits einen Kanal erstellt!",
         "roomRevoked":          ":large_blue_circle: Kanal gelöscht!",
-        "roomRevokedInactive":  "Dein Kanal wurde gelöscht weil er inaktiv war. Du kannst deinen Kanal wiedererstellen mit `$1`",
+        "roomRevokedInactive":  "Dein Kanal wurde gelöscht weil er inaktiv war. Du kannst deinen Kanal wiedererstellen mit `$1`.",
         "roomName":             "Privater Kanal [$1]",
         "roomErrorDisabled":    "Private Kanäle sind auf diesem Server deaktiviert.",
-		"roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
-        "roomErrorNotAllowed":  "Dir fehlt die Berechtigung einen Kanal zu erstellen.",
+		    "roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
+        "roomErrorNotAllowed":  "Dir fehlt die Berechtigung, einen Kanal zu erstellen.",
 		
         "roomRenamed":          "Dein Kanal wurde zu `$1` umbenannt.",
         "roomRenameDisabled":   "Du kannst Kanäle auf diesem Server nicht umbenennen.",
@@ -63,8 +63,8 @@
         "errorRoomsDisabled":   "Private Kanäle sind auf diesem Server deaktiviert.",
         "errorNotGuild":        "Private Kanäle können nur in einem Server erstellt werden.",
 
-        "roomsNewOwner":        "Du bist nun der neue Inhaber von $1's Privatem Kanal.",
-        "roomsNewOwnerNotify":  "Dein Kanal wurde einem anderen Mitglied.",
+        "roomsNewOwner":        "Du bist nun der neue Inhaber von $1s privatem Kanal.",
+        "roomsNewOwnerNotify":  "Dein Kanal wurde einem anderen Mitglied zugewiesen."
 
     },
 
@@ -97,7 +97,8 @@
     "music": {
 
         "MusicNoURL":           ":warning: Du musst einen gültigen Link angeben!",
-        "MusicNovoiceCon":      ":warning: Du musst dich in einem Sprachkanal befinden!",	
+        "MusicNovoiceCon":      ":warning: Du musst dich in einem Sprachkanal befinden!",
+
         "MusicNoPermission":    "Dir fehlen die Rechte diese Aktion auszuführen.",
 
         "MusicDifferentChannel":"Du kannst leider keine Lieder überspringen, wenn du dich nicht in einem Sprachkanal aufhältst.",
