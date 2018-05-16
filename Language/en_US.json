@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "indev_01",
+    "lang_revision":    "indev_02",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -80,9 +80,12 @@
         "optionEmbed":              "Changed your Text Channel's `Embed Permission` to `{$1}`",
         "optionNSFW":               "Changed your Text Channel's `NSFW Warning` to `{$1}`",
         "optionReactions":          "Changed your Text Channel's `Reaction Permission` to `{$1}`",
+        "optionTopic":              "Changed your Text Channel's `Topic` to `{$1}`",
 
         "optionNotChangable":       "You are not allowed to change that option.",
-        "optionInvalidValue":       "Please use one of the following values: `{$1}`"
+        "optionInvalidValue":       "Please use one of the following values: `{$1}`",
+        	
+		"defaultTopic":				"{$1}'s Private Room - Open up the channel topic for more information.\n\n\nWhat to do with my room?:\n - Invite other members with **{$3}room invite**\n - kick invited members with **{$4}room kick**\n - change the room with **{$5}room set**\n\nThis room was created on **{$2}**"
 	
 	},
     
