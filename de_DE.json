@@ -34,7 +34,7 @@
         "roomRevokedInactive":  "Dein Kanal wurde gelöscht weil er inaktiv war. Du kannst deinen Kanal wiedererstellen mit `$1`.",
         "roomName":             "Privater Kanal [$1]",
         "roomErrorDisabled":    "Private Kanäle sind auf diesem Server deaktiviert.",
-		"roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
+		    "roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
         "roomErrorNotAllowed":  "Dir fehlt die Berechtigung, einen Kanal zu erstellen.",
 		
         "roomRenamed":          "Dein Kanal wurde zu `$1` umbenannt.",
@@ -98,6 +98,7 @@
 
         "MusicNoURL":           ":warning: Du musst einen gültigen Link angeben!",
         "MusicNovoiceCon":      ":warning: Du musst dich in einem Sprachkanal befinden!",
+
         "MusicNoPermission":    "Dir fehlen die Rechte diese Aktion auszuführen.",
 
         "MusicDifferentChannel":"Du kannst leider keine Lieder überspringen, wenn du dich nicht in einem Sprachkanal aufhältst.",
