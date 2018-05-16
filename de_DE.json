@@ -7,20 +7,20 @@
 
     "shared": {
 
-        "errorGeneric":         "Etwas ist schief gelaufen",
+        "errorGeneric":         "Etwas ist schief gelaufen.",
         "errorNoPermission":    "Dir fehlen die Rechte diese Aktion auszuführen.",
-        "errorConfigNotFound":  "Etwas ist schief gelaufen beim Versuche die Konfigurationen abzurufen.",
-        "errorCoolDown":        "Bitte warte $1 sekunden bevor du es nochmal versuchst.",
+        "errorConfigNotFound":  "Etwas ist schief gelaufen beim Versuch die Konfigurationen abzurufen.",
+        "errorCoolDown":        "Bitte warte $1 Sekunden bevor du es erneut versuchst.",
         "errorNotNSFW":         "Du musst dich in einem NSFW Kanal befinden.",
 
-		"configFlushed":		"Der Zwischenspeicher  wurde vom server $1 geleert.",
-		"errorShutdownGrace":	"Sorry, zur Zeit kannst du diese Aktion nicht ausführen. Versuche es in 1 - 2 Minuten nochmal!",
+		"configFlushed":		"Der Zwischenspeicher von $1 wurde geleert.",
+		"errorShutdownGrace":	"Sorry, zur Zeit kannst du diese Aktion nicht ausführen. Versuche es in ein bis zwei Minuten erneut!",
          
         "errorTooManyMatched":  "Es wurden zu viele Übereinstimmungen gefunden, Maximum: `$1`",
         "errorTooLittleMatched":"Es wurden zu wenig Übereinstimmungen gefunden, Minimum: `$1`",
         "matchResponseBig":      "`$1` Übereinstimmungen. Alle ansehen -> $2",
 
-        "missingPermission":    "Die `$1` Berechtigung wird dafür benötigt um diese Aktion auszuführen."
+        "missingPermission":    "Die Berechtigung `$1` wird benötigt, um diese Aktion auszuführen."
 
     },
 
@@ -29,42 +29,42 @@
         "dataFetching":         ":black_circle: Daten werden abgerufen...",
         "dataCreating":         ":black_circle: Erstelle Kanal...",
         "roomCreated":          ":large_blue_circle: Kanal erstellt!",
-        "roomAlreadyExists":    ":warning: Du hast schon irgendwo einen Kanal!",
+        "roomAlreadyExists":    ":warning: Du hast bereits einen Kanal erstellt!",
         "roomRevoked":          ":large_blue_circle: Kanal gelöscht!",
         "roomRevokedInactive":  "Dein Kanal wurde gelöscht weil er inaktiv war. Du kannst deinen Kanal wiedererstellen mit `$1`",
         "roomName":             "Privater Kanal [$1]",
         "roomErrorDisabled":    "Private Kanäle sind auf diesem Server deaktiviert.",
 		"roomErrorLimit":       "Sorry, aber du kannst gerade keinen Privaten Kanal erstellen.",
-        "roomErrorNotAllowed":  "Dir fehlt die berechtigung einen Kanal zu erstellen.",
+        "roomErrorNotAllowed":  "Dir fehlt die Berechtigung einen Kanal zu erstellen.",
 		
         "roomRenamed":          "Dein Kanal wurde zu `$1` umbenannt.",
         "roomRenameDisabled":   "Du kannst Kanäle auf diesem Server nicht umbenennen.",
         "roomNoNameSpecified":  "Du must einen Namen angeben!",
 
         "revokeComplete":       ":cyclone: Kanal gelöscht!",
-        "revokeError":          ":no_good: Irgend etwas ist schief gelaufen während dein Kanal gelöscht wurde.",
-        "revokeNotGuild":       "Du kannst dein Kanal nur in einem Server löschen.",
+        "revokeError":          ":no_good: Es ist ein Fehler aufgetreten, während dein Kanal gelöscht wurde.",
+        "revokeNotGuild":       "Du kannst deinen Kanal nur in einem Server löschen.",
         "revokeNoRoom":         ":warning: Du hast keinen Kanal!",
 
         "roomUserAdded":        "$1 wurde zu deinem Kanal hinzugefügt.",
         "roomUserRemoved":      "$1 wurde von deinem Kanal entfernt.",
         "roomUserBlocked":      "Du hast $1 in deinem Kanal blockiert.",
-        "roomNoAdded":			"Es wurden keine veränderungen vorgenommen.",
+        "roomNoAdded":			"Es wurden keine Veränderungen vorgenommen.",
         "roomMadePublic":       "Jeder kann nun deinem Kanal beitreten.",
         "roomNotPublic":        "Nur hinzugefügte Benutzer können nun deinem Kanal beitreten.",
 
-        "userWhitelistAdd":     "$1 ist nun auf deiner Weißen Liste.",
-        "userWhitelistRevoke":  "$1 ist nun nichtmehr auf deiner Weißen Liste.",
-        "userWhitelistReset":   "Deine Weiße Liste wurde zurückgesetzt.",
-        "userBlacklistAdd":     "$1 ist nun auf deiner Schwarzen Liste.",
-        "userBlacklistRevoke":  "$1 ist nun nicht mehr auf deiner Schwarzen Liste.",
-        "userBlacklistReset":   "Deine Schwarze Liste wurde zurückgesetzt",
+        "userWhitelistAdd":     "$1 ist nun auf deiner Whitelist.",
+        "userWhitelistRevoke":  "$1 ist nun nicht länger auf deiner Whitelist.",
+        "userWhitelistReset":   "Deine Whitelist wurde zurückgesetzt.",
+        "userBlacklistAdd":     "$1 ist nun auf deiner Blacklist.",
+        "userBlacklistRevoke":  "$1 ist nun nicht länger auf deiner Blacklist.",
+        "userBlacklistReset":   "Deine Blacklist wurde zurückgesetzt.",
 
         "errorRoomsDisabled":   "Private Kanäle sind auf diesem Server deaktiviert.",
-        "errorNotGuild":        "Kanäle können nur in einem Server erstellt werden.",
+        "errorNotGuild":        "Private Kanäle können nur in einem Server erstellt werden.",
 
-        "roomsNewOwner":        "Du bist nun der neue Inhabe von $1's Privatem Kanal.",
-        "roomsNewOwnerNotify":  "Dein Kanal wurde einem anderen Mitglied zugewiesen Your private room was re-assigned to another member."
+        "roomsNewOwner":        "Du bist nun der neue Inhaber von $1's Privatem Kanal.",
+        "roomsNewOwnerNotify":  "Dein Kanal wurde einem anderen Mitglied.",
 
     },
 
@@ -72,7 +72,7 @@
 
         "processingImage":      "<a:manager_loading:409298228954136577> Ich arbeite daran!",
         "noImage":              "Bitte gebe ein Bild an!",
-        "defaultAvatar":        "Dieser Nutzer hat ein standard Bild!"
+        "defaultAvatar":        "Dieser Nutzer hat den standardmäßigen Avatar!"
 
     },
 
@@ -97,20 +97,20 @@
     "music": {
 
         "MusicNoURL":           ":warning: Du musst einen gültigen Link angeben!",
-        "MusicNovoiceCon":      ":warning: Du musst dich in einem sprach Kanal befinden!",
+        "MusicNovoiceCon":      ":warning: Du musst dich in einem Sprachkanal befinden!",	
         "MusicNoPermission":    "Dir fehlen die Rechte diese Aktion auszuführen.",
 
-        "MusicDifferentChannel":"Du kannst leider nicht überspringen wenn du dich nicht in einem sprach Kanal aufhältst.",
-        "MusicVoteProgress":    "Du hast abgestimmt das aktuelle Lied zu überspringen `$1`",
-        "MusicVoteAlreadyVoted":"Du hast abgestimmt das aktuelle Lied zu überspringen `$1`",
-        "MusicVoteCompleted":   "Das Lied wurde übersprungen. `$1`",
+        "MusicDifferentChannel":"Du kannst leider keine Lieder überspringen, wenn du dich nicht in einem Sprachkanal aufhältst.",
+        "MusicVoteProgress":    "Du hast abgestimmt, das aktuelle Lied zu überspringen `$1`.",
+        "MusicVoteAlreadyVoted":"Du hast abgestimmt, das aktuelle Lied zu überspringen `$1`.",
+        "MusicVoteCompleted":   "Das Lied wurde übersprungen. `$1`.",
 
         "MusicAddedToQueue":    "`$1` wurde zu der Warteschlange hinzugefügt.",
         "MusicNowPlaying":      "Jetzt spielt",
         "MusicRequestedBy":     "Angefordert von",
         "MusicVideoLength":     "Dauer",
 
-        "errorGeneric":         "Etwas ist schief gelaufen",
+        "errorGeneric":         "Etwas ist schief gelaufen.",
         "errorConfigNotFound":  "Etwas ist schief gelaufen beim Versuche die Konfigurationen abzurufen.",
         "errorMusicDisabled":   "Musik Kanäle sind auf diesem Server deaktiviert.",
         "errorNotGuild":        "Kanäle können nur in einem Server erstellt werden."
