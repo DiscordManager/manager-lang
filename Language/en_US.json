@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "indev_03",
+    "lang_revision":    "indev_01",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -92,36 +92,38 @@
     
     "logging": {
 
-        "guildUpdate":          "Server Settings Changed",
+        "guildUpdate":              "Server Settings Changed",
         
-        "channelCreate":        "Channel Created",
-        "channelUpdate":        "Channel Edited",
-        "channelDelete":          "Channel Deleted",
-        "channelPinsUpdate":          "Pinned Message",
+        "channelCreate":            "Channel Created",
+        "channelUpdate":            "Channel Edited",
+        "channelDelete":            "Channel Deleted",
+        "channelPinsUpdate":        "Pinned Message",
 
-        "guildBanAdd":          "Member Banned",
-        "guildBanRemove":          "member Unbanned",
+        "guildBanAdd":              "Member Banned",
+        "guildBanRemove":           "member Unbanned",
 
-        "messageUpdate":          "Message Edited",
-        "messageDelete":          "Message Deleted",
+        "messageUpdate":            "Message Edited",
+        "messageDelete":            "Message Deleted",
 
-        "guildMemberAdd":          "Member Join",
-        "guildMemberRemove":          "Member Left",
-        "guildMemberUpdate":    "Member Updated",
+        "guildMemberAdd":           "Member Join",
+        "guildMemberRemove":        "Member Left",
+        "guildMemberUpdate":        "Member Updated",
 
-        "emojiCreate":          "Emoji Added",
-        "emojiUpdate":          "Emoji Edited",
-        "emojiDelete":          "Emoji Deleted",
+        "emojiCreate":              "Emoji Added",
+        "emojiUpdate":              "Emoji Edited",
+        "emojiDelete":              "Emoji Deleted",
 
-        "roleCreate":          "Role Created",
-        "roleDelete":          "Role Deleted",
-        "roleUpdate":          "Role Edited",
+        "roleCreate":               "Role Created",
+        "roleDelete":               "Role Deleted",
+        "roleUpdate":               "Role Edited",
 
-        "roomSummon":          "Private Room Created",
-        "roomRevoke":          "Private Room Deleted",
-        "roomUpdate":          "Private Edited",
+        "roomSummon":               "Private Room Created",
+        "roomRevoke":               "Private Room Deleted",
+        "roomUpdate":               "Private Edited",
 
-        "configChanged":          "Config Updated"
+        "scriptRan":                "Script Executed",
+
+        "configChanged":            "Config Updated"
     }
 
 }
