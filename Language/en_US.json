@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "indev_02",
+    "lang_revision":    "indev_03",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -85,8 +85,9 @@
         "optionNotChangable":       "You are not allowed to change that option.",
         "optionInvalidValue":       "Please use one of the following values: `{$1}`",
         	
-		"defaultTopic":				"{$1}'s Private Room - Open up the channel topic for more information.\n\n\nWhat to do with my room?:\n - Invite other members with **{$3}room invite**\n - kick invited members with **{$4}room kick**\n - change the room with **{$5}room set**\n\nThis room was created on **{$2}**"
-	
+		"defaultTopic":				"{$1}'s Private Room - Open up the channel topic for more information.\n\n\nWhat to do with my room?:\n - Invite other members with **{$3}room invite**\n - kick invited members with **{$4}room kick**\n - change the room with **{$5}room set**\n\nThis room was created on **{$2}**",
+    
+        "roomExpiredNotify":        "Your room has expired. You can summon it again with `{$1]`.\nDon't want these notifications? Type `{2}` in any server with Manager!"
 	},
     
     "logging": {
