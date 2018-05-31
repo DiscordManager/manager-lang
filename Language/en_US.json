@@ -129,6 +129,14 @@
         "scriptRan":                "Script Executed",
 
         "configChanged":            "Config Updated"
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Working on it!",
+        "noImage":              "Supply an image, Please!",
+        "defaultAvatar":        "This user has the default avatar!"
+
     }
 
 }
