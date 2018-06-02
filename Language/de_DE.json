@@ -46,7 +46,7 @@
         "errorCannotChangeValue":   "Du kannst diesen Wert nicht ändern.",
 
         "errorCommandDisabled":     "Dieser Befehl ist deaktiviert",
-        "howToExitAlpha":           "Um die Alpha zu verlassen, kicke einfach diese Version des Bot's und der Original Bot sollte wieder funktionieren."
+        "howToExitAlpha":           "Um die Alpha zu verlassen, kicke einfach diese Version des Bots und der Original Bot sollte wieder funktionieren."
 	
 	},
 	
@@ -147,7 +147,7 @@
 
         "scriptRan":                "Skript ausgeführt",
 
-        "configChanged":            "Konfikuration aktualisiert",
+        "configChanged":            "Konfiguration aktualisiert",
 
         "old":                      "Alt",
         "new":                      "Neu"
