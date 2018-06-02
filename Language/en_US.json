@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "indev_05",
+    "lang_revision":    "5alpha1",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -41,9 +41,12 @@
 		"errorYouPermission":   	"You don't have sufficient permission.",
 		"errorNoConfig":   			"Cannot load the config for this file, Please try again in a couple seconds.",
 		"errorNotNSFW":   			"This can only be done in a NSFW channel.",
-        "errorBotUnavailable":  	"Manager is temporarily not available. Try again in a couple minutes!",
+        "errorBotUnavailable":  	"Manager is temporarily not available. Try again in a minute or two!",
 
-        "errorCannotChangeValue":   "You cannot change this value."
+        "errorCannotChangeValue":   "You cannot change this value.",
+
+        "errorCommandDisabled":     "This command is disbled",
+        "howToExitAlpha":           "To exit the alpha, Just kick this version of the bot and the original one should start working again."
 	
 	},
 	
@@ -111,7 +114,7 @@
         "channelDelete":            "Channel Deleted",
 
         "guildBanAdd":              "Member Banned",
-        "guildBanRemove":           "member Unbanned",
+        "guildBanRemove":           "Member Unbanned",
 
         "logUserBanned":            "{$1} banned {$2}",
         "logUserUnbanned":          "{$1} unbanned {$2}",
@@ -120,7 +123,7 @@
         "messageDelete":            "Message Deleted",
 
         "logMessageEdited":         "{$1} edited their message in {$2}",
-        "logMessageDeleted":        "message in {$2} deleted",
+        "logMessageDeleted":        "message by {$1} in {$2} was deleted",
 
         "guildMemberAdd":           "Member Join",
         "guildMemberRemove":        "Member Left",
