@@ -1,0 +1,165 @@
+{
+
+    "lang_version":     3,
+    "lang_revision":    "5alpha1",
+    "lang_name":        "Deutsch",
+    "lang_short":       "de_DE",
+
+    "genericTerms": {
+
+        "username":             "Username",
+        "nickname":             "Nickname",
+        "roles":                "Rollen",
+        "role":                 "Rolle",
+        "accountCreated":       "Erstellt am",
+        "joinedServerDate":     "Beigetreten am",
+        "nicknameHistory":      "Vorherige Nicknamen",
+        "status":               "Status",
+
+        "serverName":           "Name",
+        "serverMembers":        "Member",
+        "serverOwner":          "Besitzer",
+        "serverCreated":        "Erstellt am",
+        "serverRegion":         "Region",
+        "serverIcon":           "Icon",
+		
+        "owner":         		"Besitzer",
+        "admin":         		"Admin",
+        "moderator":         	"Moderator",
+        "muted":         		"Stumm",
+        "staff":                "Staff",
+
+        "onlineStaff":          "Online Staff"
+
+    },
+	
+	"genericMessages": {
+	
+		"errorUnknown":         	"Etwas ist schiefgelaufen.",
+		"errorBotPermissionU":  	"Manager fehlen ein paar Berechtigungen, um dies zu tun.",
+		"errorBotPermissionS":  	"Manager fehlt die `{$1}` Berechtigung, um dies zu tun.",
+		"errorYouPermission":   	"Du hast nicht die erforderliche Berechtigung.",
+		"errorNoConfig":   			"Die Konfiguration für diese Datei kann nicht geladen werden, bitte versuche es in ein paar Sekunden erneut.",
+		"errorNotNSFW":   			"Dies ist nur in einem NSFW-Kanal möglich.",
+        "errorBotUnavailable":  	"Manager ist vorübergehend nicht verfügbar. Versuchs nochmal in ein oder zwei Minuten!",
+
+        "errorCannotChangeValue":   "Du kannst diesen Wert nicht ändern.",
+
+        "errorCommandDisabled":     "Dieser Befehl ist deaktiviert",
+        "howToExitAlpha":           "Um die Alpha zu verlassen, kicke einfach diese Version des Bot und das Original sollte wieder funktionieren."
+	
+	},
+	
+	"rooms": {
+	
+		"disabled":					"Private Räume sind derzeit deaktiviert.",
+		"noPermission":				"Du kannst keinen privaten Raum beschwören.",
+		"noRoom":					"Du scheinst keinen private Raum zu haben.",
+		"noRoomsAvailable":			"Zur Zeit sind zu viele Räume aktiv.",
+        "alreadyHasRoom":			"Du hast bereits einen Raum.",
+        
+		"noVoiceChannel":			"Du scheinst keinen Sprachkanal zu haben.",
+		"noTextChannel":			"Du scheinst keinen Textkanal zu haben.",
+		
+		"summoning":				":manager_loading: Ich bereite deinen Raum vor!",
+		"summonedVoice":			":manager: Ich habe deinen Sprachkanal beschworen.",
+		"summonedText":				":manager: Ich habe deinen Textkanal beschworen.",
+		"summonedBoth":				":manager: Ich habe deine Räume beschworen.",
+		
+        "roomPasscode":				"Das Passwort für deinen Raum lautet `{1}`",
+                
+        "inviteNone":               "Du musst mindestens eine Person einladen.",
+        "inviteTooMany":            "Du kannst höchstens {$1} Personen gleichzeitig einladen.",
+        "inviteSuccess":            "Du hast folgende Person(en) eingeladen: {$1}",
+                
+        "kickNone":                 "Du musst mindestens eine Person zum Kicken angeben.",
+        "kickTooMany":              "Du kannst höchstens {$1} Personen gleichzeitig kicken.",
+        "kickSuccess":              "Du hast folgende Person(en) gekickt: {$1}",
+
+        "banNone":                  "Du musst mindestens eine Person zum Bannen angeben.",
+        "banTooMany":               "Du kannst höchstens {$1} Personen gleichzeitig bannen.",
+        "banSuccess":               "Du hast folgende Person(en) gebannt: {$1}",
+
+        "optionName":               "Der Kanalname wurde geändert.",
+        "optionNameFailed":         "Konnte den {$1} Kanalnamen nicht ändern, ist es ein gültiger Kanalname?",
+        "optionMemberlimit":        "Ich habe `Max Members` (Maximale Memberanzahl) von deinem Sprachkanal in `{$1}` geändert.",
+        "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal in `{$1}` geändert.",
+        "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal in `{$1}` geändert.",
+        "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnungs) von deinem Textkanal in `{$1}` geändert.",
+        "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal in `{$1}` geändert.",
+        "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal in `{$1}` geändert.",
+
+        "optionNotChangable":       "Du darfst diese Option nicht ändern.",
+        "optionInvalidValue":       "Bitte verwende einen der folgenden Werte: `{$1}`",
+
+        "optionUnlocked":           "Ich habe `Privatsphäre` von deinem Kanal in `Open` (öffentlich) geändert.",
+        "optionLocked":             "Ich habe `Privatsphäre` von deinem Kanal in `Invite Only` (Nur mit Einladung) geändert.",
+        	
+		"defaultTopic":				"{$1}s Privater Raum - Klick mich für mehr Informationen.\n\n\nWas kann ich mit meinem Raum machen?:\n - Lade andere Personen ein mit **{$3}room invite**\n - Kicke eingeladene Personen mit **{$4}room kick**\n - Verändere den Raum mit **{$5}room set**\n\nDieser Raum wurde erstellt am **{$2}**",
+    
+        "roomExpiredNotify":        "Dein Raum ist abgelaufen. Du kannst ihn erneut beschwören mit `{$1]`.\nDu brauchst diese Benachrichtigung nicht? Schreibe `{2}` in einen beliebigen Server mit Manager ein!"
+	},
+    
+    "logging": {
+
+        "logGenericDelete":        "{$1} löschte {$2}",
+        "logGenericUpdate":        "{$1} veränderte {$2}",
+        "logGenericCreate":        "{$1} erstellte {$2}",
+
+        "guildUpdate":              "Servereinstellungen verändert",
+        "guildUpdateDesc":          "{$1} veränderte die Servereinstellungen.",
+        
+        "channelCreate":            "Kanal erstellt",
+        "channelUpdate":            "Kanal verändert",
+        "channelDelete":            "Kanal gelöscht",
+
+        "guildBanAdd":              "Person gebannt",
+        "guildBanRemove":           "Person entbannt",
+
+        "logUserBanned":            "{$1} bannte {$2}",
+        "logUserUnbanned":          "{$1} entbannte {$2}",
+
+        "messageUpdate":            "Nachricht bearbeitet",
+        "messageDelete":            "Nachricht gelöscht",
+
+        "logMessageEdited":         "{$1} veränderte seine Nachricht in {$2}",
+        "logMessageDeleted":        "Nachricht von {$1} in {$2} wurde gelöscht",
+
+        "guildMemberAdd":           "Person beigetreten",
+        "guildMemberRemove":        "Person hat den Server verlassen",
+        "guildMemberUpdate":        "Person verändert",
+
+        "logJoin":                  "{$1} trat {$2} bei",
+        "logLeave":                 "{$1} verließ den Server",
+        "logUpdate":                "{$1} wurde von {$2} verändert",
+
+        "emojiCreate":              "Emoji hinzugefügt",
+        "emojiUpdate":              "Emoji verändert",
+        "emojiDelete":              "Emoji gelöscht",
+
+        "roleCreate":               "Rolle erstellt",
+        "roleDelete":               "Rolle gelöscht",
+        "roleUpdate":               "Rolle verändert",
+
+        "roomSummon":               "Privater Raum erstellt",
+        "roomRevoke":               "Privater Raum gelöscht",
+        "roomUpdate":               "Privater Raum verändert",
+
+        "scriptRan":                "Skript ausgeführt",
+
+        "configChanged":            "Config geupdated",
+
+        "old":                      "Alt",
+        "new":                      "Neu"
+        
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Ich arbeite daran!",
+        "noImage":              "Bitte schicke mir ein Bild!",
+        "defaultAvatar":        "Diese Person hat den Standard-Avatar!"
+
+    }
+
+}
