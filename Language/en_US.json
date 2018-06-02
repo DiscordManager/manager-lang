@@ -45,7 +45,7 @@
 
         "errorCannotChangeValue":   "You cannot change this value.",
 
-        "errorCommandDisabled":     "This command is disbled",
+        "errorCommandDisabled":     "This command is disabled",
         "howToExitAlpha":           "To exit the alpha, Just kick this version of the bot and the original one should start working again."
 	
 	},
