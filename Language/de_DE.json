@@ -2,7 +2,7 @@
 
     "lang_version":     3,
     "lang_revision":    "5alpha1",
-    "lang_name":        "Deutsch",
+    "lang_name":        "German",
     "lang_short":       "de_DE",
 
     "genericTerms": {
@@ -17,7 +17,7 @@
         "status":               "Status",
 
         "serverName":           "Name",
-        "serverMembers":        "Member",
+        "serverMembers":        "Mitglieder",
         "serverOwner":          "Besitzer",
         "serverCreated":        "Erstellt am",
         "serverRegion":         "Region",
@@ -36,37 +36,37 @@
 	"genericMessages": {
 	
 		"errorUnknown":         	"Etwas ist schiefgelaufen.",
-		"errorBotPermissionU":  	"Manager fehlen ein paar Berechtigungen, um dies zu tun.",
-		"errorBotPermissionS":  	"Manager fehlt die `{$1}` Berechtigung, um dies zu tun.",
+		"errorBotPermissionU":  	"Manager fehlen ein paar Berechtigungen, um diese Aktion auszuführen.",
+		"errorBotPermissionS":  	"Manager fehlt die `{$1}` Berechtigung, um diese Aktion auszuführen.",
 		"errorYouPermission":   	"Du hast nicht die erforderliche Berechtigung.",
 		"errorNoConfig":   			"Die Konfiguration für diese Datei kann nicht geladen werden, bitte versuche es in ein paar Sekunden erneut.",
 		"errorNotNSFW":   			"Dies ist nur in einem NSFW-Kanal möglich.",
-        "errorBotUnavailable":  	"Manager ist vorübergehend nicht verfügbar. Versuchs nochmal in ein oder zwei Minuten!",
+        "errorBotUnavailable":  	"Manager ist vorübergehend nicht verfügbar. Versuche es nochmal in ein oder zwei Minuten!",
 
         "errorCannotChangeValue":   "Du kannst diesen Wert nicht ändern.",
 
         "errorCommandDisabled":     "Dieser Befehl ist deaktiviert",
-        "howToExitAlpha":           "Um die Alpha zu verlassen, kicke einfach diese Version des Bot und das Original sollte wieder funktionieren."
+        "howToExitAlpha":           "Um die Alpha zu verlassen, kicke einfach diese Version des Bot's und der Original Bot sollte wieder funktionieren."
 	
 	},
 	
 	"rooms": {
 	
 		"disabled":					"Private Räume sind derzeit deaktiviert.",
-		"noPermission":				"Du kannst keinen privaten Raum beschwören.",
-		"noRoom":					"Du scheinst keinen privaten Raum zu haben.",
-		"noRoomsAvailable":			"Zur Zeit sind zu viele Räume aktiv.",
-        "alreadyHasRoom":			"Du hast bereits einen Raum.",
+		"noPermission":				"Du kannst keine privaten Kanäle erstellen.",
+		"noRoom":					"Du scheinst keinen Kanal zu besitzen.",
+		"noRoomsAvailable":			"Zur Zeit sind zu viele Kanäle aktiv.",
+        "alreadyHasRoom":			"Du hast bereits einen Kanal.",
         
-		"noVoiceChannel":			"Du scheinst keinen Sprachkanal zu haben.",
-		"noTextChannel":			"Du scheinst keinen Textkanal zu haben.",
+		"noVoiceChannel":			"Du scheinst keinen Sprachkanal zu besitzen.",
+		"noTextChannel":			"Du scheinst keinen Textkanal zu besitzen.",
 		
 		"summoning":				":manager_loading: Ich bereite deinen Raum vor!",
-		"summonedVoice":			":manager: Ich habe deinen Sprachkanal beschworen.",
-		"summonedText":				":manager: Ich habe deinen Textkanal beschworen.",
-		"summonedBoth":				":manager: Ich habe deine Räume beschworen.",
+		"summonedVoice":			":manager: Ich habe deinen Sprachkanal erstellt.",
+		"summonedText":				":manager: Ich habe deinen Textkanal erstellt.",
+		"summonedBoth":				":manager: Ich habe deine Kanäle erstellt.",
 		
-        "roomPasscode":				"Das Passwort für deinen Raum lautet `{1}`",
+        "roomPasscode":				"Das Passwort für deinen Kanal lautet `{1}`",
                 
         "inviteNone":               "Du musst mindestens eine Person einladen.",
         "inviteTooMany":            "Du kannst höchstens {$1} Person(en) gleichzeitig einladen.",
@@ -97,7 +97,7 @@
         	
 		"defaultTopic":				"{$1}s Privater Raum - Klick mich für mehr Informationen.\n\n\nWas kann ich mit meinem Raum machen?:\n - Lade andere Personen ein mit **{$3}room invite**\n - Kicke eingeladene Personen mit **{$4}room kick**\n - Verändere den Raum mit **{$5}room set**\n\nDieser Raum wurde erstellt am **{$2}**",
     
-        "roomExpiredNotify":        "Dein privater Raum ist abgelaufen. Du kannst ihn erneut beschwören mit `{$1]`.\nDu brauchst diese Benachrichtigung nicht? Schreibe `{2}` in einen beliebigen Server mit Manager!"
+        "roomExpiredNotify":        "Dein privater Raum ist abgelaufen. Du kannst ihn erneut mit `{$1]` erstellen.\nDu brauchst diese Benachrichtigung nicht? Schreibe `{2}` in einen beliebigen Server mit Manager!"
 	},
     
     "logging": {
@@ -141,13 +141,13 @@
         "roleDelete":               "Rolle gelöscht",
         "roleUpdate":               "Rolle verändert",
 
-        "roomSummon":               "Privater Raum erstellt",
-        "roomRevoke":               "Privater Raum gelöscht",
-        "roomUpdate":               "Privater Raum verändert",
+        "roomSummon":               "Privater Kanal erstellt",
+        "roomRevoke":               "Privater Kanal gelöscht",
+        "roomUpdate":               "Privater Kanal verändert",
 
         "scriptRan":                "Skript ausgeführt",
 
-        "configChanged":            "Config geupdated",
+        "configChanged":            "Konfikuration aktualisiert",
 
         "old":                      "Alt",
         "new":                      "Neu"
