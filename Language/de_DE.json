@@ -54,7 +54,7 @@
 	
 		"disabled":					"Private Räume sind derzeit deaktiviert.",
 		"noPermission":				"Du kannst keinen privaten Raum beschwören.",
-		"noRoom":					"Du scheinst keinen private Raum zu haben.",
+		"noRoom":					"Du scheinst keinen privaten Raum zu haben.",
 		"noRoomsAvailable":			"Zur Zeit sind zu viele Räume aktiv.",
         "alreadyHasRoom":			"Du hast bereits einen Raum.",
         
@@ -69,27 +69,27 @@
         "roomPasscode":				"Das Passwort für deinen Raum lautet `{1}`",
                 
         "inviteNone":               "Du musst mindestens eine Person einladen.",
-        "inviteTooMany":            "Du kannst höchstens {$1} Personen gleichzeitig einladen.",
+        "inviteTooMany":            "Du kannst höchstens {$1} Person(en) gleichzeitig einladen.",
         "inviteSuccess":            "Du hast folgende Person(en) eingeladen: {$1}",
                 
         "kickNone":                 "Du musst mindestens eine Person zum Kicken angeben.",
-        "kickTooMany":              "Du kannst höchstens {$1} Personen gleichzeitig kicken.",
+        "kickTooMany":              "Du kannst höchstens {$1} Person(en) gleichzeitig kicken.",
         "kickSuccess":              "Du hast folgende Person(en) gekickt: {$1}",
 
         "banNone":                  "Du musst mindestens eine Person zum Bannen angeben.",
-        "banTooMany":               "Du kannst höchstens {$1} Personen gleichzeitig bannen.",
+        "banTooMany":               "Du kannst höchstens {$1} Person(en) gleichzeitig bannen.",
         "banSuccess":               "Du hast folgende Person(en) gebannt: {$1}",
 
         "optionName":               "Der Kanalname wurde geändert.",
-        "optionNameFailed":         "Konnte den {$1} Kanalnamen nicht ändern, ist es ein gültiger Kanalname?",
-        "optionMemberlimit":        "Ich habe `Max Members` (Maximale Memberanzahl) von deinem Sprachkanal in `{$1}` geändert.",
+        "optionNameFailed":         "Ich konnte den Kanalnamen {$1} nicht ändern, ist es ein gültiger Name?",
+        "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal in `{$1}` geändert.",
         "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal in `{$1}` geändert.",
         "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal in `{$1}` geändert.",
-        "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnungs) von deinem Textkanal in `{$1}` geändert.",
+        "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal in `{$1}` geändert.",
         "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal in `{$1}` geändert.",
         "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal in `{$1}` geändert.",
 
-        "optionNotChangable":       "Du darfst diese Option nicht ändern.",
+        "optionNotChangable":       "Du darfst diese Option nicht verändern.",
         "optionInvalidValue":       "Bitte verwende einen der folgenden Werte: `{$1}`",
 
         "optionUnlocked":           "Ich habe `Privatsphäre` von deinem Kanal in `Open` (öffentlich) geändert.",
@@ -97,7 +97,7 @@
         	
 		"defaultTopic":				"{$1}s Privater Raum - Klick mich für mehr Informationen.\n\n\nWas kann ich mit meinem Raum machen?:\n - Lade andere Personen ein mit **{$3}room invite**\n - Kicke eingeladene Personen mit **{$4}room kick**\n - Verändere den Raum mit **{$5}room set**\n\nDieser Raum wurde erstellt am **{$2}**",
     
-        "roomExpiredNotify":        "Dein Raum ist abgelaufen. Du kannst ihn erneut beschwören mit `{$1]`.\nDu brauchst diese Benachrichtigung nicht? Schreibe `{2}` in einen beliebigen Server mit Manager ein!"
+        "roomExpiredNotify":        "Dein privater Raum ist abgelaufen. Du kannst ihn erneut beschwören mit `{$1]`.\nDu brauchst diese Benachrichtigung nicht? Schreibe `{2}` in einen beliebigen Server mit Manager!"
 	},
     
     "logging": {
