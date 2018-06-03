@@ -35,15 +35,15 @@
 	
 	"genericMessages": {
 	
-		"errorUnknown":         	"Něco se pokazilo",
-		"errorBotPermissionU":  	"Managerovi chybí nějaké oprávnění aby toto mohl udělat",
-		"errorBotPermissionS":  	"Managerovi chybí `{$1}` oprávnění aby toto mohl udělat",
-		"errorYouPermission":   	"Nemáš dostatečné oprávnění",
+		"errorUnknown":         	"Něco se pokazilo.",
+		"errorBotPermissionU":  	"Managerovi chybí nějaké oprávnění aby toto mohl udělat.",
+		"errorBotPermissionS":  	"Managerovi chybí `{$1}` oprávnění aby toto mohl udělat.",
+		"errorYouPermission":   	"Nemáš dostatečné oprávnění.",
 		"errorNoConfig":   			"Nelze načíst nastavení tohoto souboru. Prosím zkus to za několik vteřin znovu.",
 		"errorNotNSFW":   			"Toto může bát jen v NSFW místnosti.",
-        "errorBotUnavailable":  	"Manager není dočasně dostupný. Zkus to za minutu nebo dvě.",
+        "errorBotUnavailable":  	"Manager není dočasně dostupný. Zkus to za minutu nebo dvě!",
 
-        "errorCannotChangeValue":   "Nemůžeš změnit tuto hodnotu",
+        "errorCannotChangeValue":   "Nemůžeš změnit tuto hodnotu.",
 
         "errorCommandDisabled":     "Tento příkaz je vypnut",
         "howToExitAlpha":           "Pro spuštění alphy. Stačí vyhodit aktuálního bota a originál bude fungovat."
@@ -52,14 +52,14 @@
 	
 	"rooms": {
 	
-		"disabled":					"Soukromé místnosti jsou vypnuté",
+		"disabled":					"Soukromé místnosti jsou vypnuté.",
 		"noPermission":				"Nemůžeš si vytvořit soukromou místnost.",
 		"noRoom":					"Zdá se, že nemáš místnost.",
 		"noRoomsAvailable":			"Aktuálně je zde příliš mnoho aktivních místností.",
         "alreadyHasRoom":			"Již máš místnost.",
         
-		"noVoiceChannel":			"Zdá se, že nemáš Hlasovou místnost",
-		"noTextChannel":			"Zdá se, že nemáš Textovou místnost",
+		"noVoiceChannel":			"Zdá se, že nemáš Hlasovou místnost.",
+		"noTextChannel":			"Zdá se, že nemáš Textovou místnost.",
 		
 		"summoning":				":manager_loading: Nastavujeme tvou místnost...",
 		"summonedVoice":			":manager: Hlasová místnost vytvořena.",
@@ -68,19 +68,19 @@
 		
         "roomPasscode":				"Heslo pro tvou místnost je `{1}`",
                 
-        "inviteNone":               "Musíš vybrat alespoň 1 člověka pro pozvání",
-        "inviteTooMany":            "Můžeš pozvat až {$1} lidí na jednou",
+        "inviteNone":               "Musíš vybrat alespoň 1 člověka pro pozvání.",
+        "inviteTooMany":            "Můžeš pozvat až {$1} lidí na jednou.",
         "inviteSuccess":            "Pozval jsi: {$1}",
                 
-        "kickNone":                 "Musíš vybrat alespoň 1 člověka pro vyhození",
-        "kickTooMany":              "Můžeš vyhodit až {$1} lidí na jednou",
+        "kickNone":                 "Musíš vybrat alespoň 1 člověka pro vyhození.",
+        "kickTooMany":              "Můžeš vyhodit až {$1} lidí na jednou.",
         "kickSuccess":              "Vyhodil jsi: {$1}",
 
-        "banNone":                  "Musíš vybrat alespoň 1 člověka pro ban",
-        "banTooMany":               "Můžeš zabanovat až {$1} lidí na jednou",
+        "banNone":                  "Musíš vybrat alespoň 1 člověka pro ban.",
+        "banTooMany":               "Můžeš zabanovat až {$1} lidí na jednou.",
         "banSuccess":               "zabanoval jsi: {$1}",
 
-        "optionName":               "Změněno jméno místnosti",
+        "optionName":               "Změněno jméno místnosti.",
         "optionNameFailed":         "Nelze změnit jméno místnosti {$1}. Je to správné jméno místnosti?",
         "optionMemberlimit":        "Změněno nastavení tvé Hlasové místnosti `Maximum uživatelů` na `{$1}`",
         "optionBitrate":            "Změněno nastavení tvé Hlasové místnosti `Bitrate` na `{$1}`",
@@ -105,8 +105,8 @@
         "logGenericUpdate":        "{$1} Aktualizoval {$2}",
         "logGenericCreate":        "{$1} Vytvořil {$2}",
 
-        "guildUpdate":              "Nastavení serveru změněno.",
-        "guildUpdateDesc":          "{$1} změnil nastavení serveru",
+        "guildUpdate":              "Nastavení serveru změněno",
+        "guildUpdateDesc":          "{$1} změnil nastavení serveru.",
         
         "channelCreate":            "Místnost Vytvořena",
         "channelUpdate":            "Místnost Upravena",
