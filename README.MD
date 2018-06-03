@@ -10,3 +10,4 @@ Language Files for channel manager, Use these to submit a custom language :)
  - Andrew#6621 - Romanian
  - Michdi#1602 - German
  - Wolfram Walter#2790 - German
+ - "KolkiesDev" | Kolkies#0443 - Dutch
