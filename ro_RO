@@ -1,0 +1,120 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "r3",
+    "lang_name":        "Romana",
+    "lang_short":       "ro_RO",
+
+    "shared": {
+
+        "errorGeneric":         "Ceva nu a mers bine.",
+        "errorNoPermission":    "Nu ai permisiune sa faci asta.",
+        "errorConfigNotFound":  "Ceva nu a mers bine in timp ce colectam configuratia serverului.",
+        "errorCoolDown":        "Te rog sa astepti $1 secunde inainte sa reincerci.",
+        "errorNotNSFW":         "Trebuie sa fii intr-un canal NSFW.",
+
+		"configFlushed":		"Datele pentru serverul $1 au fost sterse.",
+        "errorShutdownGrace":	"Imi pare rau, nu poti sa faci asta acum. Incearca in 1 sau 2 minute.",
+         
+        "errorTooManyMatched":  "Am gasit prea multe potriviri, Maxim: `$1`",
+        "errorTooLittleMatched":"Am gasit prea putine potriviri, Minim: `$1`",
+        "matchResponseBig":     "`$1` potriviri. Vezi tot -> $2",
+
+        "missingPermission":    "Ai nevoie de permisiunea `$1` pentru a face asta."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Colectam Date...",
+        "dataCreating":         ":black_circle: Facem Camera...",
+        "roomCreated":          ":large_blue_circle: Camera Facuta!",
+        "roomAlreadyExists":    ":warning: Deja ai o camera facuta undeva!",
+        "roomRevoked":          ":large_blue_circle: Camera stearsa!",
+        "roomRevokedInactive":  "Camera ta a fost stearsa din cauza inactivitatii, poti sa o refaci cu `$1`",
+        "roomName":             "Camera Privata [$1]",
+        "roomErrorDisabled":    "Camerele private sunt dezactivate pe acest server.",
+        "roomErrorLimit":       "Imi pare rau, nu poti sa faci o camera privata acum.",
+        "roomErrorNotAllowed":  "In prezent, nu iti este permis sa faci o camera..",
+
+        "roomRenamed":          "Camera a fost redenumita in: `$1`",
+        "roomRenameDisabled":   "Nu poti sa redenumesti camere pe acest server.",
+        "roomNoNameSpecified":  "Trebuie sa specifici un nume!",
+
+        "revokeComplete":       ":cyclone: Canal Sters!",
+        "revokeError":          ":no_good: Ceva nu a mers bine in timp ce stergeam camera.",
+        "revokeNotGuild":        "Poti sa stergi o camera doar din server.",
+        "revokeNoRoom":         ":warning: Nu ai o camera!",
+
+        "roomUserAdded":        "L-ai adaugat pe $1 in camera ta.",
+        "roomUserRemoved":      "L-ai sters pe $1 din camera ta.",
+        "roomUserBlocked":      "L-ai blocat pe $1 din camera ta.",
+        "roomNoAdded":			"Nu au fost facute modificari.",
+        "roomMadePublic":       "Acum toata lumea poate sa intre in camera ta.",
+        "roomNotPublic":        "Doar membrii alesi de tine pot sa intre in camera ta acum.",
+
+        "userWhitelistAdd":     "$1 este pe lista ta alba.",
+        "userWhitelistRevoke":  "$1 nu mai este pe lista ta alba.",
+        "userWhitelistReset":   "Lista ta alba a fost resetata.",
+        "userBlacklistAdd":     "$1 este acum pe lista ta neagra.",
+        "userBlacklistRevoke":  "$1 nu mai este pe lista ta neagra.",
+        "userBlacklistReset":   "Lista ta neagra a fost resetata.",
+
+        "errorRoomsDisabled":   "Camerele private sunt dezactivate pe acest server.",
+        "errorNotGuild":        "Camerele pot sa fie facute doar din server.",
+
+        "roomsNewOwner":        "Acum esti noul detinator al camerei private $1's.",
+        "roomsNewOwnerNotify":  "Camera ta privata a fost atribuita altui membru."
+
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Lucrez la ea!",
+        "noImage":              "Da-mi o imagine, te rog!",
+        "defaultAvatar":        "Acest utilizator are avatarul implicit!"
+
+    },
+
+    "genericCommands": {
+
+        "whoisTitle":           "Informatii despre $1",
+        "username":             "Nume de utilizator",
+        "nickname":             "Porecla",
+        "roles":                "Roluri",
+        "accountCreated":       "Facut pe data de",
+        "joinedServerDate":     "S-a alaturat pe data de",
+        "status":               "Stare",
+
+        "serverName":           "Nume",
+        "serverMembers":        "Membrii",
+        "serverOwner":          "Detinator",
+        "serverCreated":        "Facut pe data de",
+        "serverRegion":         "Regiune"
+
+    },
+    
+    "music": {
+
+        "MusicNoURL":           ":warning: Trebuie sa imi dai un URL valid!",
+        "MusicNovoiceCon":      ":warning: Trebuie sa fii intr-un canal de tip voce!",
+        "MusicNoPermission":    "Nu ai permisiune sa faci asta.",
+
+        "MusicDifferentChannel":"Nu poti sa votezi sa sari peste daca nu esti in canal.",
+        "MusicVoteProgress":    "Ai votat sa sari peste acest cantec `$1`",
+        "MusicVoteAlreadyVoted":"Deja ai votat sa sari peste acest cantec `$1`",
+        "MusicVoteCompleted":   "Vot complet, am sarit peste melodie. `$1`",
+
+        "MusicAddedToQueue":    "Adaugat de `$1` in lista de asteptare.",
+        "MusicNowPlaying":      "In redare",
+        "MusicRequestedBy":     "Cerut de",
+        "MusicVideoLength":     "Durata",
+
+        "errorGeneric":         "Ceva nu a mers bine.",
+        "errorConfigNotFound":  "Ceva nu a mers bine in timp ce colectam configuratia serverului.",
+        "errorMusicDisabled":   "Canalele de muzica sunt dezactivate pe acest server.",
+        "errorNotGuild":        "Poti sa pui muzica doar din server."
+
+    }
+
+}
