@@ -65,7 +65,7 @@
 		"summonedText":									":manager: Tekstkanaal aangemaakt.",
 		"summonedBoth":									":manager: Kanalen aangemaakt.",
 
-    "roomPasscode":                 "Het wachtwoord voor je kanaal is `{1}`",
+    "roomPasscode":                 "Het wachtwoord voor je kanaal is `{$1}`",
 
     "inviteNone":                   "U moet minimaal 1 persoon opgeven om uit te nodigen.",
     "inviteTooMany":                "Je kunt maximaal {$1} mensen tegelijk uitnodigen.",
