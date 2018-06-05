@@ -66,7 +66,7 @@
 		"summonedText":				":manager: Summoned your Text Channel.",
 		"summonedBoth":				":manager: Summoned your Channels.",
 		
-        "roomPasscode":				"The passcode for your room is `{1}`",
+        "roomPasscode":				"The passcode for your room is `{$1}`",
                 
         "inviteNone":               "You need to specify at least 1 person to invite.",
         "inviteTooMany":            "You can only invite up to {$1} people at a time.",
