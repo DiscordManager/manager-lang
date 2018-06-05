@@ -66,7 +66,7 @@
 		"summonedText":				":manager: Criou seu canal de texto.",
 		"summonedBoth":				":manager: Criou seus canais.",
 		
-        "roomPasscode":				"A senha da sua sala é `{1}`",
+        "roomPasscode":				"A senha da sua sala é `{$1}`",
                 
         "inviteNone":               "Você precisa especificar pelo menos uma pessoa para convidar.",
         "inviteTooMany":            "Você só pode convidar até {$1} pessoas de cada vez.",
