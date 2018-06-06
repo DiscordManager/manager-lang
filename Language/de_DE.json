@@ -97,7 +97,7 @@
         	
 		"defaultTopic":				"{$1}s Privater Raum - Klick mich für mehr Informationen.\n\n\nWas kann ich mit meinem Raum machen?:\n - Lade andere Personen ein mit **{$3}room invite**\n - Kicke eingeladene Personen mit **{$4}room kick**\n - Verändere den Raum mit **{$5}room set**\n\nDieser Raum wurde erstellt am **{$2}**",
     
-        "roomExpiredNotify":        "Dein privater Raum ist abgelaufen. Du kannst ihn erneut mit `{$1]` erstellen.\nDu brauchst diese Benachrichtigung nicht? Schreibe `{2}` in einen beliebigen Server mit Manager!"
+        "roomExpiredNotify":        "Dein privater Raum ist abgelaufen. Du kannst ihn erneut mit `{$1}` erstellen.\nDu brauchst diese Benachrichtigung nicht? Schreibe `{$2}` in einen beliebigen Server mit Manager!"
 	},
     
     "logging": {

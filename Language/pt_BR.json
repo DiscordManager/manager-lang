@@ -97,7 +97,7 @@
         	
 		"defaultTopic":				"Sala privada de {$1} - Abra o tópico do canal para mais informações.\n\n\nO que fazer com minha sala?:\n - convide outros membros com **{$3}room invite**\n - expulse membros convidados com **{$4}room kick**\n - modifique a sala com **{$5}room set**\n\nEssa sala foi criada em **{$2}**",
     
-        "roomExpiredNotify":        "Sua sala expirou. Você pode criar ela novamente com `{$1]`.\nNão quer ver essas notificações? Digite `{2}` em qualquer servidor que tenha o Manager!"
+        "roomExpiredNotify":        "Sua sala expirou. Você pode criar ela novamente com `{$1}`.\nNão quer ver essas notificações? Digite `{$2}` em qualquer servidor que tenha o Manager!"
 	},
     
     "logging": {

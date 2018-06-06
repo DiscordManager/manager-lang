@@ -74,7 +74,7 @@
     "optionUnlocked": "Ți-ai schimbat `intimitate` la `Deschis`",
     "optionLocked": "Ți-ai schimbat `intimitate` la `Doar invitatii`",
     "defaultTopic": "Camera privată lui {$1} - Deschideti Topicul canaluiui pentru mai multe informatii\n\n\nCe sa faci cu canalul meu?:\n - Invita alti membri cu **{$3}room invite**\n - Da afara membri invitati cu **{$4}room kick**\n - Schimba camera cu **{$5}room set**\n\nAceasta camera a fost creata pe **{$2}**",
-    "roomExpiredNotify": "Camera ta a expirat. Puteți să-l creati din nou cu `{$1}`. \nNu doriți aceste notificări? Introduceți `{2}` în orice server cu Manager!"
+    "roomExpiredNotify": "Camera ta a expirat. Puteți să-l creati din nou cu `{$1}`. \nNu doriți aceste notificări? Introduceți `{$2}` în orice server cu Manager!"
   },
   "logging": {
     "logGenericDelete": "{$1} a sters {$2}",
