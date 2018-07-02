@@ -48,8 +48,8 @@
         "errorCommandDisabled":     "This command is disabled",
         "howToExitAlpha":           "To exit the alpha, Just kick this version of the bot and the original one should start working again.",
 
-        "errorTooManyMatched":      "Found too many matches, Maximum: `$1`",
-        "errorTooLittleMatched":    "Found too little matches, Minimum: `$1`"
+        "errorTooManyMatched":      "Found too many matches, Maximum: `{$1}`",
+        "errorTooLittleMatched":    "Found too little matches, Minimum: `{$1}`"
 	
 	},
 	
