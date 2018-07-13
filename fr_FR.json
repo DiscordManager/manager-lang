@@ -14,7 +14,7 @@
         "errorNotNSFW":         "Vous devez être dans un canal NSFW.",
 
         "configFlushed":        "La configuration à été $1 nettoyée.",
-        "errorShutdownGrace":	"Désolé, vous ne pouvez pas éxécuter cette action, ré-essayez quelques minutes.",
+        "errorShutdownGrace":   "Désolé, vous ne pouvez pas éxécuter cette action, ré-essayez quelques minutes.",
          
         "errorTooManyMatched":  "Trop de possibilités trouvées, Maximum: `$1`",
         "errorTooLittleMatched":"Trop peu de possibilités trouvées, Minimum: `$1`",
