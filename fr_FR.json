@@ -13,7 +13,7 @@
         "errorCoolDown":        "Merci d'attendre $1 secondes avant de ré-essayer",
         "errorNotNSFW":         "Vous devez être dans un canal NSFW.",
 
-	"configFlushed":	"La configuration à été $1 nettoyée.",
+        "configFlushed":        "La configuration à été $1 nettoyée.",
         "errorShutdownGrace":	"Désolé, vous ne pouvez pas éxécuter cette action, ré-essayez quelques minutes.",
          
         "errorTooManyMatched":  "Trop de possibilités trouvées, Maximum: `$1`",
