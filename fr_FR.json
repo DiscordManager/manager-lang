@@ -10,58 +10,58 @@
         "errorGeneric":         "Une erreur est survenue.",
         "errorNoPermission":    "Vous n'avez pas la permission de faire ça.",
         "errorConfigNotFound":  "Une erreur est survenue durant la lecture de la configuration.",
-        "errorCoolDown":        "Merci d'attendre $1 secondes avant de re-essayer",
+        "errorCoolDown":        "Merci d'attendre $1 secondes avant de ré-essayer",
         "errorNotNSFW":         "Vous devez être dans un canal NSFW.",
 
-		"configFlushed":		"La configuration à été $1 nettoyé .",
-        "errorShutdownGrace":	"Désolez, vous ne pouvez pas executer cette action, re-essayez dans 1 ou 2 minutes.",
+        "configFlushed":        "La configuration à été $1 nettoyée.",
+        "errorShutdownGrace":   "Désolé, vous ne pouvez pas éxécuter cette action, ré-essayez quelques minutes.",
          
-        "errorTooManyMatched":  "Trop de possibilités trouvés, Maximum: `$1`",
-        "errorTooLittleMatched":"Trop peu de possibilités trouvés, Minimum: `$1`",
-        "matchResponseBig":     "`$1` possibilité. Tout voir -> $2",
+        "errorTooManyMatched":  "Trop de possibilités trouvées, Maximum: `$1`",
+        "errorTooLittleMatched":"Trop peu de possibilités trouvées, Minimum: `$1`",
+        "matchResponseBig":     "`$1` possibilités. Tout voir -> $2",
 
-        "missingPermission":    "La permission `$1` est nessesaire pour cette action"
+        "missingPermission":    "La permission `$1` est nécessaire pour cette action"
 
     },
 
     "channel": {
 
-        "dataFetching":         ":black_circle: Collecte des donnés...",
+        "dataFetching":         ":black_circle: Collecte des données...",
         "dataCreating":         ":black_circle: Création du salon...",
-        "roomCreated":          ":large_blue_circle: Salon crée!",
-        "roomAlreadyExists":    ":warning: Vous avez déjà un salon crée quelque part !",
-        "roomRevoked":          ":large_blue_circle: Salon supprimé!",
+        "roomCreated":          ":large_blue_circle: Salon crée !",
+        "roomAlreadyExists":    ":warning: Vous avez déjà un salon créé quelque part !",
+        "roomRevoked":          ":large_blue_circle: Salon supprimé !",
         "roomRevokedInactive":  "Votre salon à été supprimé pour inactivité, vous pouvez le re-créer via `$1`",
         "roomName":             "Salon Privé [$1]",
         "roomErrorDisabled":    "Les salons privés sont désactivés sur ce serveur",
         "roomErrorLimit":       "Désolé, vous ne pouvez pas créer de salon privé actuellement.",
-        "roomErrorNotAllowed":  "Vous n'êtes actuellement pas autorisés à créer un salon.",
+        "roomErrorNotAllowed":  "Vous n'êtes actuellement pas autorisé à créer un salon.",
 
         "roomRenamed":          "Salon privé renommé en : `$1`",
         "roomRenameDisabled":   "Vous ne pouvez pas renommer de salon sur ce serveur.",
-        "roomNoNameSpecified":  "Vous devez écrire un nom!",
+        "roomNoNameSpecified":  "Vous devez écrire un nom !",
 
         "revokeComplete":       ":cyclone: Salon supprimé",
-        "revokeError":          ":no_good: Une erreur est survenue pendant la supression de votre room.",
-        "revokeNotGuild":        "Vous pouvez supprimer votre salon privé uniquement depuis un serveur.",
-        "revokeNoRoom":         ":warning: Vous n'avez pas de salon!",
+        "revokeError":          ":no_good: Une erreur est survenue pendant la suppression de votre room.",
+        "revokeNotGuild":       "Vous pouvez supprimer votre salon privé uniquement depuis un serveur.",
+        "revokeNoRoom":         ":warning: Vous n'avez pas de salon !",
 
         "roomUserAdded":        "Ajout de $1 à votre salon.",
-        "roomUserRemoved":      "Supression de $1 de votre salon.",
-        "roomUserBlocked":      "Bloquage de $1 de votre salon.",
-        "roomNoAdded":			"Aucun changement n'as eu lieux.",
+        "roomUserRemoved":      "$1 a été exclu de votre salon.",
+        "roomUserBlocked":      "$1 ne peut plus rejoindre votre salon.",
+        "roomNoAdded":		"Aucun changement n'a eu lieu.",
         "roomMadePublic":       "Tout le monde peut rejoindre votre salon.",
-        "roomNotPublic":        "Seul les membres ajoutés peuvent rejoindre votre salon maintenant",
+        "roomNotPublic":        "Seul les membres autorisés peuvent rejoindre votre salon.",
 
-        "userWhitelistAdd":     "$1 est maintenant sur votre whitelist.",
-        "userWhitelistRevoke":  "$1 n'est plus sur votre whitelist",
-        "userWhitelistReset":   "Votre whitelist à bien été reset.",
-        "userBlacklistAdd":     "$1 est maintenant sur votre blacklist.",
-        "userBlacklistRevoke":  "$1 n'est plus sur votre blacklist.",
-        "userBlacklistReset":   "Votre blacklist à bien été reset.",
+        "userWhitelistAdd":     "$1 est maintenant sur liste blanche.",
+        "userWhitelistRevoke":  "$1 n'est plus sur liste blanche.",
+        "userWhitelistReset":   "Votre liste blanche à bien été réinitialisée.",
+        "userBlacklistAdd":     "$1 est maintenant sur votre liste noire.",
+        "userBlacklistRevoke":  "$1 n'est plus sur liste noire.",
+        "userBlacklistReset":   "Votre liste noire à bien été réinitialisée.",
 
-        "errorRoomsDisabled":   "Les salons privés sont actuellement désactivés sur ce serveur.",
-        "errorNotGuild":        "Les salons privés peuvent être créés uniquement depuis un serveur",
+        "errorRoomsDisabled":   "Les salons privés sont désactivés sur ce serveur.",
+        "errorNotGuild":        "Les salons privés ne peuvent être créés que depuis un serveur",
 
         "roomsNewOwner":        "Vous êtes maintenant le propriétaire du salon privé de $1.",
         "roomsNewOwnerNotify":  "Votre salon privé appartient à un nouveau membre."
@@ -71,8 +71,8 @@
     "imageCommands": {
 
         "processingImage":      "<a:manager_loading:409298228954136577> Travail en cours!",
-        "noImage":              "Fournissez une image s'il vous plait!",
-        "defaultAvatar":        "Cet utilisateur as l'avatar par default!"
+        "noImage":              "Merci de fournir une image.",
+        "defaultAvatar":        "Cet utilisateur a l'avatar par défaut!"
 
     },
 
@@ -81,29 +81,29 @@
         "whoisTitle":           "Carte d'utilisateur de : $1",
         "username":             "Pseudo",
         "nickname":             "Surnom",
-        "roles":                "Roles",
-        "accountCreated":       "Créer le",
+        "roles":                "Rôles",
+        "accountCreated":       "Créé le",
         "joinedServerDate":     "Rejoint le",
-        "status":               "Status",
+        "status":               "Statut",
 
         "serverName":           "Nom",
         "serverMembers":        "Membres",
-        "serverOwner":          "Propriétaitr",
-        "serverCreated":        "Créer le",
+        "serverOwner":          "Propriétaire",
+        "serverCreated":        "Créé le",
         "serverRegion":         "Région"
 
     },
     
     "music": {
 
-        "MusicNoURL":           ":warning: Vous devez fournir une URL valide",
-        "MusicNovoiceCon":      ":warning: Vous devez être dans un canal vocal!",
-        "MusicNoPermission":    "Vous n'avez pas la permission de faire ça",
+        "MusicNoURL":           ":warning: Vous devez fournir une URL valide.",
+        "MusicNovoiceCon":      ":warning: Vous devez être dans un canal vocal.",
+        "MusicNoPermission":    "Vous n'avez pas la permission de faire ça.",
 
         "MusicDifferentChannel":"Vous ne pouvez pas voter pour passer sans être dans le canal",
-        "MusicVoteProgress":    "Vous votez pour passer la musique actuelle `$1`",
-        "MusicVoteAlreadyVoted":"Vous avez déjà voté pour passer la musique actuelle `$1`",
-        "MusicVoteCompleted":   "La musique actuelle à été passée. `$1`",
+        "MusicVoteProgress":    "Vous votez pour passer `$1`.",
+        "MusicVoteAlreadyVoted":"Vous avez déjà voté pour passer `$1`.",
+        "MusicVoteCompleted":   "La musique actuelle à été passée. `$1`.",
 
         "MusicAddedToQueue":    "Ajout de `$1` à la liste d'attente.",
         "MusicNowPlaying":      "En cours d'écoute",
