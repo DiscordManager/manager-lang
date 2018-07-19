@@ -1,0 +1,167 @@
+{
+    "lang_version":     3,
+    "lang_revision":    "5alpha1",
+    "lang_name":        "Turkish",
+    "lang_short":       "tr_TR",
+
+    "genericTerms": {
+
+        "username":             "Kullanıcı Adı",
+        "nickname":             "Takma Ad",
+        "roles":                "Roller",
+        "role":                 "Rol",
+        "accountCreated":       "Hesap Oluşturma Tarihi",
+        "joinedServerDate":     "Sunucuya Katılma Tarihi",
+        "nicknameHistory":      "Önceki Takma Adlar",
+        "status":               "Durum",
+
+        "serverName":           "Sunucu Adı",
+        "serverMembers":        "Üyeler",
+        "serverOwner":          "Sahip",
+        "serverCreated":        "Sunucu Kurulma Tarihi",
+        "serverRegion":         "Bölge",
+        "serverIcon":           "Simge",
+		
+        "owner":         		"Sahip",
+        "admin":         		"Admin",
+        "moderator":         	"Moderatör",
+        "muted":         		"Susturuldu",
+        "staff":                "Yetkili",
+
+        "onlineStaff":          "Aktif Yetkili"
+
+    },
+	
+	"genericMessages": {
+	
+		"errorUnknown":         	"Bir şey ters gitti.",
+		"errorBotPermissionU":  	"Manager'ın bunu yapabilmesi için bazı yetkiler eksik.",
+		"errorBotPermissionS":  	"Manager'ın bunu yapabilmesi için `{$1}` yetkisine ihtiyacı var.",
+		"errorYouPermission":   	"Yeterli yetkiniz bulunmamaktadır.",
+		"errorNoConfig":   			"Bu dosya için ayarlar yüklenemedi, birkaç saniye içerisinde tekrar deneyin.",
+		"errorNotNSFW":   			"Bunu yapabilmeniz için bir uygunsuz kanalda olmanız gerekiyor.",
+        "errorBotUnavailable":  	"Manager kısa bir süreliğine müsait değil. Lütfen birkaç dakika içerisinde tekrar deneyin!",
+
+        "errorCannotChangeValue":   "Bu değeri değiştiremezsin.",
+
+        "errorCommandDisabled":     "Bu komut devredışı",
+        "howToExitAlpha":           "Alpha'dan çıkmak için sadece Manager'ın bu versiyonunu sunucunuzdan atın ve orjinal olan tekrardan çalışacaktır.",
+
+        "errorTooManyMatched":      "Çok fazla eşleşme bulundu, En çok: `{$1}`",
+        "errorTooLittleMatched":    "Çok az eşleşme bulundu, En az: `{$1}`"
+	
+	},
+	
+	"rooms": {
+	
+		"disabled":					"Kişisel kanallar şu an devredışı.",
+		"noPermission":				"Kişisel kanal çağıramazsınız.",
+		"noRoom":					"Kanala sahip değilsiniz gibi görünüyor.",
+		"noRoomsAvailable":			"Şu an aktif olarak çok fazla kanal bulunmaktadır.",
+        "alreadyHasRoom":			"Zaten bir kanala sahipsiniz.",
+        
+		"noVoiceChannel":			"Ses kanalına sahip değilsiniz gibi görünüyor.",
+		"noTextChannel":			"Metin kanalına sahip değilsiniz gibi görünüyor..",
+		
+		"summoning":				":manager_loading: kanalınız hazırlanıyor!",
+		"summonedVoice":			":manager: Ses kanalınız çağırıldı.",
+		"summonedText":				":manager: Metin kanalınız çağırıldı.",
+		"summonedBoth":				":manager: Kanallarınız çağırıldı.",
+		
+        "roomPasscode":				"Kanalınız için gereken şifre: `{$1}`",
+                
+        "inviteNone":               "En az 1 kişiyi davet için belirtmeniz gerekiyor.",
+        "inviteTooMany":            "Bir seferde sadece {$1} kişi davetinde bulunabilirsiniz.",
+        "inviteSuccess":            "Davet ettiniz: {$1}",
+                
+        "kickNone":                 "En az 1 kişiyi atmak için belirtmeniz gerekiyor.",
+        "kickTooMany":              "Bir seferde sadece {$1} kişiyi atabilirsiniz.",
+        "kickSuccess":              "Attınız: {$1}",
+
+        "banNone":                  "En az 1 kişiyi yasaklamak için belirtmeniz gerekiyor.",
+        "banTooMany":               "Bir seferde sadece {$1} kişiyi yasaklayabilirsiniz.",
+        "banSuccess":               "Yasakladınız: {$1}",
+
+        "optionName":               "Kanal adını değiştirdi.",
+        "optionNameFailed":         "{$1} kanal adını değiştiremediniz, acaba geçerli bir kanal adı mı?",
+        "optionMemberlimit":        "Ses kanalınızın `Maks Üye` sayısı `{$1}` olarak değişti.",
+        "optionBitrate":            "Ses kanalınızın `Bit Hızı` sayısı `{$1}` olarak değişti.",
+        "optionEmbed":              "Yazı kanalınızın `Embed izni` `{$1}` olarak değişti.",
+        "optionNSFW":               "Yazı kanalınızın `Uygunsuz Kanal` `{$1}` olarak değişti.",
+        "optionReactions":          "Yazı kanalınızın `Tepki izni` `{$1}` olarak değişti",
+        "optionTopic":              "Yazı kanalınızın `Kanal başlığı` `{$1}` olarak değişti.",
+
+        "optionNotChangable":       "Bu seçeneği değiştirmeye izniniz bulunmamaktadır.",
+        "optionInvalidValue":       "Lütfen geçerli değerleri kullanınız: `{$1}`",
+
+        "optionUnlocked":           "Kanalınızın `gizlilik` verisi `Açık` olarak değişti.",
+        "optionLocked":             "Kanalınızın `gizlilik` verisi `Sadece Davetliler` olarak değişti.",
+        	
+		"defaultTopic":				"{$1} Kişisel Odası - Kanal başlığını açarak daha çok bilgi alabilirsiniz.\n\n\nOdamda ne yapabilirim?:\n - Başkalarını **{$3}room invite** ile davet edebilir,\n - Davetlileri **{$4}room kick** ile atabilir,\n - odayı **{$5}room set** ile değiştirebilirsiniz.\n\Bu oda **{$2}** tarihinde kuruldu.",
+    
+        "roomExpiredNotify":        "Odanızın süresi doldu. `{$1}` ile tekrar çağırabilirsiniz.\nBu tür bildirimler istemiyor musunuz? Manager bulunan herhangi bir sunucuda `{$2}` yazabilirsiniz!"
+	},
+    
+    "logging": {
+
+        "logGenericDelete":        "{$1} Silindi {$2}",
+        "logGenericUpdate":        "{$1} Güncellendi {$2}",
+        "logGenericCreate":        "{$1} Oluşturuldu {$2}",
+
+        "guildUpdate":              "Sunucu Seçenekleri Değişti",
+        "guildUpdateDesc":          "{$1} sunucu seçeneklerini değiştirdi.",
+        
+        "channelCreate":            "Kanal Oluşturuldu",
+        "channelUpdate":            "Kanal Değiştirildi",
+        "channelDelete":            "Kanal Silindi",
+
+        "guildBanAdd":              "Üye Yasaklandı",
+        "guildBanRemove":           "Üyenin Yasağı Kalktı",
+
+        "logUserBanned":            "{$1} yasakladı {$2}",
+        "logUserUnbanned":          "{$1} yasağını kaldırdı {$2}",
+
+        "messageUpdate":            "Mesaj Değiştirildi",
+        "messageDelete":            "Mesaj Silindi",
+
+        "logMessageEdited":         "{$1}, {$2} konumunda bulunan mesajı değiştirdi",
+        "logMessageDeleted":        "{$1} tarafından {$2} konumunda yazılan mesaj silindi.",
+
+        "guildMemberAdd":           "Üye Katıldı",
+        "guildMemberRemove":        "Üye Çıktı",
+        "guildMemberUpdate":        "Üye Verileri Güncellendi",
+
+        "logJoin":                  "{$1} Katıldı {$2}",
+        "logLeave":                 "{$1} Çıktı",
+        "logUpdate":                "{$1}, {$2} tarafından değiştirildi",
+
+        "emojiCreate":              "Emoji Eklendi",
+        "emojiUpdate":              "Emoji Değiştirildi",
+        "emojiDelete":              "Emoji Silindi",
+
+        "roleCreate":               "Rol Eklendi",
+        "roleDelete":               "Rol Silindi",
+        "roleUpdate":               "Rol Değiştirildi",
+
+        "roomSummon":               "Kişisel Kanal Oluşturuldu",
+        "roomRevoke":               "Kişisel Kanal Silindi",
+        "roomUpdate":               "Kişisel Kanal Değiştirildi",
+
+        "scriptRan":                "Script Gerçekleştirildi",
+
+        "configChanged":            "Ayarlar Güncellendi",
+
+        "old":                      "Eski",
+        "new":                      "Yeni"
+        
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Üstünde çalışıyorum!",
+        "noImage":              "Lütfen, bir görsel sağlayın!",
+        "defaultAvatar":        "Bu kullanıcı varsayılan avatarı kullanıyor!"
+
+    }
+
+}
