@@ -97,7 +97,7 @@
         "optionUnlocked":           "Kanalınızın `gizlilik` verisi `Açık` olarak değişti.",
         "optionLocked":             "Kanalınızın `gizlilik` verisi `Sadece Davetliler` olarak değişti.",
         	
-		"defaultTopic":				"{$1} Kişisel Odası - Kanal başlığını açarak daha çok bilgi alabilirsiniz.\n\n\nOdamda ne yapabilirim?:\n - Başkalarını **{$3}room invite** ile davet edebilir,\n - Davetlileri **{$4}room kick** ile atabilir,\n - odayı **{$5}room set** ile değiştirebilirsiniz.\n\Bu oda **{$2}** tarihinde kuruldu.",
+		"defaultTopic":				"{$1} Kişisel Odası - Kanal başlığını açarak daha çok bilgi alabilirsiniz.\n\n\nOdamda ne yapabilirim?:\n - Başkalarını **{$3}room invite** ile davet edebilir,\n - Davetlileri **{$4}room kick** ile atabilir,\n - odayı **{$5}room set** ile değiştirebilirsiniz.\nBu oda **{$2}** tarihinde kuruldu.",
     
         "roomExpiredNotify":        "Odanızın süresi doldu. `{$1}` ile tekrar çağırabilirsiniz.\nBu tür bildirimler istemiyor musunuz? Manager bulunan herhangi bir sunucuda `{$2}` yazabilirsiniz!"
 	},
