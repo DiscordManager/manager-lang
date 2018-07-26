@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha1",
+    "lang_revision":    "5alpha_public",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -36,6 +36,7 @@
 	"genericMessages": {
 	
 		"errorUnknown":         	"Something went wrong.",
+		"errorUnknownDescriptive":  "Something went wrong. `{$1}`",
 		"errorBotPermissionU":  	"Manager is missing some permissions to do that.",
 		"errorBotPermissionS":  	"Manager is missing the `{$1}` permissions to do that.",
 		"errorYouPermission":   	"You don't have sufficient permission.",
@@ -88,6 +89,7 @@
         "optionMemberlimit":        "Changed your Voice Channel `Max Members` to `{$1}`",
         "optionBitrate":            "Changed your Voice Channel `Bitrate` to `{$1}`",
         "optionEmbed":              "Changed your Text Channel `Embed Permission` to `{$1}`",
+        "optionPTT":              "Changed your Text Channel `PTT Requirement` to `{$1}`",
         "optionNSFW":               "Changed your Text Channel `NSFW Warning` to `{$1}`",
         "optionReactions":          "Changed your Text Channel `Reaction Permission` to `{$1}`",
         "optionTopic":              "Changed your Text Channel `Topic` to `{$1}`",
@@ -152,6 +154,10 @@
 
         "configChanged":            "Config Updated",
 
+        "levelUp":                  "Level Up!",
+        "autoModGeneric":           "{$1} was caught by **autoMod**",
+        "autoModDeleted":           "{$1} had their {$2} deleted by **autoMod**",
+
         "old":                      "Old",
         "new":                      "New"
         
@@ -162,6 +168,15 @@
         "processingImage":      "<a:manager_loading:409298228954136577> Working on it!",
         "noImage":              "Supply an image, Please!",
         "defaultAvatar":        "This user has the default avatar!"
+
+    },
+
+    "moderationCommands": {
+
+        "Muted": "{$1} has been muted.",
+        "UnMute": "{$1} has been un-muted.",
+
+        "reset": "{$1} has been reset."
 
     }
 
