@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha1",
+    "lang_revision":    "5alpha_public",
     "lang_name":        "German",
     "lang_short":       "de_DE",
 
@@ -35,7 +35,8 @@
 	
 	"genericMessages": {
 	
-		"errorUnknown":         	"Etwas ist schiefgelaufen.",
+        "errorUnknown":         	"Etwas ist schiefgelaufen.",
+        "errorUnknownDescriptive":  "Etwas ist schief gelaufen. `{$1}`",
 		"errorBotPermissionU":  	"Manager fehlen ein paar Berechtigungen, um diese Aktion auszuführen.",
 		"errorBotPermissionS":  	"Manager fehlt die `{$1}` Berechtigung, um diese Aktion auszuführen.",
 		"errorYouPermission":   	"Du hast nicht die erforderliche Berechtigung.",
@@ -46,7 +47,10 @@
         "errorCannotChangeValue":   "Du kannst diesen Wert nicht ändern.",
 
         "errorCommandDisabled":     "Dieser Befehl ist deaktiviert",
-        "howToExitAlpha":           "Um die Alpha zu verlassen, kicke einfach diese Version des Bots und der Original Bot sollte wieder funktionieren."
+        "howToExitAlpha":           "Um die Alpha zu verlassen, kicke einfach diese Version des Bots und der Original Bot sollte wieder funktionieren.",
+
+        "errorTooManyMatched":      "Es wurden zu viele Übereinstimmungen gefunden, Maximum: `{$1}`",
+        "errorTooLittleMatched":    "Es wurden zu wenig Übereinstimmungen gefunden, Minimum: `{$1}`"
 	
 	},
 	
@@ -85,6 +89,7 @@
         "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal in `{$1}` geändert.",
         "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal in `{$1}` geändert.",
         "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal in `{$1}` geändert.",
+        "optionPTT":              "Changed your Text Channel `PTT Requirement` to `{$1}`",
         "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal in `{$1}` geändert.",
         "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal in `{$1}` geändert.",
         "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal in `{$1}` geändert.",
@@ -108,7 +113,7 @@
 
         "guildUpdate":              "Servereinstellungen verändert",
         "guildUpdateDesc":          "{$1} veränderte die Servereinstellungen.",
-        
+
         "channelCreate":            "Kanal erstellt",
         "channelUpdate":            "Kanal verändert",
         "channelDelete":            "Kanal gelöscht",
@@ -149,6 +154,10 @@
 
         "configChanged":            "Konfiguration aktualisiert",
 
+        "levelUp":                  "Levelaufstieg!",
+        "autoModGeneric":           "{$1} wurde erwischt bei **autoMod**",
+        "autoModDeleted":           "{$1} hat sein {$2} gelöscht bekommen wegen **autoMod**",
+
         "old":                      "Alt",
         "new":                      "Neu"
         
@@ -159,6 +168,15 @@
         "processingImage":      "<a:manager_loading:409298228954136577> Ich arbeite daran!",
         "noImage":              "Bitte schicke mir ein Bild!",
         "defaultAvatar":        "Diese Person hat den Standard-Avatar!"
+
+    },
+
+    "moderationCommands": {
+
+        "Muted": "{$1} wurde stummgeschalten.",
+        "UnMute": "{$1} stummschaltung wurde aufgehoben.",
+
+        "reset": "{$1} wurde zurückgesetzt."
 
     }
 
