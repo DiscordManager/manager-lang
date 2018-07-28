@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha1",
+    "lang_revision":    "5alpha_public",
     "lang_name":        "Português do Brasil",
     "lang_short":       "pt_BR",
 
@@ -36,6 +36,7 @@
 	"genericMessages": {
 	
 		"errorUnknown":         	"Algo deu errado.",
+		"errorUnknownDescriptive":  "Algo deu errado. `{$1}`",
 		"errorBotPermissionU":  	"Manager está sem algumas permissões para fazer isso.",
 		"errorBotPermissionS":  	"Manager está sem as permissoes `{$1}` para fazer isso.",
 		"errorYouPermission":   	"Você não tem permissão suficiente.",
@@ -85,6 +86,7 @@
         "optionMemberlimit":        "O `Máximo de Membros` do seu canal foi alterado para `{$1}`",
         "optionBitrate":            "A `Taxa de Bits` do seu canal foi alterado para `{$1}`",
         "optionEmbed":              "A `Permissão de Embeds` do seu canal foi alterada para `{$1}`",
+	"optionPTT":                "O `Requerimento Aperte-para-falar` foi alterado para `{$1}`",
         "optionNSFW":               "O `Aviso de NSFW` do seu canal foi alterado para `{$1}`",
         "optionReactions":          "A `Permissão de Reações` do seu canal foi alterada para `{$1}`",
         "optionTopic":              "O `Tópico` do seu canal foi alterado para `{$1}`",
@@ -95,7 +97,7 @@
         "optionUnlocked":           "A `privacidade` do seu canal foi alterada para `Aberto`",
         "optionLocked":             "A `privacidade` do seu canal foi alterada para `Apenas Convite`",
         	
-		"defaultTopic":				"Sala privada de {$1} - Abra o tópico do canal para mais informações.\n\n\nO que fazer com minha sala?:\n - convide outros membros com **{$3}room invite**\n - expulse membros convidados com **{$4}room kick**\n - modifique a sala com **{$5}room set**\n\nEssa sala foi criada em **{$2}**",
+        "defaultTopic":             "Sala privada de {$1} - Abra o tópico do canal para mais informações.\n\n\nO que fazer com minha sala?:\n - convide outros membros com **{$3}room invite**\n - expulse membros convidados com **{$4}room kick**\n - modifique a sala com **{$5}room set**\n\nEssa sala foi criada em **{$2}**",
     
         "roomExpiredNotify":        "Sua sala expirou. Você pode criar ela novamente com `{$1}`.\nNão quer ver essas notificações? Digite `{$2}` em qualquer servidor que tenha o Manager!"
 	},
@@ -149,6 +151,10 @@
 
         "configChanged":            "Configuração atualizada",
 
+	"levelUp":                  "Subiu de nível!",
+        "autoModGeneric":           "{$1} foi pego pelo **autoMod**",
+        "autoModDeleted":           "{$1} teve a sua {$2} deletada por **autoMod**",
+	    
         "old":                      "Velho",
         "new":                      "Novo"
         
@@ -160,6 +166,14 @@
         "noImage":              "Forneça uma imagem, por favor!",
         "defaultAvatar":        "Este usuário possui o avatar padrão!"
 
-    }
+    },
+	
+    "moderationCommands": {
+	    
+         "Silenciado": "{$1} foi silenciado(a).",
+         "Dessilenciado": "{$1} foi dessilenciado(a).",
+         "reset": "{$1} foi resetado."
+	    
+     }
 
 }
