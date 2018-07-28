@@ -89,7 +89,7 @@
         "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal in `{$1}` geändert.",
         "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal in `{$1}` geändert.",
         "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal in `{$1}` geändert.",
-        "optionPTT":              "Changed your Text Channel `PTT Requirement` to `{$1}`",
+        "optionPTT":              "Ich habe in deinem Kanal `PTT Requirement` auf `{$1}` geändert.",
         "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal in `{$1}` geändert.",
         "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal in `{$1}` geändert.",
         "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal in `{$1}` geändert.",
