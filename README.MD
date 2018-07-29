@@ -9,6 +9,6 @@ Language Files for channel manager, Use these to submit a custom language :)
 ## Thanks to these people for translating!
  - Andrew#6621 - Romanian
  - Michdi#1602 & Wolfram Walter#2790 - German
- - "KolkiesDev" | Kolkies#0443 - Dutch
- - Nekzus#2212 - Brazilian
+ - [Kolkies](https://github.com/Kolkies) - Dutch
+ - Nekzus#2212 - Português do Brasil
  - Kael#1961 - Turkish
