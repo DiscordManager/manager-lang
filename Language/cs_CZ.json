@@ -89,6 +89,7 @@
         "optionMemberlimit":        "Změněno nastavení tvé Hlasové místnosti `Maximum uživatelů` na `{$1}`",
         "optionBitrate":            "Změněno nastavení tvé Hlasové místnosti `Bitrate` na `{$1}`",
         "optionEmbed":              "Změněno nastavení tvé Hlasové místnosti `Embed Oprávnění` na `{$1}`",
+        "optionFiles":              "Změněno nastavení tvé Hlasové místnosti `Oprávnění souborů` na `{$1}`",
         "optionPTT":              "Změněno nastavení tvé Hlasové místnosti `PTT Požaadavek` na `{$1}`",
         "optionNSFW":               "Změněno nastavení tvé Textové místnosti `NSFW upozornění` na `{$1}`",
         "optionReactions":          "Změněno nastavení tvé Textové místnosti `Oprávnění na reakci` na `{$1}`",
@@ -160,7 +161,12 @@
 
         "old":                      "Staré",
         "new":                      "Nové"
-        
+
+	"RoomUpdatedMemberAdd":     "{$1} byl přidán do soukromé místnosti {$2}",
+        "RoomUpdatedMemberKick":     "{$1} byl vyhozen ze soukromé místnosti {$2}",
+        "RoomUpdatedMemberBan":     "{$1} byl zabanován v soukromé místnosti {$2}",
+        "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}"
+	    
      },
  
      "imageCommands": {
