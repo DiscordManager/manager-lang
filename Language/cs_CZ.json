@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha1",
+    "lang_revision":    "5alpha_public",
     "lang_name":        "Czech",
     "lang_short":       "cs_CZ",
     
@@ -36,19 +36,23 @@
 	"genericMessages": {
 	
 		"errorUnknown":         	"Něco se pokazilo.",
+		"errorUnknownDescriptive":  "Něco se pokazilo. `{$1}`",
 		"errorBotPermissionU":  	"Managerovi chybí nějaké oprávnění aby toto mohl udělat.",
 		"errorBotPermissionS":  	"Managerovi chybí `{$1}` oprávnění aby toto mohl udělat.",
 		"errorYouPermission":   	"Nemáš dostatečné oprávnění.",
 		"errorNoConfig":   			"Nelze načíst nastavení tohoto souboru. Prosím zkus to za několik vteřin znovu.",
 		"errorNotNSFW":   			"Toto může bát jen v NSFW místnosti.",
-        "errorBotUnavailable":  	"Manager není dočasně dostupný. Zkus to za minutu nebo dvě!",
-
-        "errorCannotChangeValue":   "Nemůžeš změnit tuto hodnotu.",
-
-        "errorCommandDisabled":     "Tento příkaz je vypnut",
-        "howToExitAlpha":           "Pro spuštění alphy. Stačí vyhodit aktuálního bota a originál bude fungovat."
-	
-	},
+         "errorBotUnavailable":  	"Manager je dočastně nedostupný. Zkuste to za chvíli.",
+ 
+         "errorCannotChangeValue":   "Nemůžeš změnit tuto hodnotu.",
+ 
+         "errorCommandDisabled":     "Tento příkaz je vypnutý",
+         "howToExitAlpha":           "Pro opuštění alpha verze vyhoď tohoto bota a stará verze bude opět fungovat.",
+ 
+         "errorTooManyMatched":      "Nalezeno příliš mnoho možností, Maximum: `{$1}`",
+         "errorTooLittleMatched":    "Nalezeno příliš málo možností, Minimum: `{$1}`"
+ 	
+ 	},
 	
 	"rooms": {
 	
@@ -84,6 +88,9 @@
         "optionNameFailed":         "Nelze změnit jméno místnosti {$1}. Je to správné jméno místnosti?",
         "optionMemberlimit":        "Změněno nastavení tvé Hlasové místnosti `Maximum uživatelů` na `{$1}`",
         "optionBitrate":            "Změněno nastavení tvé Hlasové místnosti `Bitrate` na `{$1}`",
+        "optionEmbed":              "Změněno nastavení tvé Hlasové místnosti `Embed Oprávnění` na `{$1}`",
+        "optionFiles":              "Změněno nastavení tvé Hlasové místnosti `Oprávnění souborů` na `{$1}`",
+        "optionPTT":              "Změněno nastavení tvé Hlasové místnosti `PTT Požaadavek` na `{$1}`",
         "optionNSFW":               "Změněno nastavení tvé Textové místnosti `NSFW upozornění` na `{$1}`",
         "optionReactions":          "Změněno nastavení tvé Textové místnosti `Oprávnění na reakci` na `{$1}`",
         "optionTopic":              "Změněno nastavení tvé Textové místnosti `Téma` na `{$1}`",
@@ -148,17 +155,35 @@
 
         "configChanged":            "Nastavení upraveno",
 
+        "levelUp":                  "Další level!",
+        "autoModGeneric":           "{$1} byl chycen **autoMod**",
+        "autoModDeleted":           "{$1} má jejich {$2} odstraněno **autoMod**",
+
         "old":                      "Staré",
         "new":                      "Nové"
-        
-    },
 
-    "imageCommands": {
-
-        "processingImage":      "<a:manager_loading:409298228954136577> Pracujeme na tom...",
-        "noImage":              "Poskytni obrázek prosím!",
-        "defaultAvatar":        "Tento uživatel má defaultní avatar!"
-
-    }
-
-}
+	"RoomUpdatedMemberAdd":     "{$1} byl přidán do soukromé místnosti {$2}",
+        "RoomUpdatedMemberKick":     "{$1} byl vyhozen ze soukromé místnosti {$2}",
+        "RoomUpdatedMemberBan":     "{$1} byl zabanován v soukromé místnosti {$2}",
+        "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}"
+	    
+     },
+ 
+     "imageCommands": {
+ 
+         "processingImage":      "<a:manager_loading:409298228954136577> Pracujeme na tom!",
+        "noImage":              "Dej nám nějaký obrázek prosím!",
+        "defaultAvatar":        "Tento uživatel má výchozí obrázek!"
+	     
+     },
+	
+     "moderationCommands": {
+	     
+         "Muted": "{$1} byl umlčen.",
+        "UnMute": "{$1} byl odmlčen.",
+	     
+         "reset": "{$1} byl resetován."
+	     
+     }
+	
+ }
