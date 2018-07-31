@@ -12,3 +12,4 @@ Language Files for channel manager, Use these to submit a custom language :)
  - [Kolkies](https://github.com/Kolkies) - Dutch
  - Nekzus#2212 - Português do Brasil
  - Kael#1961 - Turkish
+ - Radostik1#6991 - Czech
