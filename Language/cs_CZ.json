@@ -160,9 +160,9 @@
         "autoModDeleted":           "{$1} má jejich {$2} odstraněno **autoMod**",
 
         "old":                      "Staré",
-        "new":                      "Nové"
+        "new":                      "Nové",
 
-	"RoomUpdatedMemberAdd":     "{$1} byl přidán do soukromé místnosti {$2}",
+	    "RoomUpdatedMemberAdd":     "{$1} byl přidán do soukromé místnosti {$2}",
         "RoomUpdatedMemberKick":     "{$1} byl vyhozen ze soukromé místnosti {$2}",
         "RoomUpdatedMemberBan":     "{$1} byl zabanován v soukromé místnosti {$2}",
         "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}"
