@@ -165,7 +165,7 @@
 	"RoomUpdatedMemberAdd":     "{$2} özel odasına {$1} eklendi.",
         "RoomUpdatedMemberKick":     "{$2} özel odasına {$1} atıldı.",
         "RoomUpdatedMemberBan":     "{$2} özel odasına {$1} yasaklandı.",
-        "RoomUpdatedOptionSet":     "`{$1}` was set to `{$2}` in the private room of {$3}"
+        "RoomUpdatedOptionSet":     "{$3} özel odasındaki `{$1}` ayarı `{$2}` olarak değiştirildi."
 	    
     },
 
