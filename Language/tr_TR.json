@@ -160,7 +160,7 @@
         "autoModDeleted":           "{$1} kişisinin {$2} **OtoMod** tarafından silindi.",
 
         "old":                      "Eski",
-        "new":                      "Yeni"
+        "new":                      "Yeni",
         
 	"RoomUpdatedMemberAdd":     "{$2} özel odasına {$1} eklendi.",
         "RoomUpdatedMemberKick":     "{$2} özel odasına {$1} atıldı.",
@@ -175,7 +175,7 @@
         "noImage":              "Lütfen, bir görsel sağlayın!",
         "defaultAvatar":        "Bu kullanıcı varsayılan avatarı kullanıyor!"
 
-    }
+    },
 
 	"moderationCommands": {
 
