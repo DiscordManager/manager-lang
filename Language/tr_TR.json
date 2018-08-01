@@ -1,6 +1,7 @@
 {
+	
     "lang_version":     3,
-    "lang_revision":    "5alpha1",
+    "lang_revision":    "5alpha_public",
     "lang_name":        "Turkish",
     "lang_short":       "tr_TR",
 
@@ -35,6 +36,7 @@
 	"genericMessages": {
 	
 		"errorUnknown":         	"Bir şey ters gitti.",
+		"errorUnknownDescriptive":  "Bir şey ters gitti. `{$1}`",
 		"errorBotPermissionU":  	"Manager'ın bunu yapabilmesi için bazı yetkiler eksik.",
 		"errorBotPermissionS":  	"Manager'ın bunu yapabilmesi için `{$1}` yetkisine ihtiyacı var.",
 		"errorYouPermission":   	"Yeterli yetkiniz bulunmamaktadır.",
@@ -87,6 +89,8 @@
         "optionMemberlimit":        "Ses kanalınızın `Maks Üye` sayısı `{$1}` olarak değişti.",
         "optionBitrate":            "Ses kanalınızın `Bit Hızı` sayısı `{$1}` olarak değişti.",
         "optionEmbed":              "Yazı kanalınızın `Embed izni` `{$1}` olarak değişti.",
+	"optionFiles":              "Yazı kanalınızın `Dosya izni` `{$1}` olarak değişti",
+        "optionPTT":              "Yazı kanalınızın `Bas-Konuş izni` `{$1}` olarak değişti",
         "optionNSFW":               "Yazı kanalınızın `Uygunsuz Kanal` `{$1}` olarak değişti.",
         "optionReactions":          "Yazı kanalınızın `Tepki izni` `{$1}` olarak değişti",
         "optionTopic":              "Yazı kanalınızın `Kanal başlığı` `{$1}` olarak değişti.",
@@ -150,10 +154,19 @@
         "scriptRan":                "Script Gerçekleştirildi",
 
         "configChanged":            "Ayarlar Güncellendi",
+	    
+	"levelUp":                  "Seviye Atlandı!",
+        "autoModGeneric":           "{$1} **OtoMod** tarafından yakalandı.",
+        "autoModDeleted":           "{$1} kişisinin {$2} **OtoMod** tarafından silindi.",
 
         "old":                      "Eski",
         "new":                      "Yeni"
         
+	"RoomUpdatedMemberAdd":     "{$2} özel odasına {$1} eklendi.",
+        "RoomUpdatedMemberKick":     "{$2} özel odasına {$1} atıldı.",
+        "RoomUpdatedMemberBan":     "{$2} özel odasına {$1} yasaklandı.",
+        "RoomUpdatedOptionSet":     "{$3} özel odasındaki `{$1}` ayarı `{$2}` olarak değiştirildi."
+	    
     },
 
     "imageCommands": {
@@ -164,4 +177,12 @@
 
     }
 
+	"moderationCommands": {
+
+        "Muted": "{$1} susturuldu.",
+        "UnMute": "{$1} susturulması kaldırıldı.",
+
+        "reset": "{$1} resetlendi."
+
+    }
 }
