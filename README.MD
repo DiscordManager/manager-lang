@@ -15,4 +15,5 @@ You can use sites like [these](https://jsonlint.com/) to make sure they are :)
  - Nekzus#2212 - Português do Brasil
  - Kael#1961 - Turkish
  - Radostik1#6991 - Czech
+ - Egorchick#6579 - Russian
  
