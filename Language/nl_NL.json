@@ -1,7 +1,7 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha1",
+    "lang_revision":    "5alpha_public",
     "lang_name":        "Dutch",
     "lang_short":       "nl_NL",
 
@@ -29,76 +29,85 @@
         "muted":                "Muted",
         "staff":                "Staff",
 
-        "onlineStaff":          "Online Staff"
+        "onlineStaff":          "Online Staff",
+
+        "matchResponseBig":     "`{$1}` mogelijkheden. Zie ze allemaal -> {$2}"
 
     },
-
+	
 	"genericMessages": {
+	
+		"errorUnknown":         	"Er is een fout opgetreden.",
+		"errorUnknownDescriptive":  "Er is een fout opgetreden. `{$1}`",
+		"errorBotPermissionU":      "Manager mist permissies om dat te doen.",
+		"errorBotPermissionS":  	"Manager mist de volgende permissies `{$1}` om dat te doen.",
+		"errorYouPermission":   	"Je hebt niet voldoende permissies.",
+		"errorNoConfig":   			"Ik kan de configuratie niet laden, Probeer het over een paar seconden nog een keer.",
+		"errorNotNSFW":   			"Dit kan alleen worden gedaan in een NSFW-kanaal.",
+        "errorBotUnavailable":  	"Manager is tijdelijk niet beschikbaar. Probeer het over een minuut of twee opnieuw!",
 
-		"errorUnknown":         	       "Er is een fout opgetreden.",
-		"errorBotPermissionU":  	       "Manager mist permissies om dat te doen.",
-		"errorBotPermissionS":  	       "Manager mist de volgende permissies `{$1}` om dat te doen.",
-		"errorYouPermission":   	       "Je hebt niet voldoende permissies.",
-		"errorNoConfig":   			         "Ik kan de configuratie niet laden, Probeer het over een paar seconden opnieuw.",
-		"errorNotNSFW":   			         "Dit kan alleen worden gedaan in een NSFW-kanaal.",
-    "errorBotUnavailable":           "Manager is tijdelijk niet beschikbaar. Probeer het over een minuut of twee opnieuw!",
-    "errorCannotChangeValue":        "U kunt deze waarde niet wijzigen.",
+        "errorCannotChangeValue":   "U kunt deze waarde niet wijzigen.",
 
-    "errorCommandDisabled":          "Dit command is uitgeschakeld",
-    "howToExitAlpha":                "Om de alpha te verlaten, kick je gewoon deze versie van de bot en de originele bot moet weer gaan werken."
+        "errorCommandDisabled":     "Dit command is uitgeschakeld",
+        "howToExitAlpha":           "Om de alpha te verlaten, kick je gewoon deze versie van de bot en de originele bot moet weer gaan werken.",
 
+        "errorTooManyMatched":      "Ik heb te veel overeenkomsten gevonden, het maximum is: `{$1}`",
+        "errorTooLittleMatched":    "Ik heb te weinig overeenkomsten gevonden, het minimum is: `{$1}`"
+	
 	},
-
+	
 	"rooms": {
+	
+		"disabled":					"Privékanalen zijn momenteel uitgeschakeld.",
+		"noPermission":				"Je kunt geen privékanaal maken.",
+		"noRoom":					"Je lijkt geen privékanaal te hebben.",
+		"noRoomsAvailable":			"Er zijn op dit moment te veel privékanalen actief.",
+        "alreadyHasRoom":			"Je hebt al een privékanaal.",
+        
+		"noVoiceChannel":			"Je lijkt geen spraakkanaal te hebben.",
+		"noTextChannel":			"Je lijkt geen tekstkanaal te hebben.",
+		
+		"summoning":				":manager_loading: Kanaal aanmaken...",
+		"summonedVoice":			":manager: Spraakkanaal aangemaakt.",
+		"summonedText":				":manager: Tekstkanaal aangemaakt.",
+		"summonedBoth":				":manager: Kanalen aangemaakt.",
+		
+        "roomPasscode":             "Het wachtwoord voor je kanaal is `{$1}`",
+                
+        "inviteNone":               "U moet minimaal 1 persoon opgeven om uit te nodigen.",
+        "inviteTooMany":            "Je kunt maximaal {$1} mensen tegelijk uitnodigen.",
+        "inviteSuccess":            "U heeft {$1} uitgenodigd",
+    
+        "kickNone":                 "Je moet minstens 1 persoon opgeven om te kicken.",
+        "kickTooMany":              "Je kunt maximaal {$1} mensen tegelijkertijd kicken.",
+        "kickSuccess":              "Je hebt {$1} gekicked",
+    
+        "banNone":                  "U moet minimaal 1 persoon opgeven om te verbannen.",
+        "banTooMany":               "Je kunt maximaal {$1} mensen tegelijkertijd verbannen.",
+        "banSuccess":               "Je hebt {$1} verbannen",
 
-		"disabled":					            "Privékanalen zijn momenteel uitgeschakeld.",
-		"noPermission":				          "Je kunt geen privékanaal maken.",
-		"noRoom":									      "Je lijkt geen privékanaal te hebben.",
-		"noRoomsAvailable":				      "Er zijn op dit moment te veel privékanalen actief.",
-    "alreadyHasRoom":			          "Je hebt al een privékanaal.",
+        "optionName":               "De kanaalnaam is gewijzigd.",
+        "optionNameFailed":         "Kan {$1} kanaalnaam niet wijzigen. Is dit een geldige kanaalnaam?",
+        "optionMemberlimit":        "Uw spraakkanaal `Max. Leden` is gewijzigd naar `{$1}`",
+        "optionBitrate":            "Uw spraakkanaal `Bitrate` gewijzigd naar `{$1}`",
+        "optionEmbed":              "Uw tekstkanaal `Embed Permissie` is gewijzigd naar `{$1}`",
+        "optionFiles":              "Uw tekstkanaal `Bestanden versturen permissie` is gewijzigt naar `{$1}`",
+        "optionPTT":                "Uw tekstkanaal `PTT benodigd` is gewijzigt naar `{$1}`",
+        "optionNSFW":               "Uw tekstkanaal `NSFW Warning` is gewijzigd naar `{$1}`",
+        "optionReactions":          "Uw tekstkanaal `Reactie permissie` is gewijzigd naar `{$1}`",
+        "optionTopic":              "Uw tekstkanaal `Topic` is gewijzigd naar `{$1}`",
 
-		"noVoiceChannel":			          "Je lijkt geen spraakkanaal te hebben.",
-		"noTextChannel":			          "Je lijkt geen tekstkanaal te hebben.",
+        "optionNotChangable":       "Het is niet toegestaan om die optie te wijzigen.",
+        "optionInvalidValue":       "Gebruik alstublieft een van de volgende waarden: `{$1}`",
 
-		"summoning":									  ":manager_loading: Kanaal aanmaken...",
-		"summonedVoice":								":manager: Spraakkanaal aangemaakt.",
-		"summonedText":									":manager: Tekstkanaal aangemaakt.",
-		"summonedBoth":									":manager: Kanalen aangemaakt.",
+        "optionUnlocked":           "Uw kanaal `privacy` is gewijzigd in `Open`",
+        "optionLocked":             "Uw kanaal `privacy` is gewijzigd in `Invite Only`",
+        	
+		"defaultTopic":				"{$1}'s privékanaal - Open het kanaalonderwerp voor meer informatie.\n\n\nWat te doen met mijn kanaal?:\n - Nodig andere leden uit met **{$3}room invite**\n - kick uitgenodigde leden uit met **{$4}room kick**\n - verander het kanaal met **{$5}room set**\n\nDit kanaal was aangemaakt op: **{$2}**",
 
-    "roomPasscode":                 "Het wachtwoord voor je kanaal is `{$1}`",
-
-    "inviteNone":                   "U moet minimaal 1 persoon opgeven om uit te nodigen.",
-    "inviteTooMany":                "Je kunt maximaal {$1} mensen tegelijk uitnodigen.",
-    "inviteSuccess":                "U heeft {$1} uitgenodigd",
-
-    "kickNone":                     "Je moet minstens 1 persoon opgeven om te kicken.",
-    "kickTooMany":                  "Je kunt maximaal {$1} mensen tegelijkertijd kicken.",
-    "kickSuccess":                  "Je hebt {$1} gekicked",
-
-    "banNone":                      "U moet minimaal 1 persoon opgeven om te verbannen.",
-    "banTooMany":                   "Je kunt maximaal {$1} mensen tegelijkertijd verbannen.",
-    "banSuccess":                   "Je hebt {$1} verbannen",
-
-    "optionName":                   "De kanaalnaam is gewijzigd.",
-    "optionNameFailed":             "Kan {$1} kanaalnaam niet wijzigen. Is dit een geldige kanaalnaam?",
-    "optionMemberlimit":            "Uw spraakkanaal `Max. Leden` is gewijzigd naar `{$1}`",
-    "optionBitrate":                "Uw spraakkanaal `Bitrate` gewijzigd naar `{$1}`",
-    "optionEmbed":                  "Uw tekstkanaal `Embed Permissie` is gewijzigd naar `{$1}`",
-    "optionNSFW":                   "Uw tekstkanaal `NSFW Warning` is gewijzigd naar `{$1}`",
-    "optionReactions":              "Uw tekstkanaal `Reaction Permission` is gewijzigd naar `{$1}`",
-    "optionTopic":                  "Uw tekstkanaal `Topic` is gewijzigd naar `{$1}`",
-
-    "optionNotChangable":           "Het is niet toegestaan om die optie te wijzigen.",
-    "optionInvalidValue":           "Gebruik alstublieft een van de volgende waarden: `{$1}`",
-
-    "optionUnlocked":               "Uw kanaal `privacy` is gewijzigd in `Open`",
-    "optionLocked":                 "Uw kanaal `privacy` is gewijzigd in `Invite Only`",
-
-		"defaultTopic":				          "{$1}'s privékanaal - Open het kanaalonderwerp voor meer informatie.\n\n\nWat te doen met mijn kanaal?:\n - Nodig andere leden uit met **{$3}room invite**\n - kick uitgenodigde leden uit met **{$4}room kick**\n - verander het kanaal met **{$5}room set**\n\nDit kanaal was aangemaakt op: **{$2}**",
-
-    "roomExpiredNotify":            "Je privékanaal is verlopen. Je kan het weer maken met `{$1}`.\nWil je deze notificaties niet zien? Type `{$2}` in een van de servers waar ik ook ben."
+        "roomExpiredNotify":        "Je privékanaal is verlopen. Je kan het weer maken met `{$1}`.\nWil je deze notificaties niet zien? Type `{$2}` in een van de servers waar ik ook ben."
 	},
-
+    
     "logging": {
 
         "logGenericDelete":        "{$1} Verwijderd {$2}",
@@ -148,9 +157,18 @@
 
         "configChanged":            "Config aangepast",
 
-        "old":                      "Oud",
-        "new":                      "Nieuw"
+        "levelUp":                  "Level Up!",
+        "autoModGeneric":           "{$1} is gepakt door **autoMod**",
+        "autoModDeleted":           "{$1} heeft zijn/haar {$2} verwijderd door **autoMod**",
 
+        "old":                      "Oud",
+        "new":                      "Nieuw",
+
+        "RoomUpdatedMemberAdd":     "{$1} is toegevoegd aan het privékanaal van {$2}",
+        "RoomUpdatedMemberKick":     "{$1} is verwijderd van het privékanaal van {$2}",
+        "RoomUpdatedMemberBan":     "{$1} is gebanned van het privékanaal van {$2}",
+        "RoomUpdatedOptionSet":     "`{$1}` is veranderd naar `{$2}` in het privékanaal van {$3}"
+        
     },
 
     "imageCommands": {
@@ -158,6 +176,15 @@
         "processingImage":      "<a:manager_loading:409298228954136577> Ik ben ermee bezig!",
         "noImage":              "Geef een afbeelding, alsjeblieft!",
         "defaultAvatar":        "Deze gebruiker heeft de standaardavatar!"
+
+    },
+
+    "moderationCommands": {
+
+        "Muted": "{$1} is gemute.",
+        "UnMute": "{$1} is ge-unmute.",
+
+        "reset": "{$1} is gereset."
 
     }
 
