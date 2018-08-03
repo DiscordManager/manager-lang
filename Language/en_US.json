@@ -102,6 +102,9 @@
 
         "optionUnlocked":           "Changed your Channel `privacy` to `Open`",
         "optionLocked":             "Changed your Channel `privacy` to `Invite Only`",
+        
+        "speakersAdd":              "Gave Priority Speaker to {$1}",        
+        "speakersRemove":           "Removed Priority Speaker from {$1}",
         	
 		"defaultTopic":				"{$1}'s Private Room - Open up the channel topic for more information.\n\n\nWhat to do with my room?:\n - Invite other members with **{$3}room invite**\n - kick invited members with **{$4}room kick**\n - change the room with **{$5}room set**\n\nThis room was created on **{$2}**",
     
