@@ -29,7 +29,9 @@
         "muted":         		"Stumm",
         "staff":                "Staff",
 
-        "onlineStaff":          "Online Staff"
+        "onlineStaff":          "Online Staff",
+
+        "matchResponseBig":     "`{$1}` Übereinstimmungen. Siehe alle -> {$2}"
 
     },
 	
