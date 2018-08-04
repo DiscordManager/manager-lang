@@ -88,23 +88,23 @@
 
         "optionName":               "Changed the Channel name.",
         "optionNameFailed":         "Could not change {$1} channel name, Is it a valid channel name?",
-        "optionMemberlimit":        "Changed your Voice Channel `Max Members` to `{$1}`",
-        "optionBitrate":            "Changed your Voice Channel `Bitrate` to `{$1}`",
-        "optionEmbed":              "Changed your Text Channel `Embed Permission` to `{$1}`",
-        "optionFiles":              "Changed your Text Channel `Files Permission` to `{$1}`",
-        "optionPTT":              "Changed your Text Channel `PTT Requirement` to `{$1}`",
-        "optionNSFW":               "Changed your Text Channel `NSFW Warning` to `{$1}`",
-        "optionReactions":          "Changed your Text Channel `Reaction Permission` to `{$1}`",
-        "optionTopic":              "Changed your Text Channel `Topic` to `{$1}`",
+        "optionMemberlimit":        "Changed your Voice Channel `Max Members` to `{$1}`.",
+        "optionBitrate":            "Changed your Voice Channel `Bitrate` to `{$1}`.",
+        "optionEmbed":              "Changed your Text Channel `Embed Permission` to `{$1}`.",
+        "optionFiles":              "Changed your Text Channel `Files Permission` to `{$1}`.",
+        "optionPTT":              "Changed your Text Channel `PTT Requirement` to `{$1}`.",
+        "optionNSFW":               "Changed your Text Channel `NSFW Warning` to `{$1}`.",
+        "optionReactions":          "Changed your Text Channel `Reaction Permission` to `{$1}`.",
+        "optionTopic":              "Changed your Text Channel `Topic` to `{$1}`.",
 
         "optionNotChangable":       "You are not allowed to change that option.",
-        "optionInvalidValue":       "Please use one of the following values: `{$1}`",
+        "optionInvalidValue":       "Please use one of the following values: `{$1}`.",
 
-        "optionUnlocked":           "Changed your Channel `privacy` to `Open`",
-        "optionLocked":             "Changed your Channel `privacy` to `Invite Only`",
+        "optionUnlocked":           "Changed your Channel `privacy` to `Open`.",
+        "optionLocked":             "Changed your Channel `privacy` to `Invite Only`.",
         
-        "speakersAdd":              "Gave Priority Speaker to {$1}",        
-        "speakersRemove":           "Removed Priority Speaker from {$1}",
+        "speakersAdd":              "Gave Priority Speaker to {$1}.",        
+        "speakersRemove":           "Removed Priority Speaker from {$1}.",
         	
 		"defaultTopic":				"{$1}'s Private Room - Open up the channel topic for more information.\n\n\nWhat to do with my room?:\n - Invite other members with **{$3}room invite**\n - kick invited members with **{$4}room kick**\n - change the room with **{$5}room set**\n\nThis room was created on **{$2}**",
     
