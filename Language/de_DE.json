@@ -88,14 +88,14 @@
 
         "optionName":               "Der Kanalname wurde geändert.",
         "optionNameFailed":         "Ich konnte den Kanalnamen {$1} nicht ändern, ist es ein gültiger Name?",
-        "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal in `{$1}` geändert.",
-        "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal in `{$1}` geändert.",
-        "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal in `{$1}` geändert.",
-        "optionFiles":              "Ich habe `Files Permission` (Dateien / Bilder anhängen) in `{$1}` geändert.",
-        "optionPTT":                "Ich habe `PTT Requirement` (Push-to-talk) in `{$1}` geändert.",
-        "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal in `{$1}` geändert.",
-        "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal in `{$1}` geändert.",
-        "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal in `{$1}` geändert.",
+        "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal auf `{$1}` geändert.",
+        "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal auf `{$1}` geändert.",
+        "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal auf `{$1}` geändert.",
+        "optionFiles":              "Ich habe `Files Permission` (Dateien / Bilder anhängen) auf `{$1}` geändert.",
+        "optionPTT":                "Ich habe `PTT Requirement` (Push-to-talk) auf `{$1}` geändert.",
+        "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal auf `{$1}` geändert.",
+        "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal auf `{$1}` geändert.",
+        "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal auf `{$1}` geändert.",
 
         "optionNotChangable":       "Du darfst diese Option nicht verändern.",
         "optionInvalidValue":       "Bitte verwende einen der folgenden Werte: `{$1}`",
@@ -161,8 +161,8 @@
         "configChanged":            "Konfiguration aktualisiert",
 
         "levelUp":                  "Levelaufstieg!",
-        "autoModGeneric":           "{$1} wurde von **autoMod** erwischt.",
-        "autoModDeleted":           "{$1}s {$2} wurde von **autoMod** gelöscht.",
+        "autoModGeneric":           "{$1} wurde bei **autoMod** erwischt.",
+        "autoModDeleted":           "{$1}s {$2} wurde wegen **autoMod** gelöscht.",
 
         "old":                      "Alt",
         "new":                      "Neu",
