@@ -38,9 +38,9 @@
 	"genericMessages": {
 	
         "errorUnknown":         	"Etwas ist schiefgelaufen.",
-        "errorUnknownDescriptive":  "Etwas ist schief gelaufen. `{$1}`",
+        "errorUnknownDescriptive":  "Etwas ist schiefgelaufen. `{$1}`",
 		"errorBotPermissionU":  	"Manager fehlen ein paar Berechtigungen, um diese Aktion auszuführen.",
-		"errorBotPermissionS":  	"Manager fehlt die `{$1}` Berechtigung, um diese Aktion auszuführen.",
+		"errorBotPermissionS":  	"Manager fehlt die Berechtigung `{$1}`, um diese Aktion auszuführen.",
 		"errorYouPermission":   	"Du hast nicht die erforderliche Berechtigung.",
 		"errorNoConfig":   			"Die Konfiguration für diese Datei kann nicht geladen werden, bitte versuche es in ein paar Sekunden erneut.",
 		"errorNotNSFW":   			"Dies ist nur in einem NSFW-Kanal möglich.",
@@ -88,14 +88,14 @@
 
         "optionName":               "Der Kanalname wurde geändert.",
         "optionNameFailed":         "Ich konnte den Kanalnamen {$1} nicht ändern, ist es ein gültiger Name?",
-        "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal in `{$1}` geändert.",
-        "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal in `{$1}` geändert.",
-        "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal in `{$1}` geändert.",
-        "optionFiles":              "Ich habe deine Text Kanal `Files Permission` (Dateien anhängen) auf `{$1}` geändert.",
-        "optionPTT":                "Ich habe in deinem Kanal `PTT Requirement` (Push-to-talk) auf `{$1}` geändert.",
-        "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal in `{$1}` geändert.",
-        "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal in `{$1}` geändert.",
-        "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal in `{$1}` geändert.",
+        "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal auf `{$1}` geändert.",
+        "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal auf `{$1}` geändert.",
+        "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal auf `{$1}` geändert.",
+        "optionFiles":              "Ich habe `Files Permission` (Dateien / Bilder anhängen) auf `{$1}` geändert.",
+        "optionPTT":                "Ich habe `PTT Requirement` (Push-to-talk) auf `{$1}` geändert.",
+        "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal auf `{$1}` geändert.",
+        "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal auf `{$1}` geändert.",
+        "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal auf `{$1}` geändert.",
 
         "optionNotChangable":       "Du darfst diese Option nicht verändern.",
         "optionInvalidValue":       "Bitte verwende einen der folgenden Werte: `{$1}`",
@@ -103,8 +103,8 @@
         "optionUnlocked":           "Ich habe `Privatsphäre` von deinem Kanal in `Open` (öffentlich) geändert.",
         "optionLocked":             "Ich habe `Privatsphäre` von deinem Kanal in `Invite Only` (Nur mit Einladung) geändert.",
 
-        "speakersAdd":              "Ich habe {$1} `Priority Speaker` gegeben.",
-        "speakersRemove":           "Ich habe von {$1} `Priority Speaker` genommen.",
+        "speakersAdd":              "Ich habe {$1} `Priority Speaker` (Prioritätssprecher) gegeben.",
+        "speakersRemove":           "Ich habe {$1} `Priority Speaker` (Prioritätssprecher) weggenommen.",
         	
 		"defaultTopic":				"{$1}s Privater Raum - Klick mich für mehr Informationen.\n\n\nWas kann ich mit meinem Raum machen?:\n - Lade andere Personen ein mit **{$3}room invite**\n - Kicke eingeladene Personen mit **{$4}room kick**\n - Verändere den Raum mit **{$5}room set**\n\nDieser Raum wurde erstellt am **{$2}**",
     
@@ -161,11 +161,16 @@
         "configChanged":            "Konfiguration aktualisiert",
 
         "levelUp":                  "Levelaufstieg!",
-        "autoModGeneric":           "{$1} wurde erwischt bei **autoMod**",
-        "autoModDeleted":           "{$1} hat sein {$2} gelöscht bekommen wegen **autoMod**",
+        "autoModGeneric":           "{$1} wurde bei **autoMod** erwischt.",
+        "autoModDeleted":           "{$1}s {$2} wurde wegen **autoMod** gelöscht.",
 
         "old":                      "Alt",
-        "new":                      "Neu"
+        "new":                      "Neu",
+
+        "RoomUpdatedMemberAdd":     "{$1} wurde zum Kanal von {$2} hinzugefügt.",
+        "RoomUpdatedMemberKick":     "{$1} wurde aus dem Kanal von {$2} gekickt.",
+        "RoomUpdatedMemberBan":     "{$1} wurde aus dem Kanal von {$2} verbannt.",
+        "RoomUpdatedOptionSet":     "`{$1}` wurde auf `{$2}` geändert im Kanal von {$3}."
         
     },
 
@@ -179,8 +184,8 @@
 
     "moderationCommands": {
 
-        "Muted": "{$1} wurde stummgeschalten.",
-        "UnMute": "{$1} stummschaltung wurde aufgehoben.",
+        "Muted": "{$1} wurde stumm geschaltet.",
+        "UnMute": "{$1} wurde laut geschaltet.",
 
         "reset": "{$1} wurde zurückgesetzt."
 
