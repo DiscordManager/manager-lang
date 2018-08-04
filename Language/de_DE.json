@@ -91,7 +91,8 @@
         "optionMemberlimit":        "Ich habe `Max Members` (Maximale Personenanzahl) von deinem Sprachkanal in `{$1}` geändert.",
         "optionBitrate":            "Ich habe `Bitrate` von deinem Sprachkanal in `{$1}` geändert.",
         "optionEmbed":              "Ich habe `Embed Permission` (Embed Berechtigung) von deinem Textkanal in `{$1}` geändert.",
-        "optionPTT":              "Ich habe in deinem Kanal `PTT Requirement` auf `{$1}` geändert.",
+        "optionFiles":              "Ich habe deine Text Kanal `Files Permission` (Dateien anhängen) auf `{$1}` geändert.",
+        "optionPTT":                "Ich habe in deinem Kanal `PTT Requirement` (Push-to-talk) auf `{$1}` geändert.",
         "optionNSFW":               "Ich habe `NSFW Warning` (NSFW Warnung) von deinem Textkanal in `{$1}` geändert.",
         "optionReactions":          "Ich habe `Reaction Permission` (Reaktion hinzufügen) von deinem Textkanal in `{$1}` geändert.",
         "optionTopic":              "Ich habe `Topic` (Thema) von deinem Textkanal in `{$1}` geändert.",
@@ -101,6 +102,9 @@
 
         "optionUnlocked":           "Ich habe `Privatsphäre` von deinem Kanal in `Open` (öffentlich) geändert.",
         "optionLocked":             "Ich habe `Privatsphäre` von deinem Kanal in `Invite Only` (Nur mit Einladung) geändert.",
+
+        "speakersAdd":              "Ich habe {$1} `Priority Speaker` gegeben.",
+        "speakersRemove":           "Ich habe von {$1} `Priority Speaker` genommen.",
         	
 		"defaultTopic":				"{$1}s Privater Raum - Klick mich für mehr Informationen.\n\n\nWas kann ich mit meinem Raum machen?:\n - Lade andere Personen ein mit **{$3}room invite**\n - Kicke eingeladene Personen mit **{$4}room kick**\n - Verändere den Raum mit **{$5}room set**\n\nDieser Raum wurde erstellt am **{$2}**",
     
