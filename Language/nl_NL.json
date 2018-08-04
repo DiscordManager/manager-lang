@@ -102,8 +102,11 @@
 
         "optionUnlocked":           "Uw kanaal `privacy` is gewijzigd in `Open`",
         "optionLocked":             "Uw kanaal `privacy` is gewijzigd in `Invite Only`",
-        	
-		"defaultTopic":				"{$1}'s privékanaal - Open het kanaalonderwerp voor meer informatie.\n\n\nWat te doen met mijn kanaal?:\n - Nodig andere leden uit met **{$3}room invite**\n - kick uitgenodigde leden uit met **{$4}room kick**\n - verander het kanaal met **{$5}room set**\n\nDit kanaal was aangemaakt op: **{$2}**",
+		
+        "speakersAdd":              "Ik heb Priority Speaker gegeven aan {$1}",        
+        "speakersRemove":           "Ik heb Priority Speaker weggehaalt van {$1}",
+		
+	"defaultTopic":	            "{$1}'s privékanaal - Open het kanaalonderwerp voor meer informatie.\n\n\nWat te doen met mijn kanaal?:\n - Nodig andere leden uit met **{$3}room invite**\n - kick uitgenodigde leden uit met **{$4}room kick**\n - verander het kanaal met **{$5}room set**\n\nDit kanaal was aangemaakt op: **{$2}**",
 
         "roomExpiredNotify":        "Je privékanaal is verlopen. Je kan het weer maken met `{$1}`.\nWil je deze notificaties niet zien? Type `{$2}` in een van de servers waar ik ook ben."
 	},
