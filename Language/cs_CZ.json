@@ -29,7 +29,9 @@
         "muted":         		"Umlčený",
         "staff":                "Vedení",
 
-        "onlineStaff":          "Vedení online"
+        "onlineStaff":          "Vedení online",
+        
+	"matchResponseBig":     "`{$1}` shod. Zobrazit všechny -> {$2}"
 
     },
 	
@@ -100,6 +102,9 @@
 
         "optionUnlocked":           "Změněno `soukromí` tvé místnosti na `Otevřená`",
         "optionLocked":             "Změněno `soukromí` tvé místnosti na `Jen pozvání`",
+        
+        "speakersAdd":              "Dáno prioritní mluvení pro {$1}",        
+        "speakersRemove":           "Odebráno prioritní mluvení u {$1}",
         	
 		"defaultTopic":				"Soukromá méstnost uživatele {$1} - Otevři téma místnosti pro více informací.\n\n\nCo můžeš dělat se svou místností:\n - Pozvat ostatní uživatele pomocí **{$3}room invite**\n - Vyhodit uživatele pomocí **{$4}room kick**\n - Změnit nastavení místnosti pomocí **{$5}room set**\n\nTato místnost byla vytvořena **{$2}**",
     
