@@ -29,7 +29,7 @@
         "muted": "Silenciado",
         "staff": "Moderadores",
 
-        "onlineStaff": "Moderadores online",
+        "onlineStaff": "Suporte online",
 	    
 	"matchResponseBig": "`{$1}` resultados. Veja todos -> {$2}"
 
@@ -49,7 +49,7 @@
         "errorCannotChangeValue": "Você não pode mudar este valor.",
 
         "errorCommandDisabled": "Este comando está desativado.",
-        "howToExitAlpha": "Para sair do alpha, basta expulsar essa versão do bot e o original deve começar a funcionar novamente."
+        "howToExitAlpha": "Para sair do alpha, basta expulsar essa versão do bot e a original deverá começar a funcionar novamente."
 
     },
 
@@ -57,19 +57,19 @@
 
         "disabled": "Salas privadas estão atualmente desativadas.",
         "noPermission": "Você não pode criar uma sala privada.",
-        "noRoom": "Você não parece ter uma sala.",
+        "noRoom": "Você não parece possuir uma sala.",
         "noRoomsAvailable": "Existem muitas salas ativas no momento.",
         "alreadyHasRoom": "Você já tem uma sala.",
 
-        "noVoiceChannel": "Você não parece ter um canal de voz.",
-        "noTextChannel": "Você não parece ter um canal de texto.",
+        "noVoiceChannel": "Você não parece possuir um canal de voz.",
+        "noTextChannel": "Você não parece possuir um canal de texto.",
 
         "summoning": ":manager_loading: Configurando sua sala!",
-        "summonedVoice": ":manager: Criou seu canal de voz.",
-        "summonedText": ":manager: Criou seu canal de texto.",
-        "summonedBoth": ":manager: Criou seus canais.",
+        "summonedVoice": ":manager: Canal de voz criado.",
+        "summonedText": ":manager: Canal de texto criado.",
+        "summonedBoth": ":manager: Seus canais foram criados.",
 
-        "roomPasscode": "A senha da sua sala é `{$1}`",
+        "roomPasscode": "A senha de sua sala é `{$1}`",
 
         "inviteNone": "Você precisa especificar pelo menos uma pessoa para convidar.",
         "inviteTooMany": "Você só pode convidar até {$1} pessoas de cada vez.",
