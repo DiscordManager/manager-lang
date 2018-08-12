@@ -11,15 +11,15 @@
         "nickname": "Apelido",
         "roles": "Cargos",
         "role": "Cargo",
-        "accountCreated": "Criado em",
-        "joinedServerDate": "Entrou em",
-        "nicknameHistory": "Apelidos anteriores",
+        "accountCreated": "Criado Em",
+        "joinedServerDate": "Entrou Em",
+        "nicknameHistory": "Apelidos Anteriores",
         "status": "Status",
 
         "serverName": "Nome",
         "serverMembers": "Membros",
         "serverOwner": "Dono",
-        "serverCreated": "Criado em",
+        "serverCreated": "Criado Em",
         "serverRegion": "Região",
         "serverIcon": "Ícone",
 
@@ -29,7 +29,7 @@
         "muted": "Silenciado",
         "staff": "Moderadores",
 
-        "onlineStaff": "Suporte online",
+        "onlineStaff": "Suporte Online",
 	    
 	"matchResponseBig": "`{$1}` resultados. Veja todos -> {$2}"
 
@@ -40,7 +40,7 @@
         "errorUnknown": "Algo deu errado.",
         "errorUnknownDescriptive": "Algo deu errado. `{$1}`",
         "errorBotPermissionU": "Manager está sem algumas permissões para fazer isso.",
-        "errorBotPermissionS": "Manager está sem as permissoes `{$1}` para fazer isso.",
+        "errorBotPermissionS": "Manager está sem as permissões `{$1}` para fazer isso.",
         "errorYouPermission": "Você não tem permissão suficiente.",
         "errorNoConfig": "Não é possível carregar a configuração para este arquivo. Tente novamente em alguns segundos.",
         "errorNotNSFW": "Isso só pode ser feito em um canal NSFW.",
@@ -48,8 +48,8 @@
 
         "errorCannotChangeValue": "Você não pode mudar este valor.",
 
-        "errorCommandDisabled": "Este comando está desativado.",
-        "howToExitAlpha": "Para sair do alpha, basta expulsar essa versão do bot e a original deverá começar a funcionar novamente."
+        "errorCommandDisabled": "Esse comando está desativado.",
+        "howToExitAlpha": "Para sair do Alpha, basta expulsar essa versão do bot e a original deverá começar a funcionar novamente."
 
     },
 
@@ -96,11 +96,11 @@
         "optionNotChangable": "Você não tem permissão para alterar essa opção.",
         "optionInvalidValue": "Por favor use um dos seguintes valores: `{$1}`",
 
-        "optionUnlocked": "A `privacidade` do seu canal foi alterada para `Aberto`",
-        "optionLocked": "A `privacidade` do seu canal foi alterada para `Apenas Convite`",
+        "optionUnlocked": "A `Privacidade` do seu canal foi alterada para `Aberto`",
+        "optionLocked": "A `Privacidade` do seu canal foi alterada para `Apenas Convite`",
 
-        "speakersAdd": "A prioridade para falar foi dada para: {$1}",
-        "speakersRemove": "A prioridade para falar foi removida de: {$1}",
+        "speakersAdd": "A Prioridade para Falar foi dada para: {$1}",
+        "speakersRemove": "A Prioridade para Falar foi removida de: {$1}",
 
         "defaultTopic": "Sala privada de {$1} - Abra o tópico do canal para mais informações.\n\n\nO que fazer com minha sala?:\n - convide outros membros com **{$3}room invite**\n - expulse membros convidados com **{$4}room kick**\n - modifique a sala com **{$5}room set**\n\nEssa sala foi criada em **{$2}**",
 
