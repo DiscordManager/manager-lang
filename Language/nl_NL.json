@@ -1,7 +1,6 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha_public",
     "lang_name":        "Dutch",
     "lang_short":       "nl_NL",
 
@@ -189,6 +188,19 @@
 
         "reset": "{$1} is gereset."
 
-    }
+    },
+
+    "notifications": {
+        "roomExpired":              "Uw privékanaal is verlopen.",
+       "roomRemovedAdmin":         "Uw privékanaal is door een admin verwijderd.",
+       "roomRemovedManager":       "Uw privékanaal werd met geweld verwijderd uit het systeem.",
+        "voiceMemberJoin":          "{$1} is lid geworden van je huidige spraakkanaal.",
+       "voiceMemberLeave":         "{$1} heeft je huidige spraakkanaal verlaten.",
+        "ghostPing":                "Je bent GhostPinged in {$1} in {$2} door {$3}",
+        "mutedNotifs":              "Notificaties gedempt.",
+       "alreadyMuted":             "Je hebt notificaties al  gedempt, om het dempen op te heffen `{$1}`",
+       "unmutedNotifs":            "Notificaties dempen opgeheven."
+   }
+
 
 }
