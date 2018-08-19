@@ -1,7 +1,6 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha_public",
     "lang_name":        "English",
     "lang_short":       "en_US",
 
@@ -189,6 +188,22 @@
 
         "reset": "{$1} has been reset."
 
+    },
+
+    "notifications": {
+
+        "roomExpired":              "Your private room has expired.",
+        "roomRemovedAdmin":         "Your private room was removed by an administrator.",
+        "roomRemovedManager":       "Your private room was forcefully removed from the system.",
+
+        "voiceMemberJoin":          "{$1} joined your current voice channel.",
+        "voiceMemberLeave":         "{$1} left your current voice channel.",
+
+        "ghostPing":                "You were GhostPinged in {$1} on {$2} by {$3}",
+
+        "mutedNotifs":              "Notifications Muted.",
+        "alreadyMuted":             "You already have notifications muted, To unmute type `{$1}`",
+        "unmutedNotifs":            "Notifications Unmuted."
     }
 
 }
