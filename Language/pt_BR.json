@@ -1,7 +1,6 @@
 {
 
     "lang_version": 3,
-    "lang_revision": "5alpha_public",
     "lang_name": "Português do Brasil",
     "lang_short": "pt_BR",
 
@@ -175,10 +174,27 @@
 
     "moderationCommands": {
 
-        "Silenciado": "{$1} foi silenciado(a).",
-        "Dessilenciado": "{$1} foi dessilenciado(a).",
+        "Muted": "{$1} foi silenciado(a).",
+        "UnMute": "{$1} foi dessilenciado(a).",
         "reset": "{$1} foi resetado."
-
+	    
+    },
+	
+    "notifications": {
+	    
+        "roomExpired": "Sua sala privada expirou.",
+        "roomRemovedAdmin": "Sua sala privada foi removida por um administrador.",
+        "roomRemovedManager": "Sua sala privada foi removida a força do sistema.",
+	    
+        "voiceMemberJoin": "{$1} entrou em seu canal atual de voz.",
+        "voiceMemberLeave": "{$1} saiu de seu canal atual de voz.",
+	    
+        "ghostPing": "Você levou uma menção-fantasma (*ghostping*) em {$1} em {$2} por {$3}",
+	    
+        "mutedNotifs": "Notificações Silenciadas.",
+        "alreadyMuted": "Você já tem notificações silenciadas, para dessilenciar digite: `{$1}`",
+        "unmutedNotifs": "Notificações dessilenciadas."
+	    
     }
-
-}
+	
+ }
