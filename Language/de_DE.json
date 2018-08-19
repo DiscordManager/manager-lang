@@ -192,18 +192,18 @@
     },
     "notifications": {
 
-        "roomExpired":              "Dein Privater Kanal ist abgelaufen.",
-        "roomRemovedAdmin":         "Dein Privater Kanal wurde von einem Administrator entfernt.",
-        "roomRemovedManager":       "Dein Privater Kanal wurde gewaltsam vom System entfernt.",
+        "roomExpired":              "Dein Kanal ist abgelaufen.",
+        "roomRemovedAdmin":         "Dein Kanal wurde von einem Administrator entfernt.",
+        "roomRemovedManager":       "Dein Kanal wurde gewaltsam vom System entfernt.",
 
         "voiceMemberJoin":          "{$1} ist deinem Sprachkanal beigetreten.",
-        "voiceMemberLeave":         "{$1} hat deinen Spachkanal verlassen.",
+        "voiceMemberLeave":         "{$1} hat deinen Sprachkanal verlassen.",
 
-        "ghostPing":                "Du wurdest in {$2} auf dem Server {$1} von {$3} geghost pinged",
+        "ghostPing":                "Du wurdest in {$2} auf dem Server {$1} von {$3} angepingt, der Ping wurde aber wieder gelöscht (Ghostping).",
 
-        "mutedNotifs":              "Nachrichten Stumm geschalten.",
-        "alreadyMuted":             "Du hast schon die Nachrichten stumm geschaltet. Um sie wieder zu aktivieren benutze `{$1}`.",
-        "unmutedNotifs":            "Nachrichten aktiviert."
+        "mutedNotifs":              "Benachrichtigungen stummgeschaltet.",
+        "alreadyMuted":             "Du hast alle Benachrichtigungen bereits stummgeschaltet. Um sie wieder zu aktivieren schreibe `{$1}`.",
+        "unmutedNotifs":            "Benachrichtigungen aktiviert."
     }
 
 }
