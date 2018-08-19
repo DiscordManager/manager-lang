@@ -189,6 +189,21 @@
 
         "reset": "{$1} wurde zurückgesetzt."
 
+    },
+    "notifications": {
+
+        "roomExpired":              "Dein Privater Kanal ist abgelaufen.",
+        "roomRemovedAdmin":         "Dein Privater Kanal wurde von einem Administrator entfernt.",
+        "roomRemovedManager":       "Dein Privater Kanal wurde gewaltsam vom System entfernt.",
+
+        "voiceMemberJoin":          "{$1} ist deinem Sprachkanal beigetreten.",
+        "voiceMemberLeave":         "{$1} hat deinen Spachkanal verlassen.",
+
+        "ghostPing":                "Du wurdest in {$2} auf dem Server {$1} von {$3} geghost pinged",
+
+        "mutedNotifs":              "Nachrichten Stumm geschalten.",
+        "alreadyMuted":             "Du hast schon die Nachrichten stumm geschaltet. Um sie wieder zu aktivieren benutze `{$1}`",
+        "unmutedNotifs":            "Nachrichten aktiviert."
     }
 
 }
