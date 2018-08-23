@@ -139,6 +139,9 @@
         "guildMemberAdd":           "Person beigetreten",
         "guildMemberRemove":        "Person hat den Server verlassen",
         "guildMemberUpdate":        "Person verändert",
+        
+        "joinVoice":                "Ist dem Sprach Kanal beigetreten.",
+        "leaveVoice":               "Hat den Sprach Kanal verlassen.",
 
         "logJoin":                  "{$1} trat {$2} bei",
         "logLeave":                 "{$1} verließ den Server",
@@ -170,7 +173,10 @@
         "RoomUpdatedMemberAdd":     "{$1} wurde zum Kanal von {$2} hinzugefügt.",
         "RoomUpdatedMemberKick":     "{$1} wurde aus dem Kanal von {$2} gekickt.",
         "RoomUpdatedMemberBan":     "{$1} wurde aus dem Kanal von {$2} verbannt.",
-        "RoomUpdatedOptionSet":     "`{$1}` wurde auf `{$2}` geändert im Kanal von {$3}."
+        "RoomUpdatedOptionSet":     "`{$1}` wurde auf `{$2}` geändert im Kanal von {$3}.",
+
+        "logJoinVC":                "`{$1}` Ist dem Sprach Kanal {$2} beigetreten.",
+        "logLeaveVC":               "`{$1}` Hat den Sprach Kanal {$2} verlassen."
         
     },
 
