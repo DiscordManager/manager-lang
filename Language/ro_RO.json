@@ -117,5 +117,20 @@
     "processingImage": "<a:manager_loading:409298228954136577> Lucram la ea!",
     "noImage": "Oferiți o imagine, vă rog!",
     "defaultAvatar": "Acest utilizator are avatarul implicit!"
+  },
+  "notifications": {
+  
+        "roomExpired":              "Camera ta a expirat",
+        "roomRemovedAdmin":         "Camera ta privata a fost stearsa de un administrator.",
+        "roomRemovedManager":       "Camera ta a fost stearsa fortat din sistem.",
+
+        "voiceMemberJoin":          "{$1} a intrat in canalul voce.",
+        "voiceMemberLeave":         "{$1} a iesit din canalul voce.",
+
+        "ghostPing":                "Ai fost *GhostPinged* in {$1} la {$2} de {$3}",
+
+        "mutedNotifs":              "Notificari dezactivate.",
+        "alreadyMuted":             "Ai notificarile dezactivate, ca sa le activezi din nou foloseste `{$1}`",
+        "unmutedNotifs":            "Notificari activate."
   }
 }
