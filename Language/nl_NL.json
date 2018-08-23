@@ -135,9 +135,12 @@
         "logMessageEdited":         "{$1} heeft het bericht aangepast in {$2}",
         "logMessageDeleted":        "Bericht van {$1} in {$2} is verwijderd",
 
-        "guildMemberAdd":           "Member Join",
-        "guildMemberRemove":        "Member Left",
+        "guildMemberAdd":           "Member gejoined",
+        "guildMemberRemove":        "Member weggegaan",
         "guildMemberUpdate":        "Member aangepast",
+
+        "joinVoice":                "Voice Chat gejoined",
+        "leaveVoice":               "Voice chat verlaten",
 
         "logJoin":                  "{$1} Joined {$2}",
         "logLeave":                 "{$1} Left",
@@ -169,7 +172,10 @@
         "RoomUpdatedMemberAdd":     "{$1} is toegevoegd aan het privékanaal van {$2}",
         "RoomUpdatedMemberKick":     "{$1} is verwijderd van het privékanaal van {$2}",
         "RoomUpdatedMemberBan":     "{$1} is gebanned van het privékanaal van {$2}",
-        "RoomUpdatedOptionSet":     "`{$1}` is veranderd naar `{$2}` in het privékanaal van {$3}"
+        "RoomUpdatedOptionSet":     "`{$1}` is veranderd naar `{$2}` in het privékanaal van {$3}",
+
+        "logJoinVC":                "`{$1}` joinde de voicechat in {$2}",
+        "logLeaveVC":                "`{$1}` verliet voicechat in {$2}"
         
     },
 
