@@ -10,8 +10,8 @@ You can use sites like [these](https://jsonlint.com/) to make sure they are :)
 
 
 ## Thanks to these people for translating!
- - Andrew#6621 - Romanian
- - Michdi#1602 & Wolfram Walter#2790 - German
+ - [Andrew](https://github.com/ndr3w221) - Romanian
+ - Michdi#1602 & [Wolfram Walter](https://github.com/TheHDCrafter) - German
  - [Kolkies](https://github.com/Kolkies) - Dutch
  - Nekzus#2212 - Português do Brasil
  - Kael#1961 - Turkish
