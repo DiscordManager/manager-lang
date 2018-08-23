@@ -80,38 +80,59 @@
     "logGenericDelete": "{$1} a sters {$2}",
     "logGenericUpdate": "{$1} a updatat {$2}",
     "logGenericCreate": "{$1} a creat {$2}",
+    
     "guildUpdate": "Setarile serverului au fost schimbate",
     "guildUpdateDesc": "{$1} a updatat setarile serverului.",
+    
     "channelCreate": "Canal creat",
     "channelUpdate": "Canal editat",
     "channelDelete": "Canal sters",
+    
     "guildBanAdd": "Membru banat",
     "guildBanRemove": "Membru debanat",
+    
     "logUserBanned": "{$1} a banat {$2}",
     "logUserUnbanned": "{$1} a debanat {$2}",
+    
     "messageUpdate": "Mesaj editat",
     "messageDelete": "Mesaj sters",
+    
     "logMessageEdited": "{$1} a editat un mesaj in {$2}",
     "logMessageDeleted": "mesaj creat de {$1} in {$2} a fost sters",
+    
     "guildMemberAdd": "Membru intrat",
     "guildMemberRemove": "Membru iesit",
     "guildMemberUpdate": "Membru updatat",
+    
     "logJoin": "{$1} a intrat {$2}",
     "logLeave": "{$1} a iesit",
     "logUpdate": "{$1} a fost editat de {$2}",
+    
     "emojiCreate": "Emoji adaugat",
     "emojiUpdate": "Emoji editat",
     "emojiDelete": "Emoji sters",
+    
     "roleCreate": "Rol creat",
     "roleDelete": "Rol sters",
     "roleUpdate": "Rol editat",
+    
     "roomSummon": "Camera privata creata",
     "roomRevoke": "Camera privata stearsa",
     "roomUpdate": "Camera privata editata",
+    
     "scriptRan": "Script executat",
+    
     "configChanged": "Configuratie schimbata",
+    
+    "levelUp":                  "Level avansat!",
+    "autoModGeneric":           "{$1} a fost capturat de **autoMod**",
+    "autoModDeleted":           "{$1} a avut al lui {$2} ster de **autoMod**",
+    
     "old": "vechi",
     "new": "nou"
+    
+    "logJoinVC":                "`{$1}` a intrat in canalul voce {$2}",
+    "logLeaveVC":                "`{$1}` a iesit din canalul voce {$2}"
   },
   "imageCommands": {
     "processingImage": "<a:manager_loading:409298228954136577> Lucram la ea!",
