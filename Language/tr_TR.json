@@ -1,7 +1,6 @@
 {
-	
+
     "lang_version":     3,
-    "lang_revision":    "5alpha_public",
     "lang_name":        "Turkish",
     "lang_short":       "tr_TR",
 
@@ -30,6 +29,8 @@
         "staff":                "Yetkili",
 
         "onlineStaff":          "Aktif Yetkili"
+
+	"matchResponseBig":     "`{$1}` eşleştirme. Hepsini görüntüle -> {$2}"
 
     },
 	
@@ -100,12 +101,15 @@
 
         "optionUnlocked":           "Kanalınızın `gizlilik` verisi `Açık` olarak değişti.",
         "optionLocked":             "Kanalınızın `gizlilik` verisi `Sadece Davetliler` olarak değişti.",
-        	
+        
+	"speakersAdd":              "Öncelikli konuşma hakkı {$1} kişisine verildi.",
+	"speakersRemove":           "Öncelikli konuşma hakkı {$1} kişisinden alındı.",
+
 		"defaultTopic":				"{$1} Kişisel Odası - Kanal başlığını açarak daha çok bilgi alabilirsiniz.\n\n\nOdamda ne yapabilirim?:\n - Başkalarını **{$3}room invite** ile davet edebilir,\n - Davetlileri **{$4}room kick** ile atabilir,\n - odayı **{$5}room set** ile değiştirebilirsiniz.\nBu oda **{$2}** tarihinde kuruldu.",
-    
+
         "roomExpiredNotify":        "Odanızın süresi doldu. `{$1}` ile tekrar çağırabilirsiniz.\nBu tür bildirimler istemiyor musunuz? Manager bulunan herhangi bir sunucuda `{$2}` yazabilirsiniz!"
 	},
-    
+
     "logging": {
 
         "logGenericDelete":        "{$1} Silindi {$2}",
@@ -134,6 +138,9 @@
         "guildMemberAdd":           "Üye Katıldı",
         "guildMemberRemove":        "Üye Çıktı",
         "guildMemberUpdate":        "Üye Verileri Güncellendi",
+
+	"joinVoice":                "Sesli Görüşmeye Katıldı",
+	"leaveVoice":               "Sesli Görüşmeden Çıktı",
 
         "logJoin":                  "{$1} Katıldı {$2}",
         "logLeave":                 "{$1} Çıktı",
@@ -166,6 +173,9 @@
         "RoomUpdatedMemberKick":     "{$2} özel odasına {$1} atıldı.",
         "RoomUpdatedMemberBan":     "{$2} özel odasına {$1} yasaklandı.",
         "RoomUpdatedOptionSet":     "{$3} özel odasındaki `{$1}` ayarı `{$2}` olarak değiştirildi."
+
+	"logJoinVC":                "`{$2}` odasına {$1} katıldı.",		
+	"logLeaveVC":                "`{$2}` odasından {$1} ayrıldı."
 	    
     },
 
@@ -184,5 +194,21 @@
 
         "reset": "{$1} resetlendi."
 
+    },
+	"notifications": {		
+
+		"roomExpired":              "Kişisel odanız zaman aşımına uğramıştır.",		
+		"roomRemovedAdmin":         "Kişisel odanız bir yönetici tarafından kaldırıldı.",		
+	        "roomRemovedManager":       "Kişisel odanız sistem tarafından zorla kaldırıldı.",		
+
+	        "voiceMemberJoin":          "{$1} sizin sesli kanalınıza katıldı.",		
+	        "voiceMemberLeave":         "{$1} sizin sesli kanalınızdan çıktı.",		
+
+	        "ghostPing":                "{$1} yazı kanalında {$2} aracılığıyla {$3} tarafından bahsedildiniz fakat bunu sildi.",		
+			
+	        "mutedNotifs":              "Bildirimler susturuldu.",		
+	        "alreadyMuted":             "Bildirimleriniz zaten susturulmuş, Açmak için `{$1}` yazın",		
+	        "unmutedNotifs":            "Bildirimlerin susturması kaldırıldı."		
     }
+	
 }
