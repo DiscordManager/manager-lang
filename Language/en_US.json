@@ -139,6 +139,9 @@
         "guildMemberRemove":        "Member Left",
         "guildMemberUpdate":        "Member Updated",
 
+        "joinVoice":                "Joined Voice Chat",
+        "leaveVoice":               "Left Voice Chat",
+
         "logJoin":                  "{$1} Joined {$2}",
         "logLeave":                 "{$1} Left",
         "logUpdate":                "{$1} was edited by {$2}",
@@ -169,7 +172,10 @@
         "RoomUpdatedMemberAdd":     "{$1} was added to the private room of {$2}",
         "RoomUpdatedMemberKick":     "{$1} was kicked from the private room of {$2}",
         "RoomUpdatedMemberBan":     "{$1} was banned from the private room of {$2}",
-        "RoomUpdatedOptionSet":     "`{$1}` was set to `{$2}` in the private room of {$3}"
+        "RoomUpdatedOptionSet":     "`{$1}` was set to `{$2}` in the private room of {$3}",
+
+        "logJoinVC":                "`{$1}` Joined voice chat in {$2}",
+        "logLeaveVC":                "`{$1}` Joined voice chat in {$2}"
         
     },
 
