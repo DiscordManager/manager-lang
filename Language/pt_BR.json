@@ -48,8 +48,11 @@
         "errorCannotChangeValue": "Você não pode mudar este valor.",
 
         "errorCommandDisabled": "Esse comando está desativado.",
-        "howToExitAlpha": "Para sair do Alpha, basta expulsar essa versão do bot e a original deverá começar a funcionar novamente."
+        "howToExitAlpha": "Para sair do Alpha, basta expulsar essa versão do bot e a original deverá começar a funcionar novamente.",
 
+	"errorTooManyMatched": "Muitos resultados encontratos, Máximo: `{$1}`",
+        "errorTooLittleMatched": "Poucos resultados encontrados, Mínimo: `{$1}`"
+	    
     },
 
     "rooms": {
@@ -87,6 +90,7 @@
         "optionMemberlimit": "O `Máximo de Membros` do seu canal foi alterado para `{$1}`",
         "optionBitrate": "A `Taxa de Bits` do seu canal foi alterado para `{$1}`",
         "optionEmbed": "A `Permissão de Embeds` do seu canal foi alterada para `{$1}`",
+	"optionFiles": "A `Permissão de Arquivos` do seu canal foi alterada para `{$1}`.",
         "optionPTT": "O `Requerimento Aperte-para-Falar` foi alterado para `{$1}`",
         "optionNSFW": "O `Aviso de NSFW` do seu canal foi alterado para `{$1}`",
         "optionReactions": "A `Permissão de Reações` do seu canal foi alterada para `{$1}`",
@@ -119,21 +123,24 @@
         "channelUpdate": "Canal editado",
         "channelDelete": "Canal deletado",
 
-        "guildBanAdd": "Membro banido",
-        "guildBanRemove": "Member desbanido",
+        "guildBanAdd": "Membro Banido",
+        "guildBanRemove": "Membro Desbanido",
 
         "logUserBanned": "{$1} baniu {$2}",
         "logUserUnbanned": "{$1} desbaniu {$2}",
 
-        "messageUpdate": "Mensagem editada",
-        "messageDelete": "Mensagem deletada",
+        "messageUpdate": "Mensagem Editada",
+        "messageDelete": "Mensagem Deletada",
 
         "logMessageEdited": "{$1} editou a própria mensagem em {$2}",
         "logMessageDeleted": "mensagem de {$1} em {$2} foi deletada",
 
-        "guildMemberAdd": "Membro entrou",
-        "guildMemberRemove": "Membro saiu",
-        "guildMemberUpdate": "Membro atualizado",
+        "guildMemberAdd": "Membro Entrou",
+        "guildMemberRemove": "Membro Saiu",
+        "guildMemberUpdate": "Membro Atualizado",
+	    
+	"joinVoice": "Entrou no Chat de Voz",
+        "leaveVoice": "Saiu do Chat de Voz",
 
         "logJoin": "{$1} entrou em {$2}",
         "logLeave": "{$1} saiu",
@@ -160,7 +167,15 @@
         "autoModDeleted": "{$1} teve a sua {$2} deletada por **autoMod**",
 
         "old": "Velho",
-        "new": "Novo"
+        "new": "Novo",
+	    
+	"RoomUpdatedMemberAdd":     "{$1} foi adicionado na sala privada de {$2}",
+        "RoomUpdatedMemberKick":     "{$1} foi expulso da sala privada de {$2}",
+        "RoomUpdatedMemberBan":     "{$1} foi banido da sala privada de {$2}",
+        "RoomUpdatedOptionSet":     "`{$1}` foi definido para `{$2}` na sala privada de {$3}",
+
+        "logJoinVC":                "`{$1}` Entrou no chat de voz em {$2}",
+        "logLeaveVC":                "`{$1}` Saiu do chat de voz em {$2}"
 
     },
 
@@ -176,6 +191,7 @@
 
         "Muted": "{$1} foi silenciado(a).",
         "UnMute": "{$1} foi dessilenciado(a).",
+	    
         "reset": "{$1} foi resetado."
 	    
     },
