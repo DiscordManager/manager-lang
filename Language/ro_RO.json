@@ -118,6 +118,14 @@
     "noImage": "Oferiți o imagine, vă rog!",
     "defaultAvatar": "Acest utilizator are avatarul implicit!"
   },
+  "moderationCommands": {
+
+        "Muted": "{$1} a fost mutit.",
+        "UnMute": "{$1} a fost demutit.",
+
+        "reset": "{$1} a fost resetat."
+
+  },
   "notifications": {
   
         "roomExpired":              "Camera ta a expirat",
