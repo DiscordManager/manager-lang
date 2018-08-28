@@ -127,6 +127,7 @@
         "guildBanRemove":           "Member Unbanned",
 
         "logUserBanned":            "{$1} banned {$2}",
+        "logUserKicked":            "{$1} kicked {$2}",
         "logUserUnbanned":          "{$1} unbanned {$2}",
 
         "messageUpdate":            "Message Edited",
@@ -139,8 +140,9 @@
         "guildMemberRemove":        "Member Left",
         "guildMemberUpdate":        "Member Updated",
 
-        "joinVoice":                "Joined Voice Chat",
-        "leaveVoice":               "Left Voice Chat",
+        "joinVoice":                "Joined Voice Channel",
+        "leaveVoice":               "Left Voice Channel",
+        "moveVoice":                "Changed Channel",
 
         "logJoin":                  "{$1} Joined {$2}",
         "logLeave":                 "{$1} Left",
@@ -202,8 +204,10 @@
         "roomRemovedAdmin":         "Your private room was removed by an administrator.",
         "roomRemovedManager":       "Your private room was forcefully removed from the system.",
 
-        "voiceMemberJoin":          "{$1} joined your current voice channel.",
-        "voiceMemberLeave":         "{$1} left your current voice channel.",
+        "voiceMemberJoin":          "{$1} joined your channel.",
+        "voiceMemberLeave":         "{$1} left your channel.",
+        "voiceMemberMoveHere":       "{$1} moved to your channel.",
+        "voiceMemberMoveAway":       "{$1} moved away from your channel.",
 
         "ghostPing":                "You were GhostPinged in {$1} on {$2} by {$3}",
 
