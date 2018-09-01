@@ -127,6 +127,7 @@
         "guildBanRemove":           "Member Unbanned",
 
         "logUserBanned":            "{$1} verbannnen {$2}",
+        "logUserKicked":            "{$1} gekickt {$2}",
         "logUserUnbanned":          "{$1} unbanned {$2}",
 
         "messageUpdate":            "Bericht aangepast",
@@ -139,11 +140,12 @@
         "guildMemberRemove":        "Member weggegaan",
         "guildMemberUpdate":        "Member aangepast",
 
-        "joinVoice":                "Voice Chat gejoined",
-        "leaveVoice":               "Voice chat verlaten",
+        "joinVoice":                "Voice kanaal gejoined",
+        "leaveVoice":               "Voice kanaal verlaten",
+        "moveVoice":                "Kanaal veranderd",
 
-        "logJoin":                  "{$1} Joined {$2}",
-        "logLeave":                 "{$1} Left",
+        "logJoin":                  "{$1} joined {$2}",
+        "logLeave":                 "{$1} left",
         "logUpdate":                "{$1} is aangepast door {$2}",
 
         "emojiCreate":              "Emoji toegevoegd",
@@ -198,14 +200,19 @@
 
     "notifications": {
         "roomExpired":              "Uw privékanaal is verlopen.",
-       "roomRemovedAdmin":         "Uw privékanaal is door een admin verwijderd.",
-       "roomRemovedManager":       "Uw privékanaal werd met geweld verwijderd uit het systeem.",
-        "voiceMemberJoin":          "{$1} is lid geworden van je huidige spraakkanaal.",
-       "voiceMemberLeave":         "{$1} heeft je huidige spraakkanaal verlaten.",
+        "roomRemovedAdmin":         "Uw privékanaal is door een admin verwijderd.",
+        "roomRemovedManager":       "Uw privékanaal werd met geweld verwijderd uit het systeem.",
+        
+        "voiceMemberJoin":          "{$1} is lid geworden van je spraakkanaal.",
+        "voiceMemberLeave":         "{$1} heeft je spraakkanaal verlaten.",
+        "voiceMemberMoveHere":       "{$1} is verplaatst naar jouw kanaal.",
+        "voiceMemberMoveAway":       "{$1} is weggegaan uit jouw kanaal.",
+        
         "ghostPing":                "Je bent GhostPinged in {$1} in {$2} door {$3}",
+        
         "mutedNotifs":              "Notificaties gedempt.",
-       "alreadyMuted":             "Je hebt notificaties al  gedempt, om het dempen op te heffen `{$1}`",
-       "unmutedNotifs":            "Notificaties dempen opgeheven."
+        "alreadyMuted":             "Je hebt notificaties al  gedempt, om het dempen op te heffen `{$1}`",
+        "unmutedNotifs":            "Notificaties dempen opgeheven."
    }
 
 
