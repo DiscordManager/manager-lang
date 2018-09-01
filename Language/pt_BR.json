@@ -127,6 +127,7 @@
         "guildBanRemove": "Membro Desbanido",
 
         "logUserBanned": "{$1} baniu {$2}",
+	"logUserKicked": "{$1} expulsou {$2}",
         "logUserUnbanned": "{$1} desbaniu {$2}",
 
         "messageUpdate": "Mensagem Editada",
@@ -139,8 +140,9 @@
         "guildMemberRemove": "Membro Saiu",
         "guildMemberUpdate": "Membro Atualizado",
 	    
-	"joinVoice": "Entrou no Chat de Voz",
-        "leaveVoice": "Saiu do Chat de Voz",
+	"joinVoice": "Entrou no Canal de Voz",
+        "leaveVoice": "Saiu do Canal de Voz",
+        "moveVoice": "Modificou o Canal",
 
         "logJoin": "{$1} entrou em {$2}",
         "logLeave": "{$1} saiu",
@@ -202,8 +204,10 @@
         "roomRemovedAdmin": "Sua sala privada foi removida por um administrador.",
         "roomRemovedManager": "Sua sala privada foi removida a força do sistema.",
 	    
-        "voiceMemberJoin": "{$1} entrou em seu canal atual de voz.",
-        "voiceMemberLeave": "{$1} saiu de seu canal atual de voz.",
+        "voiceMemberJoin": "{$1} entrou no seu canal.",
+        "voiceMemberLeave": "{$1} saiu de seu canal.",
+        "voiceMemberMoveHere": "{$1} se moveu para seu canal.",
+        "voiceMemberMoveAway": "{$1} se moveu de seu canal.",
 	    
         "ghostPing": "Você levou uma menção-fantasma (*ghostping*) em {$1} em {$2} por {$3}",
 	    
