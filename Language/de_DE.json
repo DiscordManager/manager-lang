@@ -1,7 +1,6 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha_public",
     "lang_name":        "German",
     "lang_short":       "de_DE",
 
@@ -128,6 +127,7 @@
         "guildBanRemove":           "Person entbannt",
 
         "logUserBanned":            "{$1} bannte {$2}",
+        "logUserKicked":            "{$1} kickte {$2}",
         "logUserUnbanned":          "{$1} entbannte {$2}",
 
         "messageUpdate":            "Nachricht bearbeitet",
@@ -142,6 +142,7 @@
         
         "joinVoice":                "Ist dem Sprach Kanal beigetreten.",
         "leaveVoice":               "Hat den Sprach Kanal verlassen.",
+        "moveVoice":                "Changed Channel",
 
         "logJoin":                  "{$1} trat {$2} bei",
         "logLeave":                 "{$1} verließ den Server",
@@ -196,14 +197,17 @@
         "reset": "{$1} wurde zurückgesetzt."
 
     },
+
     "notifications": {
 
         "roomExpired":              "Dein Kanal ist abgelaufen.",
         "roomRemovedAdmin":         "Dein Kanal wurde von einem Administrator entfernt.",
         "roomRemovedManager":       "Dein Kanal wurde gewaltsam vom System entfernt.",
 
-        "voiceMemberJoin":          "{$1} ist deinem Sprachkanal beigetreten.",
-        "voiceMemberLeave":         "{$1} hat deinen Sprachkanal verlassen.",
+        "voiceMemberJoin":          "{$1} ist deinem Kanal beigetreten.",
+        "voiceMemberLeave":         "{$1} hat deinen Kanal verlassen.",
+        "voiceMemberMoveHere":       "{$1} wurde in deinen Kanal bewegt.",
+        "voiceMemberMoveAway":       "{$1} wurde aus deinem Kanal bewegt.",
 
         "ghostPing":                "Du wurdest in {$2} auf dem Server {$1} von {$3} angepingt, der Ping wurde aber wieder gelöscht (Ghostping).",
 
