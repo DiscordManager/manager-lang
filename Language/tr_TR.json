@@ -126,8 +126,9 @@
         "guildBanAdd":              "Üye Yasaklandı",
         "guildBanRemove":           "Üyenin Yasağı Kalktı",
 
-        "logUserBanned":            "{$1} yasakladı {$2}",
-        "logUserUnbanned":          "{$1} yasağını kaldırdı {$2}",
+        "logUserBanned":            "{$1}, {$2} kişisini yasakladı.",
+	"logUserKicked":            "{$1}, {$2} kişisini attı.",
+        "logUserUnbanned":          "{$1}, {$2} kişisinin yasağını kaldırdı.",
 
         "messageUpdate":            "Mesaj Değiştirildi",
         "messageDelete":            "Mesaj Silindi",
@@ -139,8 +140,9 @@
         "guildMemberRemove":        "Üye Çıktı",
         "guildMemberUpdate":        "Üye Verileri Güncellendi",
 
-	"joinVoice":                "Sesli Görüşmeye Katıldı",
-	"leaveVoice":               "Sesli Görüşmeden Çıktı",
+	"joinVoice":                "Sesli Kanala Katıldı",
+	"leaveVoice":               "Sesli Kanaldan Çıktı",
+	"moveVoice":                "Kanal Değiştirdi",
 
         "logJoin":                  "{$1} Katıldı {$2}",
         "logLeave":                 "{$1} Çıktı",
@@ -202,7 +204,9 @@
 	        "roomRemovedManager":       "Kişisel odanız sistem tarafından zorla kaldırıldı.",		
 
 	        "voiceMemberJoin":          "{$1} sizin sesli kanalınıza katıldı.",		
-	        "voiceMemberLeave":         "{$1} sizin sesli kanalınızdan çıktı.",		
+	        "voiceMemberLeave":         "{$1} sizin sesli kanalınızdan çıktı.",
+		"voiceMemberMoveHere":      "{$1} sizin kanalınıza taşındı.",
+		"voiceMemberMoveAway":      "{$1} sizin kanalınızdan dışarı taşındı.",
 
 	        "ghostPing":                "{$1} yazı kanalında {$2} aracılığıyla {$3} tarafından bahsedildiniz fakat bunu sildi.",		
 			
