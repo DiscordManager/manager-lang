@@ -13,7 +13,7 @@ You can use sites like [these](https://jsonlint.com/) to make sure they are :)
  - Andrew#6621 - Romanian
  - Michdi#1602 & Wolfram Walter#2790 - German
  - [Kolkies](https://github.com/Kolkies) - Dutch
- - znekt#2212 - Português do Brasil
+ - Nekzt#2212 - Português do Brasil
  - Kael#1961 - Turkish
  - Radostik1#6991 - Czech
  - Egorchick#6579 - Russian
