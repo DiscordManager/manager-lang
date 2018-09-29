@@ -176,8 +176,8 @@
         "RoomUpdatedMemberBan":     "{$2} özel odasına {$1} yasaklandı.",
         "RoomUpdatedOptionSet":     "{$3} özel odasındaki `{$1}` ayarı `{$2}` olarak değiştirildi.",
 
-	"logJoinVC":                "`{$2}` odasına {$1} katıldı.",		
-	"logLeaveVC":                "`{$2}` odasından {$1} ayrıldı."
+	"logJoinVC":                "{$2} odasına {$1} katıldı.",		
+	"logLeaveVC":                "{$2} odasından {$1} ayrıldı."
 	    
     },
 

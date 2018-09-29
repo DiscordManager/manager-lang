@@ -176,8 +176,8 @@
         "RoomUpdatedMemberBan":     "{$1} a été banni du salon privé de {$2}",
         "RoomUpdatedOptionSet":     "`{$1}` a été réglé à `{$2}` dans le salon privé de {$3}",
 
-        "logJoinVC":                "`{$1}` A rejoint le salon vocal dans {$2}",
-        "logLeaveVC":                "`{$1}` A quitté le salon vocal dans {$2}"
+        "logJoinVC":                "{$1} A rejoint le salon vocal dans {$2}",
+        "logLeaveVC":                "{$1} A quitté le salon vocal dans {$2}"
         
     },
 

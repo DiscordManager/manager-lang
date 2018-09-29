@@ -176,8 +176,8 @@
         "RoomUpdatedMemberBan":     "{$1} wurde aus dem Kanal von {$2} verbannt.",
         "RoomUpdatedOptionSet":     "`{$1}` wurde auf `{$2}` geändert im Kanal von {$3}.",
 
-        "logJoinVC":                "`{$1}` Ist dem Sprach Kanal {$2} beigetreten.",
-        "logLeaveVC":               "`{$1}` Hat den Sprach Kanal {$2} verlassen."
+        "logJoinVC":                "{$1} Ist dem Sprach Kanal {$2} beigetreten.",
+        "logLeaveVC":               "{$1} Hat den Sprach Kanal {$2} verlassen."
         
     },
 

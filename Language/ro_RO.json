@@ -152,8 +152,8 @@
     "old": "vechi",
     "new": "nou",
     
-    "logJoinVC":                "`{$1}` a intrat in canalul voce {$2}",
-    "logLeaveVC":                "`{$1}` a iesit din canalul voce {$2}"
+    "logJoinVC":                "{$1} a intrat in canalul voce {$2}",
+    "logLeaveVC":                "{$1} a iesit din canalul voce {$2}"
 
   },
   "imageCommands": {

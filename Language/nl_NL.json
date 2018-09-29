@@ -176,8 +176,8 @@
         "RoomUpdatedMemberBan":     "{$1} is gebanned van het privékanaal van {$2}",
         "RoomUpdatedOptionSet":     "`{$1}` is veranderd naar `{$2}` in het privékanaal van {$3}",
 
-        "logJoinVC":                "`{$1}` joinde de voicechat in {$2}",
-        "logLeaveVC":                "`{$1}` verliet voicechat in {$2}"
+        "logJoinVC":                "{$1} joinde de voicechat in {$2}",
+        "logLeaveVC":                "{$1} verliet voicechat in {$2}"
         
     },
 

@@ -176,8 +176,8 @@
         "RoomUpdatedMemberBan":     "{$1} was banned from the private room of {$2}",
         "RoomUpdatedOptionSet":     "`{$1}` was set to `{$2}` in the private room of {$3}",
 
-        "logJoinVC":                "`{$1}` Joined voice chat in {$2}",
-        "logLeaveVC":                "`{$1}` Left voice chat in {$2}"
+        "logJoinVC":                "{$1} Joined voice chat in {$2}",
+        "logLeaveVC":                "{$1} Left voice chat in {$2}"
         
     },
 
