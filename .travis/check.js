@@ -19,13 +19,13 @@ if (!fs.existsSync(lintingFolder)) {
     process.exit(1)
 }
 
-fs.readdir(__dirname + '/' + lintingFolder, (err, files) => {
+fs.readdir(process.cwd() + '/' + lintingFolder, (err, files) => {
 	files.forEach(file => {
 		try{
 
 			tempJS  = fs.readFileSync(lintingFolder + "/" + file);
             temp    = JSON.parse(tempJS);
-            
+
             console.log( file + " OK")
 
 		}catch(ex){
