@@ -141,7 +141,7 @@
         "guildMemberUpdate":        "Person verändert",
         
         "joinVoice":                "Ist dem Sprach Kanal beigetreten.",
-        "leaveVoice":               "Hat den Sprach Kanal verlassen.",
+        "leaveVoice":               "Hat den Sprach Kanal verlassen.",  
         "moveVoice":                "Changed Channel",
 
         "logJoin":                  "{$1} trat {$2} bei",
@@ -193,6 +193,10 @@
 
         "Muted": "{$1} wurde stumm geschaltet.",
         "UnMute": "{$1} wurde laut geschaltet.",
+
+        "slowModeMax": "Die maximale Zeit für den Slowmode beträgt `120` Sekunden.",
+        "slowModeOn": "Der Slowmode wurde auf `{$1}` Sekunden gesetzt.",
+        "slowModeOff": "Der Slowmode wurde ausgeschaltet.",
 
         "reset": "{$1} wurde zurückgesetzt."
 
