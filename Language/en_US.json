@@ -192,7 +192,11 @@
     "moderationCommands": {
 
         "Muted": "{$1} has been muted.",
-        "UnMute": "{$1} has been un-muted.",
+        "UnMute": "{$1} has been un-muted.",        
+        
+        "slowModeMax": "The max Duration for slowmode is `120` Seconds.",
+        "slowModeOn": "Slowmode has been set to `{$1}` Seconds.",
+        "slowModeOff": "Slowmode has been disabled.",
 
         "reset": "{$1} has been reset."
 
