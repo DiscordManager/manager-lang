@@ -194,7 +194,11 @@
         "Muted": "{$1} is gemute.",
         "UnMute": "{$1} is ge-unmute.",
 
-        "reset": "{$1} is gereset."
+        "slowModeMax": "Het maximum aantal seconden voor slowmode is `120`.",
+        "slowModeOn": "Slowmode is gezet naar `{$1}` seconden.",
+        "slowModeOff": "Slowmode is uitgeschakeld.",
+    
+	"reset": "{$1} is gereset."
 
     },
 
