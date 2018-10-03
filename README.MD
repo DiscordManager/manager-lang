@@ -2,7 +2,7 @@
 [![Discord Bots](https://discordbots.org/api/widget/status/345612130122334209.png)](https://discordbots.org/bot/345612130122334209)
 [![Discord Bots](https://discordbots.org/api/widget/servers/345612130122334209.png)](https://discordbots.org/bot/345612130122334209)
 [![Discord Bots](https://discordbots.org/api/widget/lib/345612130122334209.png)](https://discordbots.org/bot/345612130122334209)
-[![Builds](https://travis-ci.org/Nioxed/manager-lang.svg?branch=master)](https://github.com/Nioxed/manager-lang)
+[![Builds](https://travis-ci.org/DiscordManager/manager-lang.svg?branch=master)](https://github.com/Nioxed/manager-lang)
 
 Language Files for manager, Use these to submit a custom language :)
 Before submitting pull requests, Please make sure your files are valid JSON.
