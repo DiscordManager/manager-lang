@@ -193,7 +193,11 @@
 
         "Muted": "{$1} susturuldu.",
         "UnMute": "{$1} susturulması kaldırıldı.",
-
+		
+        "slowModeMax": "Yavaş mod'un maksimum süresi `120` saniyedir.",
+        "slowModeOn": "Yavaş mod süresi `{$1}` saniye olarak ayarlandı.",
+        "slowModeOff": "Yavaş mod devre dışı bırakıldı.",
+		
         "reset": "{$1} resetlendi."
 
     },
