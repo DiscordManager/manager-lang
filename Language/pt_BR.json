@@ -194,6 +194,10 @@
         "Muted": "{$1} foi silenciado(a).",
         "UnMute": "{$1} foi dessilenciado(a).",
 	    
+	"slowModeMax": "A duração máxima do modo-lento é `120` segundos.",
+        "slowModeOn": "Modo-lento alterado para `{$1}` segundos.",
+        "slowModeOff": "Modo-lento desativado.",
+	    
         "reset": "{$1} foi resetado."
 	    
     },
