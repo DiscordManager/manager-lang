@@ -174,7 +174,7 @@
 	"RoomUpdatedMemberAdd":     "{$1} byl přidán do soukromé místnosti {$2}",
         "RoomUpdatedMemberKick":     "{$1} byl vyhozen ze soukromé místnosti {$2}",
         "RoomUpdatedMemberBan":     "{$1} byl zabanován v soukromé místnosti {$2}",
-        "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}"
+        "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}",
 	    
         "logJoinVC":                "{$1} Se připojil do hlasové místnosti v {$2}",
         "logLeaveVC":                "{$1} Odešel z hlasové místnosti v {$2}"
