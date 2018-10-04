@@ -21,5 +21,6 @@ These people have helped translate Manager:
  - Radostik1#6991 - Czech
  - Egorchick#6579 - Russian
  - Rockfire#3980 - French
+ - Promise#0001 - Norwegian
  
  <3
