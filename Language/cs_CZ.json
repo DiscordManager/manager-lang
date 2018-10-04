@@ -1,7 +1,6 @@
 {
 
     "lang_version":     3,
-    "lang_revision":    "5alpha_public",
     "lang_name":        "Czech",
     "lang_short":       "cs_CZ",
     
@@ -128,6 +127,7 @@
         "guildBanRemove":           "Uživatel odbanován",
 
         "logUserBanned":            "{$1} zabanoval {$2}",
+        "logUserKicked":            "{$1} vyhodil {$2}",
         "logUserUnbanned":          "{$1} odbanoval {$2}",
 
         "messageUpdate":            "Zpráva upravena",
@@ -139,6 +139,10 @@
         "guildMemberAdd":           "Uživatel se připojil",
         "guildMemberRemove":        "Uživatel odešel",
         "guildMemberUpdate":        "Uživatel aktualizován",
+	    
+        "joinVoice":                "Připojen do hlasové místnosti",
+        "leaveVoice":               "Odepojen z hlasové místnosti",
+        "moveVoice":                "Změnil místnost (Přesunul se)",
 
         "logJoin":                  "{$1} Připojil se {$2}",
         "logLeave":                 "{$1} Odešel",
@@ -167,10 +171,13 @@
         "old":                      "Staré",
         "new":                      "Nové",
 
-	    "RoomUpdatedMemberAdd":     "{$1} byl přidán do soukromé místnosti {$2}",
+	"RoomUpdatedMemberAdd":     "{$1} byl přidán do soukromé místnosti {$2}",
         "RoomUpdatedMemberKick":     "{$1} byl vyhozen ze soukromé místnosti {$2}",
         "RoomUpdatedMemberBan":     "{$1} byl zabanován v soukromé místnosti {$2}",
-        "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}"
+        "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}",
+	    
+        "logJoinVC":                "{$1} Se připojil do hlasové místnosti v {$2}",
+        "logLeaveVC":                "{$1} Odešel z hlasové místnosti v {$2}"
 	    
      },
  
@@ -185,10 +192,32 @@
      "moderationCommands": {
 	     
          "Muted": "{$1} byl umlčen.",
-        "UnMute": "{$1} byl odmlčen.",
+         "UnMute": "{$1} byl odmlčen.",
+
+       	 "slowModeMax": "Maximální délka slow módu je `120` Sekund.",
+       	 "slowModeOn": "Slow mód nastaven na `{$1}` Seconds.",
+         "slowModeOff": "Slow mód vypnut.",
 	     
          "reset": "{$1} byl resetován."
 	     
-     }
-	
- }
+    },
+
+    "notifications": {
+
+        "roomExpired":              "Tvá místnost expirovala.",
+        "roomRemovedAdmin":         "Tvá místnost byla smazána administratorem.",
+        "roomRemovedManager":       "Tvá místnost byla odstraněna ze systému managera.",
+
+        "voiceMemberJoin":          "{$1} se připojil/a do tvé místnosti.",
+        "voiceMemberLeave":         "{$1} opustil/a tvou místnost.",
+        "voiceMemberMoveHere":       "{$1} byl/a přesunut/a do tvé místosti.",
+        "voiceMemberMoveAway":       "{$1} byl/a přesunut/a z tvé místnosti.",
+
+        "ghostPing":                "Byl/a jsi GhostPinged v {$1}  na {$2} od {$3}",
+
+        "mutedNotifs":              "Notifikace Ztlumeny.",
+        "alreadyMuted":             "Již máš ztlumeny notifikace. Pro opětavé obnovení notifikací použij příkaz `{$1}`",
+        "unmutedNotifs":            "Notifikace reaktivovány."
+    }
+
+}
