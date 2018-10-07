@@ -1,7 +1,7 @@
 [![Discord Bots](https://discordbots.org/api/widget/status/345612130122334209.png)](https://discordbots.org/bot/345612130122334209)
 [![Discord Bots](https://discordbots.org/api/widget/servers/345612130122334209.png)](https://discordbots.org/bot/345612130122334209)
 [![Discord Bots](https://discordbots.org/api/widget/lib/345612130122334209.png)](https://discordbots.org/bot/345612130122334209)
-[![Builds](https://travis-ci.org/DiscordManager/manager-lang.svg?branch=master)](https://github.com/Nioxed/manager-lang)
+[![Builds](https://travis-ci.org/DiscordManager/manager-lang.svg?branch=master)](https://github.com/DiscordManager/manager-lang)
 
 # Manager Language
 This repo is used to keep all the languages for Manager organized.
