@@ -3,7 +3,7 @@
 [![Discord Bots](https://discordbots.org/api/widget/lib/345612130122334209.png)](https://discordbots.org/bot/345612130122334209)
 [![Builds](https://travis-ci.org/DiscordManager/manager-lang.svg?branch=master)](https://github.com/DiscordManager/manager-lang)
 
-# Manager Language
+# Manager Language Files
 This repo is used to keep all the languages for Manager organized.
 Your language missing or just want to contribute? Make a Pull Request with your new language (For a base use en_US)
 It can take up to a whole day for updates to become visible on the bot.
