@@ -14,7 +14,7 @@ Thanks to [Kolkies](https://github.com/Kolkies) we now have a github bot to help
 ## Thank You.
 These people have helped translate Manager:
  - Andrew#6621 - Romanian
- - Michdi#1602 & Wolfram Walter#2790 - German
+ - Michdi#1602 & TheHDCrafter#2790 - German
  - [Kolkies](https://github.com/Kolkies) - Dutch
  - Nekzt#2212 - Português do Brasil
  - Kael#1961 - Turkish
