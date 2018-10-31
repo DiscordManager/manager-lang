@@ -177,7 +177,12 @@
         "RoomUpdatedOptionSet":     "`{$1}` byla nastavena na `{$2}` v soukromé místnosti {$3}",
 	    
         "logJoinVC":                "{$1} Se připojil do hlasové místnosti v {$2}",
-        "logLeaveVC":                "{$1} Odešel z hlasové místnosti v {$2}"
+        "logLeaveVC":                "{$1} Odešel z hlasové místnosti v {$2}",
+        
+        "roomRevokeReason_leftServer":  "Uživatel opustil server.",
+        "roomRevokeReason_expired":     "Místnost vypršela.",
+        "roomRevokeReason_manual":      "Manuálně",
+        "roomRevokeReason_purge":       "Mazání místností"
 	    
      },
  
