@@ -177,7 +177,12 @@
         "RoomUpdatedOptionSet":     "`{$1}` wurde auf `{$2}` geändert im Kanal von {$3}.",
 
         "logJoinVC":                "{$1} Ist dem Sprach Kanal {$2} beigetreten.",
-        "logLeaveVC":               "{$1} Hat den Sprach Kanal {$2} verlassen."
+        "logLeaveVC":               "{$1} Hat den Sprach Kanal {$2} verlassen.",
+
+        "roomRevokeReason_leftServer":  "Nutzer hat den Server verlassen.",
+        "roomRevokeReason_expired":     "Zeit abgelaufen.",
+        "roomRevokeReason_manual":      "Manuel",
+        "roomRevokeReason_purge":       "Raum gesäubert "
         
     },
 
