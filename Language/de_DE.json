@@ -61,7 +61,7 @@
 		"noPermission":				"Du kannst keine privaten Kanäle erstellen.",
 		"noRoom":					"Du scheinst keinen Kanal zu besitzen.",
 		"noRoomsAvailable":			"Zur Zeit sind zu viele Kanäle aktiv.",
-        "alreadyHasRoom":			"Du hast bereits einen Kanal.",
+                "alreadyHasRoom":			"Du hast bereits einen Kanal.",
         
 		"noVoiceChannel":			"Du scheinst keinen Sprachkanal zu besitzen.",
 		"noTextChannel":			"Du scheinst keinen Textkanal zu besitzen.",
