@@ -171,13 +171,18 @@
         "old": "Velho",
         "new": "Novo",
 	    
-	"RoomUpdatedMemberAdd":     "{$1} foi adicionado na sala privada de {$2}",
-        "RoomUpdatedMemberKick":     "{$1} foi expulso da sala privada de {$2}",
-        "RoomUpdatedMemberBan":     "{$1} foi banido da sala privada de {$2}",
-        "RoomUpdatedOptionSet":     "`{$1}` foi definido para `{$2}` na sala privada de {$3}",
+	"RoomUpdatedMemberAdd": "{$1} foi adicionado na sala privada de {$2}",
+        "RoomUpdatedMemberKick": "{$1} foi expulso da sala privada de {$2}",
+        "RoomUpdatedMemberBan": "{$1} foi banido da sala privada de {$2}",
+        "RoomUpdatedOptionSet": "`{$1}` foi definido para `{$2}` na sala privada de {$3}",
 
-        "logJoinVC":                "{$1} Entrou no chat de voz em {$2}",
-        "logLeaveVC":                "{$1} Saiu do chat de voz em {$2}"
+        "logJoinVC": "{$1} Entrou no chat de voz em {$2}",
+        "logLeaveVC": "{$1} Saiu do chat de voz em {$2}",
+        
+        "roomRevokeReason_leftServer": "Membro saiu do servidor.",
+        "roomRevokeReason_expired": "Sala expirada.",
+        "roomRevokeReason_manual": "Manual",
+        "roomRevokeReason_purge": "Sala removida"
 
     },
 
