@@ -1,0 +1,228 @@
+{
+
+    "lang_version":     3,
+    "lang_name":        "Ladin Badiot",
+    "lang_short":       "lad_IT",
+
+    "genericTerms": {
+
+        "username":             "Inom utënt",
+        "nickname":             "Surainom",
+        "roles":                "Perts",
+        "role":                 "Pert",
+        "accountCreated":       "Cherié",
+        "joinedServerDate":     "Colié al server",
+        "nicknameHistory":      "Surainom prezedënt",
+        "status":               "Condiziun",
+
+        "serverName":           "Inom",
+        "serverMembers":        "Mëmbri",
+        "serverOwner":          "Proprietar",
+        "serverCreated":        "Cherié",
+        "serverRegion":         "Regiun",
+        "serverIcon":           "Icona",
+		
+        "owner":         		"Proprietar",
+        "admin":         		"Aministradú",
+        "moderator":         	"Moderadú",
+        "muted":         		"Smorzé",  
+        "staff":                "Personal",
+
+        "onlineStaff":          "Personal Online",
+
+        "matchResponseBig":     "`{$1}` corespognënzes. Vëiga döt -> {$2}"
+
+    },
+	
+	"genericMessages": {
+	
+		"errorUnknown":         	"Valch é jü stort.",
+		"errorUnknownDescriptive":  "Valch é jü stort. `{$1}`",
+		"errorBotPermissionU":  	"Manager ne é nia conzedü a eseguí chël comando.",
+		"errorBotPermissionS":  	"Manager ne á nia les autorisaziuns, `{$1}`, pur eseguí chël comando.",
+		"errorYouPermission":   	"Tö ne as nia assá autorisaziuns.",
+		"errorNoConfig":   			"Imposcibl ciarié la configuraziun pur chësc file. Proa danü te n per de scunc!.",
+		"errorNotNSFW":   			"Chël comando poste madër fá te n canal NSFW.",
+        "errorBotUnavailable":  	"Manager é por le momënt sté dejabilité. Proa danü te n per menüc!",
+
+        "errorCannotChangeValue":   "Ne te pos nia cambié chësc valur.",
+
+        "errorCommandDisabled":     "Chësc comando é sté dejabilité",
+        "howToExitAlpha":           "Por gní fora dal alpha, sciüra fora chësta verjiun del bot y la verjiun originala messes mët man da funzioné indô.",
+
+        "errorTooManyMatched":      "Ciafé massa corespongnënzes, mascim: `{$1}`",
+        "errorTooLittleMatched":    "Ciafé massa püces corespongnënzes, minim: `{$1}`"
+	
+	},
+	
+	"rooms": {
+	
+		"disabled":					"I canai é al momënt dejabitá.",
+		"noPermission":				"Te ne pos nia cherié n canal privat.",
+		"noRoom":					"Al pé che n te ais nia n canal.",
+		"noRoomsAvailable":			"Al é massa canai atifs al momënt.",
+        "alreadyHasRoom":			"Te as bele n canal.",
+        
+		"noVoiceChannel":			"Tö ne as nia n canal pur la usc.",
+		"noTextChannel":			"Tö ne as nia n canal de test.",
+		
+		"summoning":				":manager_loading: Drio a imposté le tü canal!",
+		"summonedVoice":			":manager: Cherié le tü canal vocal.",
+		"summonedText":				":manager: Cherié le tü canal de test.",
+		"summonedBoth":				":manager: Cherié i tü canai.",
+		
+        "roomPasscode":				"Le codesc socrët pur to canale é `{$1}`",
+                
+        "inviteNone":               "Te messes spezifiché almanco 1 na porsona da invié.",
+        "inviteTooMany":            "Te pos madër invié cina a {$1} porsones al iade.",
+        "inviteSuccess":            "Te as invié: {$1}",
+                
+        "kickNone":                 "Te messes spezifiché almanco 1 na porsona da sciuré fora dal server.",
+        "kickTooMany":              "Te pos madër sciuré fora dal server cina a {$1} porsones al iade.",
+        "kickSuccess":              "Te as sciuré fora dal server: {$1}",
+
+        "banNone":                  "Te messes spezifiché almanco 1 na porsona da bandí.",
+        "banTooMany":               "Te pos madër bandí cina a {$1} porsones al iade.",
+        "banSuccess":               "Te as bandí: {$1}",
+
+        "optionName":               "Cambié l'inom dl canal.",
+        "optionNameFailed":         "Imposcibl cambié l'inom dl canal: {$1}, él n inom varënt?",
+        "optionMemberlimit":        "`Mëmbri Mascims` modifiché a `{$1}`.",
+        "optionBitrate":            "`Bitrate` modifiché a `{$1}`.",
+        "optionEmbed":              "`Injunté Links` modifiché a `{$1}`.",
+        "optionFiles":              "`Injunté Files` modifiché a `{$1}`.",
+        "optionPTT":                "`Aduré les Sinteses Vocales` modifiché a `{$1}`.",
+        "optionNSFW":               "`Atenziun NSFW` modifiché a `{$1}`.",
+        "optionReactions":          "`Reagí a Messaji` modifiché a `{$1}`.",
+        "optionTopic":              "`Argomënt dl canal` modifiché a `{$1}`.",
+
+        "optionNotChangable":       "Tö ne es nia autorisé a modifiché chëla opziun.",
+        "optionInvalidValue":       "Prëitanbel adora un de chisc valurs: `{$1}`.",
+
+        "optionUnlocked":           "Cambié la `privacy` de tü canal te `Davert`.",
+        "optionLocked":             "Cambié la `privacy` de tü canal te `Madër invit.",
+        
+        "speakersAdd":              "Al é sté dé Priority Speaker a {$1}.",        
+        "speakersRemove":           "Al é sté tut demez Priority Speaker da {$1}.",
+        	
+		"defaultTopic":				"Canal privat de {$1} - Deura le Argomënt dl canal por plü informaziuns.\n\n\nCi ai pa da fá cun le mi canal?:\n - inviëia atri mëmber cun **{$3}room invite**\n - sciüra fora i mëmbri inviá cun **{$4}room kick**\n - Modifichëia le tü canal cun **{$5}room set**\n\nData de creaziun dl canal: **{$2}**",
+    
+        "roomExpiredNotify":        "Le tü canal é tomé. Te pos le cherié indo cun `{$1}`.\nNe os nia chëstes notificaziuns? Scri `{$2}` te vigni server cun Manager!"
+	},
+    
+    "logging": {
+
+        "logGenericDelete":        "{$1} á tut demez {$2}",
+        "logGenericUpdate":        "{$1} á ajorné {$2}",
+        "logGenericCreate":        "{$1} á cherié {$2}",
+
+        "guildUpdate":              "Impostaziuns dl server modificades",
+        "guildUpdateDesc":          "{$1} ajorné les impostaziuns dl server.",
+        
+        "channelCreate":            "Canal cherié",
+        "channelUpdate":            "Canal modifiché",
+        "channelDelete":            "Canal tut demez",
+
+        "guildBanAdd":              "Mëmber é sté bandí",
+        "guildBanRemove":           "Mëmber nia plü bandí",
+
+        "logUserBanned":            "{$2} é sté bandí da {$1}",
+        "logUserKicked":            "{$2} é sté sciuré fora dal server {$1}",
+        "logUserUnbanned":          "{$2} ne é nia plü bandí, giulan a {$1}",
+
+        "messageUpdate":            "Messaje modifiché",
+        "messageDelete":            "Messaje tut demez",
+
+        "logMessageEdited":         "{$1} edited their message in {$2}",
+        "logMessageDeleted":        "Le messaje de {$1} te {$2} é sté tut demez",
+
+        "guildMemberAdd":           "Member fej segn para",
+        "guildMemberRemove":        "Member á abanduné",
+        "guildMemberUpdate":        "Member ajorné",
+
+        "joinVoice":                "Gnü ite te le canal de usc",
+        "leaveVoice":               "Abanduné canal de usc",
+        "moveVoice":                "Changed Channel",
+
+        "logJoin":                  "{$1} é gnü ite te {$2}",
+        "logLeave":                 "{$1} á abanduné",
+        "logUpdate":                "{$1} é sté modifiché da {$2}",
+
+        "emojiCreate":              "Emoji cherié",
+        "emojiUpdate":              "Emoji modifiché",
+        "emojiDelete":              "Emoji tut demez",
+
+        "roleCreate":               "Pert cheriada",
+        "roleDelete":               "Pert tuta demez",
+        "roleUpdate":               "Pert modificada",
+
+        "roomSummon":               "Canal privat cherié",
+        "roomRevoke":               "Canal privat tut demez",
+        "roomUpdate":               "Canal privat modifiché",
+
+        "scriptRan":                "Script eseguí",
+
+        "configChanged":            "Configuraziun ajornada",
+
+        "levelUp":                  "Te es jü sö de livel!",
+        "autoModGeneric":           "{$1} é sté abiné da **autoMod**",
+        "autoModDeleted":           "**AutoMod** á tut demez {$2} a {$1} ",
+
+        "old":                      "Vedl",
+        "new":                      "Nü",
+
+        "RoomUpdatedMemberAdd":     "{$1} é sté metü lapró al canal privat de {$2}",
+        "RoomUpdatedMemberKick":     "{$1} é sté sciuré fora dal canal privat de {$2}",
+        "RoomUpdatedMemberBan":     "{$1} é sté bandí dal canal privat de {$2}",
+        "RoomUpdatedOptionSet":     "`{$1}` é sté imposté a `{$2}` tla canal privat de {$3}",
+
+        "logJoinVC":                "{$1} Gnü ite te le canal de usc te {$2}",
+        "logLeaveVC":                "{$1} Arbandoné le canal de usc te {$2}",
+        
+        "roomRevokeReason_leftServer":  "Mëmber á lascé le server.",
+        "roomRevokeReason_expired":     "Canal tomé.",
+        "roomRevokeReason_manual":      "Manual",
+        "roomRevokeReason_purge":       "Canal depuré"
+        
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> Sun drio a lauré!",
+        "noImage":              "Mëna na imaja, prëitanbel!",
+        "defaultAvatar":        "Chësc utënt á l'avatar original!"
+
+    },
+
+    "moderationCommands": {
+
+        "Muted": "{$1} é sté smorzé.",
+        "UnMute": "{$1} ne é nia plü smorzé.",        
+        
+        "slowModeMax": "La dorada mascima por la Slowmode é de `120` Secunc.",
+        "slowModeOn": "La Slowmode é stada impostada a `{$1}` Secunc.",
+        "slowModeOff": "La Slowmode é stada dejabilitada.",
+
+        "reset": "{$1} é sté imposté indô da nü."
+
+    },
+
+    "notifications": {
+
+        "roomExpired":              "Le tü canal privat é tomé.",
+        "roomRemovedAdmin":         "Le tü canal privat é sté tut demez da n aministradú.",
+        "roomRemovedManager":       "Le tü canal privat é sté tut demez da le sistem cun forza.",
+
+        "voiceMemberJoin":          "{$1} é gnü ite te tü canal.",
+        "voiceMemberLeave":         "{$1} á abandoné tü canal.",
+        "voiceMemberMoveHere":       "{$1} s'á sposté ite tü canal.",
+        "voiceMemberMoveAway":       "{$1} s'né jü demez dal tü canal.",
+
+        "ghostPing":                "Te as ciafé n GhostPing ite te {$1} sön {$2} da {$3}",
+
+        "mutedNotifs":              "Notificaziuns smorzades.",
+        "alreadyMuted":             "Te as bele les notificaziuns smorzades, por tó demez la smorzia, scri: `{$1}`",
+        "unmutedNotifs":            "Notificaziuns nia plü smorzades."
+    }
+
+}
