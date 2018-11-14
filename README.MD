@@ -23,5 +23,6 @@ These people have helped translate Manager:
  - Rockfire#3980 - French
  - Promise#0001 - Norwegian
  - zAndryZ#5378 - Italian
+ - SpeckyYTv - lad_IT
  
  <3
