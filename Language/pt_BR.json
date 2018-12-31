@@ -133,7 +133,7 @@
         "messageUpdate": "Mensagem Editada",
         "messageDelete": "Mensagem Deletada",
 
-        "logMessageEdited": "{$1} editou a própria mensagem em {$2}",
+        "logMessageEdited": "{$1} editou a própria [mensagem]({$3}) em {$2}",
         "logMessageDeleted": "mensagem de {$1} em {$2} foi deletada",
 
         "guildMemberAdd": "Membro Entrou",

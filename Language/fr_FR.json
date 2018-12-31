@@ -133,7 +133,7 @@
         "messageUpdate":            "Message modifié",
         "messageDelete":            "Message supprimé",
 
-        "logMessageEdited":         "{$1} a modifié son message dans {$2}",
+        "logMessageEdited":         "{$1} a modifié son [message]({$3}) dans {$2}",
         "logMessageDeleted":        "Le message de {$1} dans {$2} a été supprimé",
 
         "guildMemberAdd":           "Un membre a rejoint",

@@ -118,7 +118,7 @@
     "messageUpdate": "Mesaj editat",
     "messageDelete": "Mesaj sters",
     
-    "logMessageEdited": "{$1} a editat un mesaj in {$2}",
+    "logMessageEdited": "{$1} a editat un [mesaj]({$3}) in {$2}",
     "logMessageDeleted": "mesaj creat de {$1} in {$2} a fost sters",
     
     "guildMemberAdd": "Membru intrat",

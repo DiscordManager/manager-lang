@@ -97,7 +97,7 @@
         "logUserUnbanned": "{$ 1}无抵押{$ 2}",
         "messageUpdate": "消息已编辑",
         "messageDelete": "消息已删除",
-        "logMessageEdited": "{$ 1}在{$ 2}中修改了他们的邮件",
+        "logMessageEdited": "{$ 1}在{$ 2}中修改了他们的邮件 | [message]({$3})",
         "logMessageDeleted": "{$ 2}中{$ 1}的邮件已被删除",
         "guildMemberAdd": "会员加入",
         "guildMemberRemove": "会员左",

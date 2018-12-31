@@ -133,7 +133,7 @@
         "messageUpdate":            "Mesaj Değiştirildi",
         "messageDelete":            "Mesaj Silindi",
 
-        "logMessageEdited":         "{$1}, {$2} konumunda bulunan mesajı değiştirdi",
+        "logMessageEdited":         "{$1}, {$2} konumunda bulunan [mesaj]({$3}) değiştirdi",
         "logMessageDeleted":        "{$1} tarafından {$2} konumunda yazılan mesaj silindi.",
 
         "guildMemberAdd":           "Üye Katıldı",

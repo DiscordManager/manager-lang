@@ -133,7 +133,7 @@
         "messageUpdate":            "Melding Redigert",
         "messageDelete":            "Melding Slettet",
 
-        "logMessageEdited":         "{$1} redigerte meldingen deres i {$2}",
+        "logMessageEdited":         "{$1} redigerte [meldingen]({$3}) deres i {$2}",
         "logMessageDeleted":        "melding av {$1} i {$2} ble slettet",
 
         "guildMemberAdd":           "Medlem Ble Med",

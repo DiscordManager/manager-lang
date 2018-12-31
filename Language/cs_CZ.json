@@ -133,7 +133,7 @@
         "messageUpdate":            "Zpráva upravena",
         "messageDelete":            "Zpráva odstraněna",
 
-        "logMessageEdited":         "{$1} upravil svoji zprávu v {$2}",
+        "logMessageEdited":         "{$1} upravil svoji [zprávu]({$3} v {$2}",
         "logMessageDeleted":        "Zpráva od {$1} v {$2} byla smazána",
 
         "guildMemberAdd":           "Uživatel se připojil",

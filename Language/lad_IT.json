@@ -133,7 +133,7 @@
         "messageUpdate":            "Messaje modifiché",
         "messageDelete":            "Messaje tut demez",
 
-        "logMessageEdited":         "{$1} edited their message in {$2}",
+        "logMessageEdited":         "{$1} edited their [message]({$3}) in {$2}",
         "logMessageDeleted":        "Le messaje de {$1} te {$2} é sté tut demez",
 
         "guildMemberAdd":           "Member fej segn para",

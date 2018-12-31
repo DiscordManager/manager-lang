@@ -128,7 +128,7 @@
         "messageUpdate":            "Сообщение Изменено",
         "messageDelete":            "Сообщение Удалено",
 
-        "logMessageEdited":         "{$1} изменил свой сообщение в {$2}",
+        "logMessageEdited":         "{$1} изменил свой [сообщение]({$3}) в {$2}",
         "logMessageDeleted":        "сообщение от {$1} в {$2} удалено",
 
         "guildMemberAdd":           "Пользователь Присоединился",

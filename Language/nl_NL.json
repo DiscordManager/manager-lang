@@ -133,7 +133,7 @@
         "messageUpdate":            "Bericht aangepast",
         "messageDelete":            "Bericht verwijderd",
 
-        "logMessageEdited":         "{$1} heeft het bericht aangepast in {$2}",
+        "logMessageEdited":         "{$1} heeft het [bericht]({$3}) aangepast in {$2}",
         "logMessageDeleted":        "Bericht van {$1} in {$2} is verwijderd",
 
         "guildMemberAdd":           "Member gejoined",
