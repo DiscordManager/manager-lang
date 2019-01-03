@@ -24,5 +24,6 @@ These people have helped translate Manager:
  - Promise#0001 - Norwegian
  - zAndryZ#5378 - Italian
  - SpeckyYTv - lad_IT
+ - Jojo1545 - Spanish
  
  <3
