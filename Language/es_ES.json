@@ -1,0 +1,228 @@
+{
+
+    "lang_version":     3,
+    "lang_name":        "Español",
+    "lang_short":       "es_ES",
+
+    "genericTerms": {
+
+        "username":             "Nombre de usuario",
+        "nickname":             "Apodo",
+        "roles":                "Roles",
+        "role":                 "Role",
+        "accountCreated":       "Creado en",
+        "joinedServerDate":     "Se unió en",
+        "nicknameHistory":      "Apodos anteriores",
+        "status":               "Estado",
+
+        "serverName":           "Nombre",
+        "serverMembers":        "Miembros",
+        "serverOwner":          "Creador",
+        "serverCreated":        "Creado en",
+        "serverRegion":         "Región",
+        "serverIcon":           "Icono",
+		
+        "owner":         		"Creador",
+        "admin":         		"Administrador",
+        "moderator":         	"Moderador",
+        "muted":         		"Silenciado",
+        "staff":                "Staff",
+
+        "onlineStaff":          "Staff Conectado",
+
+        "matchResponseBig":     "`{$1}` Coincide. Ver todo -> {$2}"
+
+    },
+	
+	"genericMessages": {
+	
+		"errorUnknown":         	"Algo ocurrio mal.",
+		"errorUnknownDescriptive":  "Algo malo ha ocurrido. `{$1}`",
+		"errorBotPermissionU":  	"Manager carece de permisos para hacer eso.",
+		"errorBotPermissionS":  	"Manager necesita el permiso `{$1}` para hacer eso.",
+		"errorYouPermission":   	"No tienes los permisos necesarios.",
+		"errorNoConfig":   			"No se puede cargar la configuración de este archivo. Inténtelo de nuevo en unos segundos.",
+		"errorNotNSFW":   			"Esto solo se puede hacer en un canal NSFW.",
+        "errorBotUnavailable":  	"Manager no esta temporalmente disponible. ¡Intentalo en 1 o 2 minutos!",
+
+        "errorCannotChangeValue":   "No puedes cambiar este valor.",
+
+        "errorCommandDisabled":     "Este comando fue deshabilitado",
+        "howToExitAlpha":           "Para salir del alfa, simplemente expulsa esta versión del bot y la original debería comenzar a funcionar nuevamente.",
+
+        "errorTooManyMatched":      "Se encontraron demasiadas coincidencias, Máximo: `{$1}`",
+        "errorTooLittleMatched":    "Encontró muy pocas coincidencias, Mínimo: `{$1}`"
+	
+	},
+	
+	"rooms": {
+	
+		"disabled":					"Las salas privadas actualmente estan deshabilitadas.",
+		"noPermission":				"No puedes convocar una sala privada.",
+		"noRoom":					"Parece que no tienes una sala.",
+		"noRoomsAvailable":			"Hay demasiadas salas activas en este momento.",
+        "alreadyHasRoom":			"Ya tienes una sala.",
+        
+		"noVoiceChannel":			"Parece que no tienes un canal de voz.",
+		"noTextChannel":			"Parece que no tienes un canal de texto.",
+		
+		"summoning":				":manager_loading: ¡Configurando tu sala!",
+		"summonedVoice":			":manager: Tu sala de Voz fue creada.",
+		"summonedText":				":manager: Tu sala de Texto fue creada.",
+		"summonedBoth":				":manager: Se crearon tus salas..",
+		
+        "roomPasscode":				"La contraseña de tu sala es: `{$1}`",
+                
+        "inviteNone":               "Necesitas especificar al menos 1 persona para invitarla.",
+        "inviteTooMany":            "Solo puedes invitar hasta {$1} personas a la vez.",
+        "inviteSuccess":            "Invitaste a: {$1}",
+                
+        "kickNone":                 "Necesitas especificar al menos 1 persona para expulsar.",
+        "kickTooMany":              "Solo puedes expulsar hasta {$1} parsonas a la vez.",
+        "kickSuccess":              "Expulsaste a: {$1}",
+
+        "banNone":                  "Necesitas especificar al menos 1 persona para vetar.",
+        "banTooMany":               "Solo puedes vetar hasta {$1} personas a la vez.",
+        "banSuccess":               "Vetaste a: {$1}",
+
+        "optionName":               "Cambiaste el nombre del canal.",
+        "optionNameFailed":         "No se pudo cambiar el nombre del canal {$1}. ¿Es un nombre de canal válido?",
+        "optionMemberlimit":        "Actualizaste la opcion `Miembros maximos` de tu canal de voz a `{$1}`.",
+        "optionBitrate":            "Actualizaste la opcion `Bitrate` de tu canal de voz a `{$1}`.",
+        "optionEmbed":              "Actualizaste la opcion `Permisos de Enlaces` De tu canal de texto a `{$1}`.",
+        "optionFiles":              "Actualizaste la opcionl `Permisos de Archivos` De tu canal de texto a `{$1}`.",
+        "optionPTT":              "Actualizaste la opcion `PTT Requirement` de tu canal de Texto a `{$1}`.",
+        "optionNSFW":               "Actualizaste la opcion `Aviso de NSFW` de tu canal de Texto a `{$1}`.",
+        "optionReactions":          "Actualizaste la opcion `Permisos para Reacciones` de tu canal de texto a `{$1}`.",
+        "optionTopic":              "Actualizaste la opcion `Topic` de tu canal de texto a `{$1}`.",
+
+        "optionNotChangable":       "No tienes permitido cambiar esa opcion.",
+        "optionInvalidValue":       "Por favor especifica uno de estos valores: `{$1}`.",
+
+        "optionUnlocked":           "Cambiaste la `Privacidad` de tu canal a `Abierto`.",
+        "optionLocked":             "Cambiaste la `Privacidad` de tu canal a `Solo con invitacion`.",
+        
+        "speakersAdd":              "Le diste el Locutor primario a {$1}.",        
+        "speakersRemove":           "Le removiste el Locutor primario a {$1}.",
+        	
+		"defaultTopic":				"Sala privada de {$1} - Abre la descripcion del canal para mas informacion.\n\n\n¿Que puedo hacer con mi sala?:\n - Invita a otros miembros con **{$3}room invite**\n - Expulsalos de la sala con **{$4}room kick**\n - Actualiza la sala con **{$5}room set**\n\nEsta sala fue creada el dia y hora: **{$2}**",
+    
+        "roomExpiredNotify":        "Tu sala ha expirado, creala denuevo con `{$1}`.\n¿No quieres recibir estas notificaciones? ¡Escribe `{$2}` en un servidor que contenga Manager!"
+	},
+    
+    "logging": {
+
+        "logGenericDelete":        "{$1} Elimino {$2}",
+        "logGenericUpdate":        "{$1} Actualizo {$2}",
+        "logGenericCreate":        "{$1} Creo {$2}",
+
+        "guildUpdate":              "Los ajustes del servidor fueron Actualizados",
+        "guildUpdateDesc":          "{$1} actualizo los ajustes del servidor.",
+        
+        "channelCreate":            "Canal creado",
+        "channelUpdate":            "Canal editado",
+        "channelDelete":            "Canal eliminado",
+
+        "guildBanAdd":              "Miembro Vetado",
+        "guildBanRemove":           "Miembro UnVetado",
+
+        "logUserBanned":            "{$1} Veto a {$2}",
+        "logUserKicked":            "{$1} Expulso a {$2}",
+        "logUserUnbanned":          "{$1} Retito el Veto a {$2}",
+
+        "messageUpdate":            "Mensaje editado",
+        "messageDelete":            "Mensaje Eliminado",
+
+        "logMessageEdited":         "{$1} edito su mensaje en {$2}",
+        "logMessageDeleted":        "mensaje enviado por {$1} en {$2} fue eliminado",
+
+        "guildMemberAdd":           "Miembro unido",
+        "guildMemberRemove":        "Miembro se fue",
+        "guildMemberUpdate":        "Miembro actualizado",
+
+        "joinVoice":                "Entro al canal de voz",
+        "leaveVoice":               "Salio del canal de voz",
+        "moveVoice":                "Cambio de canal",
+
+        "logJoin":                  "{$1} Entro {$2}",
+        "logLeave":                 "{$1} Se fue",
+        "logUpdate":                "{$1} Fue editado por {$2}",
+
+        "emojiCreate":              "Emoji Añadido",
+        "emojiUpdate":              "Emoji Editado",
+        "emojiDelete":              "Emoji Eliminado",
+
+        "roleCreate":               "Rol Creado",
+        "roleDelete":               "Rol Eliminado",
+        "roleUpdate":               "Rol Editado",
+
+        "roomSummon":               "Sala privada Creada",
+        "roomRevoke":               "Sala privada Eliminada",
+        "roomUpdate":               "Sala privada Actualizada",
+
+        "scriptRan":                "Script Ejecutado",
+
+        "configChanged":            "Configuración actualizada",
+
+        "levelUp":                  "¡Subiste de nivel!",
+        "autoModGeneric":           "{$1} fue capturado por **autoMod**",
+        "autoModDeleted":           "{$1} tuvo su {$2} eliminado por **autoMod**",
+
+        "old":                      "Antiguo",
+        "new":                      "Nuevo",
+
+        "RoomUpdatedMemberAdd":     "{$1} Fue agregado a la sala privada de {$2}",
+        "RoomUpdatedMemberKick":     "{$1} fue expulsado de la sala privada de {$2}",
+        "RoomUpdatedMemberBan":     "{$1} fue vetado de la sala privada de {$2}",
+        "RoomUpdatedOptionSet":     "`{$1}` se estableció en `{$2}` en la sala privada de {$3}",
+
+        "logJoinVC":                "{$1} Entro al chat en {$2}",
+        "logLeaveVC":                "{$1} Salio del chat en {$2}",
+        
+        "roomRevokeReason_leftServer":  "El usuario salio del servidor.",
+        "roomRevokeReason_expired":     "Sala expirada.",
+        "roomRevokeReason_manual":      "Manual",
+        "roomRevokeReason_purge":       "Sala Purgada"
+        
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> ¡Procesando!",
+        "noImage":              "Especifica una imagen, ¡Por favor!",
+        "defaultAvatar":        "¡Este usuario tiene el Avatar predefinido!"
+
+    },
+
+    "moderationCommands": {
+
+        "Muted": "{$1} has been muted.",
+        "UnMute": "{$1} has been un-muted.",        
+        
+        "slowModeMax": "La maxima duracion del modo lento son `120` segundos.",
+        "slowModeOn": "El modo lento ha sido activado a `{$1}` segundos.",
+        "slowModeOff": "El modo lento ha sido desactivado.",
+
+        "reset": "{$1} ha sido reiniciado."
+
+    },
+
+    "notifications": {
+
+        "roomExpired":              "Tu sala privada ha expirado.",
+        "roomRemovedAdmin":         "Tu sala privada fue eliminada por un Administrador.",
+        "roomRemovedManager":       "Tu sala privada fue eliminada del sistema.",
+
+        "voiceMemberJoin":          "{$1} se unio a tu canal.",
+        "voiceMemberLeave":         "{$1} se fue de tu canal.",
+        "voiceMemberMoveHere":       "{$1} se movio a tu canal.",
+        "voiceMemberMoveAway":       "{$1} se movio fuera de tu canal.",
+
+        "ghostPing":                "Tuviste un Ping Fantasma en {$1} en {$2} por {$3}",
+
+        "mutedNotifs":              "Notificaciones Silenciadas.",
+        "alreadyMuted":             "Ya tienes las notificaciones Silenciadas, para activarlas usa `{$1}`",
+        "unmutedNotifs":            "Notificaciones Activadas."
+    }
+
+}
