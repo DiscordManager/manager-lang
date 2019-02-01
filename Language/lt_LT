@@ -6,122 +6,122 @@
 
     "genericTerms": {
 
-        "Vardas":               "Vardas",
-        "Slapvyvardis":          "Slapyvardis",
+        "username":             "Vardas",
+        "nickname":             "Slapyvardis",
         "roles":                "Roles",
         "role":                 "Role",
-        "Paskyra Sukurta":       "Sukurta",
-        "prisijungta":           "Prisijungta",
-        "slapyvardžio Istoryja":  "Praitasis Slapyvardis",
-        "status":               "Status",
+        "accountCreated":       "Sukurta",
+        "joinedServerDate":     "Prisijungta",
+        "nicknameHistory":      "Slapyvardžių istorija",
+        "status":               "Statusas",
 
-        "ServerioVardas":           "Vardas",
-        "serverio Nariai":        "Narys",
-        "serverio savininkas":    "Savininkas",
-        "Serveris Sukurtas":       "Sukurtas",
-        "serverio Religija":        "religija",
-        "serverio Paveikslėlis":      "Icon",
+        "serverName":           "Pavadinimas",
+        "serverMembers":        "Nariai",
+        "serverOwner":          "Savininkas",
+        "serverCreated":        "Sukurtas",
+        "serverRegion":         "Regionas",
+        "serverIcon":           "Paveikslėlis",
 		
-        "Savininkas":         	        "Savininkas",
-        "administratorius":         	"Administratorius",
-        "moderatorius":         	"Moderatorius",
-        "Užtildymas":         		"Užtildymas",
-        "dalykai":                "dalykai",
+        "owner":         		"Savininkas",
+        "admin":         		"Administratorius",
+        "moderator":         	"Moderatorius",
+        "muted":         		"Uždildytas",
+        "staff":                "Valdžia",
 
-        "Online Dalykai":          "Online Dalykai",
+        "onlineStaff":          "Prisijungusi valdžia",
 
-        "matchResponseBig":     "`{$1}` matches. View all -> {$2}"
+        "matchResponseBig":     "`{$1}` degtukai. Peržiūrėti visus -> {$2}"
 
     },
 	
 	"genericMessages": {
 	
-		"errorUnknown":         	"Something went wrong.",
-		"errorUnknownDescriptive":  "Something went wrong. `{$1}`",
-		"errorBotPermissionU":  	"Manager is missing some permissions to do that.",
-		"errorBotPermissionS":  	"Manager is missing the `{$1}` permissions to do that.",
-		"errorYouPermission":   	"You don't have sufficient permission.",
-		"errorNoConfig":   			"Cannot load the config for this file, Please try again in a couple seconds.",
-		"errorNotNSFW":   			"This can only be done in a NSFW channel.",
-        "errorBotUnavailable":  	"Manager is temporarily not available. Try again in a minute or two!",
+		"errorUnknown":         	"Kažkas negerai.",
+		"errorUnknownDescriptive":  "Kažkas negerai. `{$1}`",
+		"errorBotPermissionU":  	"Vadybininkui trūksta leidimų tai padaryti.",
+		"errorBotPermissionS":  	"Vadybininkui trūksta `{$1}` leidimo tai padaryti.",
+		"errorYouPermission":   	"Jūs neturite pakankamai leidimų.",
+		"errorNoConfig":   			"Negalima įkelti šio failo konfigūracijos. Bandykite dar kartą po kelių sekundžių.",
+		"errorNotNSFW":   			"Tai galima atlikti tik NSFW kanale.",
+        "errorBotUnavailable":  	"Vadybininkas laikinai nepasiekiamas. Pabandykite dar kartą po keliaų minučių!",
 
-        "errorCannotChangeValue":   "You cannot change this value.",
+        "errorCannotChangeValue":   "Negalite pakeisti šios vertės.",
 
-        "errorCommandDisabled":     "This command is disabled",
+        "errorCommandDisabled":     "Ši komanda išjungta",
         "howToExitAlpha":           "To exit the alpha, Just kick this version of the bot and the original one should start working again.",
 
-        "errorTooManyMatched":      "Found too many matches, Maximum: `{$1}`",
-        "errorTooLittleMatched":    "Found too little matches, Minimum: `{$1}`"
+        "errorTooManyMatched":      "Rasta per daug atitikmenų: `{$1}`",
+        "errorTooLittleMatched":    "Rasta per mažai atitikmenų, Minimalus: `{$1}`"
 	
 	},
 	
 	"rooms": {
 	
-		"disabled":					"Private Rooms are currently disabled.",
-		"noPermission":				"You cannot summon a private room.",
-		"noRoom":					"You don't seem to have a room.",
-		"noRoomsAvailable":			"There are too many rooms active at the moment.",
-        "alreadyHasRoom":			"You already have a room.",
+		"disabled":					"Asmeniniai kambariai šiuo metu yra išjungti.",
+		"noPermission":				"Jūs negalite sukurti asmeninio kambario.",
+		"noRoom":					"Jūs neturite kambario.",
+		"noRoomsAvailable":			"Šiuo metu yra per daug kambarių.",
+        "alreadyHasRoom":			"Jau turite kambarį.",
         
-		"noVoiceChannel":			"You don't seem to have a Voice Channel.",
-		"noTextChannel":			"You don't seem to have a Text Channel.",
+		"noVoiceChannel":			"Atrodo, kad neturite balso kanalo.",
+		"noTextChannel":			"Atrodo, kad neturite teksto kanalo.",
 		
-		"summoning":				":manager_loading: Setting up your room!",
-		"summonedVoice":			":manager: Summoned your Voice Channel.",
-		"summonedText":				":manager: Summoned your Text Channel.",
-		"summonedBoth":				":manager: Summoned your Channels.",
+		"summoning":				":manager_loading: Kuriama!",
+		"summonedVoice":			":manager: Sukuta.",
+		"summonedText":				":manager: Sukuta.",
+		"summonedBoth":				":manager: Sukuta.",
 		
-        "roomPasscode":				"The passcode for your room is `{$1}`",
+        "roomPasscode":				"Jūsų kambario kodas yra `{$1}`",
                 
-        "inviteNone":               "You need to specify at least 1 person to invite.",
-        "inviteTooMany":            "You can only invite up to {$1} people at a time.",
-        "inviteSuccess":            "You invited: {$1}",
+        "inviteNone":               "Turite nurodyti bent 1 kviestinį asmenį.",
+        "inviteTooMany":            "Vienu metu galite pakviesti tik iki {$1} žmonių.",
+        "inviteSuccess":            "pakviestas: {$1}",
                 
-        "kickNone":                 "You need to specify at least 1 person to kick.",
-        "kickTooMany":              "You can only kick up to {$1} people at a time.",
-        "kickSuccess":              "You kicked: {$1}",
+        "kickNone":                 "Turite nurodyti bent 1 asmenį, kad išmestumėte.",
+        "kickTooMany":              "Vienu metu galite išmesti tik iki {$1} žmonių.",
+        "kickSuccess":              "Išmestas: {$1}",
 
-        "banNone":                  "You need to specify at least 1 person to ban.",
-        "banTooMany":               "You can only ban up to {$1} people at a time.",
-        "banSuccess":               "You banned: {$1}",
+        "banNone":                  "Turite nurodyti bent 1 asmenį, kurį norite užbluokoti.",
+        "banTooMany":               "Vienu metu galite užbluokoti tik iki {$1} žmonių.",
+        "banSuccess":               "Užbluokotas: {$1}",
 
-        "optionName":               "Changed the Channel name.",
-        "optionNameFailed":         "Could not change {$1} channel name, Is it a valid channel name?",
-        "optionMemberlimit":        "Changed your Voice Channel `Max Members` to `{$1}`.",
-        "optionBitrate":            "Changed your Voice Channel `Bitrate` to `{$1}`.",
-        "optionEmbed":              "Changed your Text Channel `Embed Permission` to `{$1}`.",
-        "optionFiles":              "Changed your Text Channel `Files Permission` to `{$1}`.",
-        "optionPTT":              "Changed your Text Channel `PTT Requirement` to `{$1}`.",
-        "optionNSFW":               "Changed your Text Channel `NSFW Warning` to `{$1}`.",
-        "optionReactions":          "Changed your Text Channel `Reaction Permission` to `{$1}`.",
-        "optionTopic":              "Changed your Text Channel `Topic` to `{$1}`.",
+        "optionName":               "Pakeistas kanalo pavadinimas.",
+        "optionNameFailed":         "Nepavyko pakeisti {$1} kanalo pavadinimo, ar tai tinkamas kanalo pavadinimas?",
+        "optionMemberlimit":        "Pakeistas jūsų balso kanalas `Max Members` į `{$1}`.",
+        "optionBitrate":            "Pakeistas jūsų balso kanalas `Bitrate` į `{$1}`.",
+        "optionEmbed":              "Pakeistas jūsų rašymo kanalas `Embed Permission` į `{$1}`.",
+        "optionFiles":              "Pakeistas jūsų rašymo kanalas `Files Permission` į `{$1}`.",
+        "optionPTT":              "Pakeistas jūsų rašymo kanalas `PTT Requirement` į `{$1}`.",
+        "optionNSFW":               "Pakeistas jūsų rašymo kanalas `NSFW Warning` į `{$1}`.",
+        "optionReactions":          "Pakeistas jūsų rašymo kanalas `Reaction Permission` į `{$1}`.",
+        "optionTopic":              "Pakeistas jūsų rašymo kanalas `Topic` į `{$1}`.",
 
-        "optionNotChangable":       "You are not allowed to change that option.",
-        "optionInvalidValue":       "Please use one of the following values: `{$1}`.",
+        "optionNotChangable":       "Jūs negalite keisti šios parinkties.",
+        "optionInvalidValue":       "Naudokite vieną iš šių reikšmių: `{$1}`.",
 
-        "optionUnlocked":           "Changed your Channel `privacy` to `Open`.",
-        "optionLocked":             "Changed your Channel `privacy` to `Invite Only`.",
+        "optionUnlocked":           "Pakeistas jūsų kanalas `privacy` į `Open`.",
+        "optionLocked":             "Pakeistas jūsų kanalas `privacy` į `Invite Only`.",
         
-        "speakersAdd":              "Gave Priority Speaker to {$1}.",        
-        "speakersRemove":           "Removed Priority Speaker from {$1}.",
+        "speakersAdd":              "Pripažino prioritetinį garsiakalbį {$1}.",        
+        "speakersRemove":           "Pašalintas prioritetas garsiakalbis iš {$1}.",
         	
-		"defaultTopic":				"{$1}'s Private Room - Open up the channel topic for more information.\n\n\nWhat to do with my room?:\n - Invite other members with **{$3}room invite**\n - kick invited members with **{$4}room kick**\n - change the room with **{$5}room set**\n\nThis room was created on **{$2}**",
+		"defaultTopic":				"{$1}'s Privatus kambarys - Norėdami gauti daugiau informacijos, atidarykite kanalo temą.\n\n\nKą daryti su mano kambariu?:\n - Pakvieskite galite kitus narius su **{$3}room invite**\n - Išmesti galite su **{$4}room kick**\n - pakeisti kambarį galite su **{$5}room set**\n\nŠis kambarys buvo sukurtas **{$2}**",
     
-        "roomExpiredNotify":        "Your room has expired. You can summon it again with `{$1}`.\nDon't want these notifications? Type `{$2}` in any server with Manager!"
+        "roomExpiredNotify":        "Jūsų kambarys baigėsi. Galite jį vėl sukurti `{$1}`.\nNenorite šių pranešimų? rašykite: `{$2}`"
 	},
     
     "logging": {
 
-        "logGenericDelete":        "{$1} Deleted {$2}",
-        "logGenericUpdate":        "{$1} Updated {$2}",
-        "logGenericCreate":        "{$1} Created {$2}",
+        "logGenericDelete":        "{$1} Ištrinta {$2}",
+        "logGenericUpdate":        "{$1} Atnaujinta {$2}",
+        "logGenericCreate":        "{$1} Sukurta {$2}",
 
-        "guildUpdate":              "Server Settings Changed",
-        "guildUpdateDesc":          "{$1} updated the server settings.",
+        "guildUpdate":              "Pakeisti serverio nustatymai",
+        "guildUpdateDesc":          "{$1} atnaujino serverio nustatymus.",
         
-        "channelCreate":            "Channel Created",
-        "channelUpdate":            "Channel Edited",
-        "channelDelete":            "Channel Deleted",
+        "channelCreate":            "Kanalas sukurtas",
+        "channelUpdate":            "Atnaujintas kanalas",
+        "channelDelete":            "Kanalas ištrintas",
 
         "guildBanAdd":              "Member Banned",
         "guildBanRemove":           "Member Unbanned",
@@ -188,41 +188,41 @@
 
     "imageCommands": {
 
-        "processingImage":      "<a:manager_loading:409298228954136577> Working on it!",
-        "noImage":              "Supply an image, Please!",
-        "defaultAvatar":        "This user has the default avatar!"
+        "processingImage":      "<a:manager_loading:409298228954136577> Dirbama!",
+        "noImage":              "Pateikite vaizdą, prašome!",
+        "defaultAvatar":        "Šis vartotojas turi numatytąjį avatarą!"
 
     },
 
     "moderationCommands": {
 
-        "Muted": "{$1} has been muted.",
-        "UnMute": "{$1} has been un-muted.",        
+        "Muted": "{$1} Buvo užtildytas.",
+        "UnMute": "{$1} Buvo atitildytas.",        
         
         "slowModeMax": "The max Duration for slowmode is `120` Seconds.",
         "slowModeOn": "Slowmode has been set to `{$1}` Seconds.",
         "slowModeOff": "Slowmode has been disabled.",
 
-        "reset": "{$1} has been reset."
+        "reset": "{$1} buvo atnaujintas."
 
     },
 
     "notifications": {
 
-        "roomExpired":              "Your private room has expired.",
-        "roomRemovedAdmin":         "Your private room was removed by an administrator.",
-        "roomRemovedManager":       "Your private room was forcefully removed from the system.",
+        "roomExpired":              "Jūsų privatus kambarys baigėsi.",
+        "roomRemovedAdmin":         "Jūsų privatų kambarį pašalino administratorius.",
+        "roomRemovedManager":       "Jūsų privatus kambarys buvo stipriai pašalintas iš sistemos.",
 
-        "voiceMemberJoin":          "{$1} joined your channel.",
-        "voiceMemberLeave":         "{$1} left your channel.",
-        "voiceMemberMoveHere":       "{$1} moved to your channel.",
-        "voiceMemberMoveAway":       "{$1} moved away from your channel.",
+        "voiceMemberJoin":          "{$1} prisijungė prie jūsų kanalo.",
+        "voiceMemberLeave":         "{$1} paliko kanalą.",
+        "voiceMemberMoveHere":       "{$1} perkelė į jūsų kanalą.",
+        "voiceMemberMoveAway":       "{$1} nutolęs nuo jūsų kanalo.",
 
-        "ghostPing":                "You were GhostPinged in {$1} on {$2} by {$3}",
+        "ghostPing":                "Jūs buvote GhostPinged į {$1} on {$2} nuo {$3}",
 
-        "mutedNotifs":              "Notifications Muted.",
-        "alreadyMuted":             "You already have notifications muted, To unmute type `{$1}`",
-        "unmutedNotifs":            "Notifications Unmuted."
+        "mutedNotifs":              "Pranešimai užtildyti.",
+        "alreadyMuted":             "Jūs jau turite nutildytus pranešimus, Norėdami išjungti garso įrašo tipą rašykite `{$1}`",
+        "unmutedNotifs":            "Pranešimai įjungti."
     }
 
 }
