@@ -25,5 +25,6 @@ These people have helped translate Manager:
  - zAndryZ#5378 - Italian
  - SpeckyYTv - lad_IT
  - Jojo1545 - Spanish
+ - Liaudis#8043 - Lithuanian
  
  <3
