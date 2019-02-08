@@ -59,31 +59,31 @@
 	
 		"disabled":					"Asmeniniai kambariai šiuo metu yra išjungti.",
 		"noPermission":				"Jūs negalite sukurti asmeninio kambario.",
-		"noRoom":					"Jūs neturite kambario.",
-		"noRoomsAvailable":			"Šiuo metu yra per daug kambarių.",
-        "alreadyHasRoom":			"Jau turite kambarį.",
+		"noRoom":					"Jūs neturite privataus balso kanalo.",
+		"noRoomsAvailable":			"Šiuo metu yra per daug balso kanalų.",
+        "alreadyHasRoom":			"Jau turite balso kanalą.",
         
 		"noVoiceChannel":			"Atrodo, kad neturite balso kanalo.",
 		"noTextChannel":			"Atrodo, kad neturite teksto kanalo.",
 		
 		"summoning":				":manager_loading: Kuriama!",
-		"summonedVoice":			":manager: Sukuta.",
-		"summonedText":				":manager: Sukuta.",
-		"summonedBoth":				":manager: Sukuta.",
+		"summonedVoice":			":manager: Balso kanalas sėkmingai sukurtas.",
+		"summonedText":				":manager: Rašymo kanalas sėkmingai sukurtas.",
+		"summonedBoth":				":manager: Sukurta.",
 		
-        "roomPasscode":				"Jūsų kambario kodas yra `{$1}`",
+        "roomPasscode":				"Jūsų balso kanalo kodas yra `{$1}`",
                 
         "inviteNone":               "Turite nurodyti bent 1 kviestinį asmenį.",
         "inviteTooMany":            "Vienu metu galite pakviesti tik iki {$1} žmonių.",
-        "inviteSuccess":            "pakviestas: {$1}",
+        "inviteSuccess":            "Pakvietimas išsiųstas: {$1}",
                 
         "kickNone":                 "Turite nurodyti bent 1 asmenį, kad išmestumėte.",
         "kickTooMany":              "Vienu metu galite išmesti tik iki {$1} žmonių.",
-        "kickSuccess":              "Išmestas: {$1}",
+        "kickSuccess":              "Buvo išmestas: {$1}.",
 
         "banNone":                  "Turite nurodyti bent 1 asmenį, kurį norite užbluokoti.",
         "banTooMany":               "Vienu metu galite užbluokoti tik iki {$1} žmonių.",
-        "banSuccess":               "Užbluokotas: {$1}",
+        "banSuccess":               "Buvo užbluokotas: {$1}.",
 
         "optionName":               "Pakeistas kanalo pavadinimas.",
         "optionNameFailed":         "Nepavyko pakeisti {$1} kanalo pavadinimo, ar tai tinkamas kanalo pavadinimas?",
@@ -105,9 +105,9 @@
         "speakersAdd":              "Pripažino prioritetinį garsiakalbį {$1}.",        
         "speakersRemove":           "Pašalintas prioritetas garsiakalbis iš {$1}.",
         	
-		"defaultTopic":				"{$1}'s Privatus kambarys - Norėdami gauti daugiau informacijos, atidarykite kanalo temą.\n\n\nKą daryti su mano kambariu?:\n - Pakvieskite galite kitus narius su **{$3}room invite**\n - Išmesti galite su **{$4}room kick**\n - pakeisti kambarį galite su **{$5}room set**\n\nŠis kambarys buvo sukurtas **{$2}**",
+		"defaultTopic":				"{$1}'s Privatus balso kanalas - Norėdami gauti daugiau informacijos, atidarykite kanalo temą.\n\n\nKą daryti su mano kanalu?:\n - Pakvieskite galite kitus narius su **{$3}room invite**\n - Išmesti galite su **{$4}room kick**\n - pakeisti kambarį galite su **{$5}room set**\n\nŠis kambarys buvo sukurtas **{$2}**",
     
-        "roomExpiredNotify":        "Jūsų kambarys baigėsi. Galite jį vėl sukurti `{$1}`.\nNenorite šių pranešimų? rašykite: `{$2}`"
+        "roomExpiredNotify":        "Jūsų kanalas baigėsi. Galite jį vėl sukurti `{$1}`.\nNenorite šių pranešimų? rašykite: `{$2}`"
 	},
     
     "logging": {
@@ -123,12 +123,12 @@
         "channelUpdate":            "Atnaujintas kanalas",
         "channelDelete":            "Kanalas ištrintas",
 
-        "guildBanAdd":              "Member Banned",
-        "guildBanRemove":           "Member Unbanned",
+        "guildBanAdd":              "Narys užblokuotas",
+        "guildBanRemove":           "Narys atblokuotas",
 
-        "logUserBanned":            "{$1} banned {$2}",
-        "logUserKicked":            "{$1} kicked {$2}",
-        "logUserUnbanned":          "{$1} unbanned {$2}",
+        "logUserBanned":            "{$1} Užblokavo {$2}",
+        "logUserKicked":            "{$1} išmetė {$2}",
+        "logUserUnbanned":          "{$1} Atblokavo {$2}",
 
         "messageUpdate":            "Message Edited",
         "messageDelete":            "Message Deleted",
@@ -136,25 +136,25 @@
         "logMessageEdited":         "{$1} edited their message in {$2}",
         "logMessageDeleted":        "message by {$1} in {$2} was deleted",
 
-        "guildMemberAdd":           "Member Join",
-        "guildMemberRemove":        "Member Left",
+        "guildMemberAdd":           "Prisijungė prie serverio",
+        "guildMemberRemove":        "Atsijungė iš serverio",
         "guildMemberUpdate":        "Member Updated",
 
-        "joinVoice":                "Joined Voice Channel",
-        "leaveVoice":               "Left Voice Channel",
+        "joinVoice":                "Prisijungė prie balso kanalo",
+        "leaveVoice":               "Atsijungė iš balso kanalo",
         "moveVoice":                "Changed Channel",
 
-        "logJoin":                  "{$1} Joined {$2}",
-        "logLeave":                 "{$1} Left",
+        "logJoin":                  "{$1} prisijungė {$2}",
+        "logLeave":                 "{$1} Atsijungė",
         "logUpdate":                "{$1} was edited by {$2}",
 
         "emojiCreate":              "Emoji Added",
         "emojiUpdate":              "Emoji Edited",
         "emojiDelete":              "Emoji Deleted",
 
-        "roleCreate":               "Role Created",
-        "roleDelete":               "Role Deleted",
-        "roleUpdate":               "Role Edited",
+        "roleCreate":               "Sukurta nauja role",
+        "roleDelete":               "Ištrinta rolė",
+        "roleUpdate":               "Paredaguota rolė",
 
         "roomSummon":               "Private Room Created",
         "roomRevoke":               "Private Room Deleted",
@@ -168,8 +168,8 @@
         "autoModGeneric":           "{$1} was caught by **autoMod**",
         "autoModDeleted":           "{$1} had their {$2} deleted by **autoMod**",
 
-        "old":                      "Old",
-        "new":                      "New",
+        "old":                      "Sena",
+        "new":                      "Nauja",
 
         "RoomUpdatedMemberAdd":     "{$1} was added to the private room of {$2}",
         "RoomUpdatedMemberKick":     "{$1} was kicked from the private room of {$2}",
@@ -209,9 +209,9 @@
 
     "notifications": {
 
-        "roomExpired":              "Jūsų privatus kambarys baigėsi.",
-        "roomRemovedAdmin":         "Jūsų privatų kambarį pašalino administratorius.",
-        "roomRemovedManager":       "Jūsų privatus kambarys buvo stipriai pašalintas iš sistemos.",
+        "roomExpired":              "Jūsų privatus balso kanalas baigėsi.",
+        "roomRemovedAdmin":         "Jūsų privatų balso kanalą pašalino administratorius/Moderatorius.",
+        "roomRemovedManager":       "Jūsų privatus balso kanalas buvo stipriai pašalintas iš sistemos.",
 
         "voiceMemberJoin":          "{$1} prisijungė prie jūsų kanalo.",
         "voiceMemberLeave":         "{$1} paliko kanalą.",
