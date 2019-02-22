@@ -218,7 +218,7 @@
         "voiceMemberMoveHere":       "{$1} wurde in deinen Kanal bewegt.",
         "voiceMemberMoveAway":       "{$1} wurde aus deinem Kanal bewegt.",
 
-        "ghostPing":                "Du wurdest in {$2} auf dem Server {$1} von {$3} angepingt, der Ping wurde aber wieder gelöscht (Ghostping).",
+        "ghostPing":                "Du wurdest {$1} in auf dem Server {$2} von {$3} angepingt, der Ping wurde aber wieder gelöscht (Ghostping).",
 
         "mutedNotifs":              "Benachrichtigungen stummgeschaltet.",
         "alreadyMuted":             "Du hast alle Benachrichtigungen bereits stummgeschaltet. Um sie wieder zu aktivieren schreibe `{$1}`.",
