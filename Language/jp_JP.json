@@ -1,0 +1,228 @@
+{
+
+    "lang_version":     1,
+    "lang_name":        "Japanese",
+    "lang_short":       "jp_JP",
+
+    "genericTerms": {
+
+        "username":             "ユーザー名",
+        "nickname":             "ニックネーム",
+        "roles":                "役職",
+        "role":                 "役職",
+        "accountCreated":       "アカウントを作成した日付",
+        "joinedServerDate":     "参加した日付",
+        "nicknameHistory":      "以前のニックネーム",
+        "status":               "ステータス",
+
+        "serverName":           "名前",
+        "serverMembers":        "メンバー",
+        "serverOwner":          "所有者",
+        "serverCreated":        "サーバーを作成した日付",
+        "serverRegion":         "地域",
+        "serverIcon":           "アイコン",
+		
+        "owner":         		"所有者",
+        "admin":         		"管理者",
+        "moderator":         	"モデレーター",
+        "muted":         		"ミュート",
+        "staff":                "スタッフ",
+
+        "onlineStaff":          "オンラインスタッフ",
+
+        "matchResponseBig":     "`{$1}`は一致します。 すべて見る -> {$2}"
+
+    },
+	
+	"genericMessages": {
+	
+		"errorUnknown":         	"問題があります。",
+		"errorUnknownDescriptive":  "問題があります。 `{$1}`",
+		"errorBotPermissionU":  	"Manegerにそれを行うための権限がありません。",
+		"errorBotPermissionS":  	"Manegerにそれを行うための`{$1}`権限がありません。",
+		"errorYouPermission":   	"十分な許可がありません。",
+		"errorNoConfig":   			"このファイルの設定を読み込めません。数秒後にもう一度お試しください。",
+		"errorNotNSFW":   			"これはNSFWチャンネルでのみ可能です。",
+        "errorBotUnavailable":  	"Managerは一時的に利用できません。数分後にもう一度試してください。",
+
+        "errorCannotChangeValue":   "この値は変更できません。",
+
+        "errorCommandDisabled":     "このコマンドは無効です",
+        "howToExitAlpha":           "Alpha版を終了するには、このバージョンのボットをKickするだけで、元のものが再び動作し始めます。",
+
+        "errorTooManyMatched":      "数値が多すぎます。最大値: `{$1}`",
+        "errorTooLittleMatched":    "数値が少なすぎます。最小値: `{$1}`"
+	
+	},
+	
+	"rooms": {
+	
+		"disabled":					"個室は現在無効になっています。",
+		"noPermission":				"あなたは個室を作成することはできません。",
+		"noRoom":					"部屋がないようです。",
+		"noRoomsAvailable":			"現在アクティブな部屋が多すぎます。",
+        "alreadyHasRoom":			"あなたはすでに部屋を持っています。",
+        
+		"noVoiceChannel":			"あなたは音声チャネルを持っていないようです。",
+		"noTextChannel":			"あなたはテキストチャンネルを持っていないようです。",
+		
+		"summoning":				":manager_loading: あなたの部屋をセットアップする！",
+		"summonedVoice":			":manager: あなたのボイスチャンネルを作成しました。",
+		"summonedText":				":manager: あなたのテキストチャンネルを作成しました。",
+		"summonedBoth":				":manager: あなたのチャンネルを作成しました。",
+		
+        "roomPasscode":				"あなたの部屋のパスワードは `{$1}` です。",
+                
+        "inviteNone":               "招待する人を少なくとも1人指定する必要があります。",
+        "inviteTooMany":            "あなたは一度に{$1}人までしか招待できません。",
+        "inviteSuccess":            "招待しました。: {$1}",
+                
+        "kickNone":                 "Kickするために少なくとも1人指定する必要があります。",
+        "kickTooMany":              "一度に{$1}人までしかKickできません。",
+        "kickSuccess":              "Kickしました。: {$1}",
+
+        "banNone":                  "Banする人を少なくとも1人指定する必要があります。",
+        "banTooMany":               "一度に{$1}人までしかBanできません。",
+        "banSuccess":               "Banしました。: {$1}",
+
+        "optionName":               "チャンネル名を変更しました。",
+        "optionNameFailed":         "{$1}チャンネル名を変更できませんでした。有効なチャンネル名ですか？",
+        "optionMemberlimit":        "ボイスチャンネルの`最大メンバー数`を`{$1}`に変更しました。",
+        "optionBitrate":            "ボイスチャンネルの`ビットレート`を`{$1}`に変更しました。",
+        "optionEmbed":              "テキストチャンネルの`埋め込みリンク権限`を`{$1}`に変更しました。",
+        "optionFiles":              "テキストチャンネルの`ファイルを添付権限`を`{$1}`に変更しました。",
+        "optionPTT":                "ボイスチャンネルの`プッシュトゥトーク権限`を`{$1}`に変更しました。",
+        "optionNSFW":               "テキストチャンネルの`NSFWの警告`を`{$1}`に変更しました。",
+        "optionReactions":          "テキストチャンネルの`リアクション権限`を`{$1}`に変更しました。",
+        "optionTopic":              "テキストチャンネルの`トピック権限`を`{$1}`に変更しました。",
+
+        "optionNotChangable":       "あなたはそのオプションを変更することはできません。",
+        "optionInvalidValue":       "次の値の1つを使ってください: `{$1}`.",
+
+        "optionUnlocked":           "あなたのチャンネルを`プライバシー`を`公開`に変更しました。",
+        "optionLocked":             "あなたのチャンネルを`プライバシー`を`招待のみ`に変更しました。",
+        
+        "speakersAdd":              "優先スピーカーを{$1}にしてください。",        
+        "speakersRemove":           "優先スピーカーを{$1}から削除しました。",
+        	
+		"defaultTopic":				"{$1}の個室 - 詳細については、チャンネルのトピックを開いてください。\n\n\n自分の部屋で何をしますか?:\n - 他のメンバーを招待する **{$3}room invite**\n - 招待したメンバーをKickする。 **{$4}room kick**\n - 部屋を設定する。 **{$5}room set**\n\nこの部屋は**{$2}**に作成されました。",
+    
+        "roomExpiredNotify":        "あなたの部屋は期限切れです。 あなたはそれを`{$1}`で再び作成することができます。\n通知が欲しくないですか? Managerがインストールされているサーバーでは、`{$2}`と入力してください。"
+	},
+    
+    "logging": {
+
+        "logGenericDelete":        "{$1}を削除しました{$2}",
+        "logGenericUpdate":        "{$1}を更新しました{$2}",
+        "logGenericCreate":        "{$1}を作成しました{$2}",
+
+        "guildUpdate":              "サーバー設定の変更",
+        "guildUpdateDesc":          "{$1}でサーバー設定が更新されました。",
+        
+        "channelCreate":            "作成したチャンネル",
+        "channelUpdate":            "編集したチャンネル",
+        "channelDelete":            "削除されたチャンネル",
+
+        "guildBanAdd":              "メンバーBan",
+        "guildBanRemove":           "メンバーBan解除",
+
+        "logUserBanned":            "{$1}をBanしました{$2}",
+        "logUserKicked":            "{$1}をKickしました{$2}",
+        "logUserUnbanned":          "{$1}をBan解除しました{$2}",
+
+        "messageUpdate":            "編集したメッセージ",
+        "messageDelete":            "削除されたメッセージ",
+
+        "logMessageEdited":         "{$1}さんが自分のメッセージを{$2}で編集しました",
+        "logMessageDeleted":        "{$2}の{$1}によるメッセージは削除されました",
+
+        "guildMemberAdd":           "メンバー参加",
+        "guildMemberRemove":        "メンバー退出",
+        "guildMemberUpdate":        "メンバー更新",
+
+        "joinVoice":                "音声チャンネルに参加",
+        "leaveVoice":               "音声チャンネルから退出",
+        "moveVoice":                "変更されたチャンネル",
+
+        "logJoin":                  "{$1}が`{$2}`に参加しました。",
+        "logLeave":                 "{$1}が退出しました。",
+        "logUpdate":                "{$1}は{$2}によって編集されました。",
+
+        "emojiCreate":              "絵文字が追加されました。",
+        "emojiUpdate":              "絵文字が編集されました。",
+        "emojiDelete":              "絵文字が削除されました。",
+
+        "roleCreate":               "役職が作成されました。",
+        "roleDelete":               "役職が削除されました。",
+        "roleUpdate":               "役職が編集されました。",
+
+        "roomSummon":               "個室を作成しました。",
+        "roomRevoke":               "個室を削除しました。",
+        "roomUpdate":               "個室を編集しました。",
+
+        "scriptRan":                "実行されたスクリプト",
+
+        "configChanged":            "構成が更新されました",
+
+        "levelUp":                  "レベルアップ!",
+        "autoModGeneric":           "{$1} が**autoMod**にキャッチされました。",
+        "autoModDeleted":           "{$1}の**autoMod**によって{$2}が削除されました。",
+
+        "old":                      "古い",
+        "new":                      "新しい",
+
+        "RoomUpdatedMemberAdd":     "{$1}が{$2}プライベートルームに追加されました。",
+        "RoomUpdatedMemberKick":    "{$1}は{$2}のプライベートルームからKickされました。",
+        "RoomUpdatedMemberBan":     "{$1}は{$2}のプライベートルームからBanされました。",
+        "RoomUpdatedOptionSet":     "{$3}のプライベートルームで`{$1}`が`{$2}`に設定されました。",
+
+        "logJoinVC":                "{$1}が{$2}(ボイスチャンネル)に参加しました。",
+        "logLeaveVC":                "{$1}が{$2}(ボイスチャンネル)から退出しました。",
+        
+        "roomRevokeReason_leftServer":  "メンバーはサーバーを退出しました。",
+        "roomRevokeReason_expired":     "部屋は期限切れです。",
+        "roomRevokeReason_manual":      "マニュアル",
+        "roomRevokeReason_purge":       "パージされた部屋"
+        
+    },
+
+    "imageCommands": {
+
+        "processingImage":      "<a:manager_loading:409298228954136577> それに取り組んでいます！",
+        "noImage":              "画像を入力してください。",
+        "defaultAvatar":        "このユーザーはデフォルトのアバターを持っています。"
+
+    },
+
+    "moderationCommands": {
+
+        "Muted": "{$1}がミュートされました。",
+        "UnMute": "{$1}はミュート解除されました。",        
+        
+        "slowModeMax": "スローモードの最大所要時間は`120`秒です。",
+        "slowModeOn": "スローモードが`{$1}`秒に設定されました。",
+        "slowModeOff": "スローモードが無効になっています。",
+
+        "reset": "{$1}はリセットされました。"
+
+    },
+
+    "notifications": {
+
+        "roomExpired":              "あなたの個室の有効期限が切れています。",
+        "roomRemovedAdmin":         "あなたの個室は管理者によって削除されました。",
+        "roomRemovedManager":       "あなたのプライベートルームはシステムから強制的に削除されました。",
+
+        "voiceMemberJoin":          "{$1}があなたのチャンネルに参加しました。",
+        "voiceMemberLeave":         "{$1}はあなたのチャンネルを離れました。",
+        "voiceMemberMoveHere":       "{$1}はあなたのチャンネルに移動しました。",
+        "voiceMemberMoveAway":       "{$1}はあなたのチャンネルから離れました。",
+
+        "ghostPing":                "あなたは{$2}の{$1}に{$3}でGhostPingedされました",
+
+        "mutedNotifs":              "通知がミュートされました。",
+        "alreadyMuted":             "あなたは既に通知をミュートしています、タイプ`{$1}`のミュートを解除します。",
+        "unmutedNotifs":            "通知ミュート解除"
+    }
+
+}
