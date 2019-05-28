@@ -26,5 +26,6 @@ These people have helped translate Manager:
  - SpeckyYTv - lad_IT
  - Jojo1545 - Spanish
  - Liaudis#8043 - Lithuanian
+ - PenguinLucky#4907 - Japanese
  
  <3
