@@ -7,7 +7,7 @@
     "genericTerms": {
 
         "username":             "Identifiant",
-        "nickname":             "Pseudos",
+        "nickname":             "Pseudo",
         "roles":                "Rôles",
         "role":                 "Rôle",
         "accountCreated":       "Créé le",
@@ -23,7 +23,7 @@
         "serverIcon":           "Icône",
 		
         "owner":         		"Propriétaire",
-        "admin":         		"Admin",
+        "admin":         		"Administrateur",
         "moderator":         	"Modérateur",
         "muted":         		"Muet",
         "staff":                "Staff",
@@ -58,7 +58,7 @@
 	"rooms": {
 	
 		"disabled":					"Les salons privés sont désactivés.",
-		"noPermission":				"Vous ne pouvez pas créé de salon privé.",
+		"noPermission":				"Vous ne pouvez pas créer de salon privé.",
 		"noRoom":					"Vous n'avez pas de salon.",
 		"noRoomsAvailable":			"Il y a trop de salon actif pour le moment.",
         "alreadyHasRoom":			"Vous avez déjà un salon.",
@@ -96,7 +96,7 @@
         "optionReactions":          "Le paramètre `Permission de Réaction` de votre salon textuel a été réglé à `{$1}`.",
         "optionTopic":              "Le paramètre `Sujet` de votre salon textuel a été réglé à `{$1}`.",
 
-        "optionNotChangable":       "Vous n'êtes pas autorisé à changer cette option.",
+        "optionNotChangable":       "Vous n'êtes pas autorisés à changer cette option.",
         "optionInvalidValue":       "Merci d'utiliser l'une des valeurs suivante: `{$1}`.",
 
         "optionUnlocked":           "Votre salon est maintenant ouvert au public.",
@@ -107,7 +107,7 @@
         	
 		"defaultTopic":				"Salon privé de {$1} - Ouvrez le sujet du salon pour en savoir plus !\n\n\nQue faire avec mon salon ?\n - Invitez d'autres membres avec **{$3}room invite**\n - Expulsez des membres avec **{$4}room kick**\n - Modifiez le salon avec **{$5}room set**\n\nCe salon a été créé le **{$2}**",
     
-        "roomExpiredNotify":        "Your room has expired. You can summon it again with `{$1}`.\nDon't want these notifications? Type `{$2}` in any server with Manager!"
+        "roomExpiredNotify":        "Votre salon a expiré. Vous pouvez le recréer à nouveau avec `{$1}`. Vous ne voulez pas de ces notifications? Tapez `{$2}` sur n’importe quel serveur ayant Manager!"
 	},
     
     "logging": {
@@ -150,7 +150,7 @@
 
         "emojiCreate":              "Emoji ajouté",
         "emojiUpdate":              "Emoji modifié",
-        "emojiDelete":              "Emoji a supprimé",
+        "emojiDelete":              "Emoji supprimé",
 
         "roleCreate":               "Role créé",
         "roleDelete":               "Role supprimé",
@@ -166,18 +166,18 @@
 
         "levelUp":                  "A pris un niveau !",
         "autoModGeneric":           "{$1} a été flashé par l'**autoMod**",
-        "autoModDeleted":           "{$1} a vu son {$2} supprimé par  l'**autoMod**",
+        "autoModDeleted":           "{$1} a vu son {$2} supprimé par l'**autoMod**",
 
         "old":                      "Ancien",
         "new":                      "Nouveau",
 
-        "RoomUpdatedMemberAdd":     "{$1} a été ajouté au salon privé de {$2}",
-        "RoomUpdatedMemberKick":     "{$1} a été expulsé du salon privé de {$2}",
-        "RoomUpdatedMemberBan":     "{$1} a été banni du salon privé de {$2}",
-        "RoomUpdatedOptionSet":     "`{$1}` a été réglé à `{$2}` dans le salon privé de {$3}",
+        "RoomUpdatedMemberAdd":     "{$1} a été ajouté(e) au salon privé de {$2}",
+        "RoomUpdatedMemberKick":     "{$1} a été expulsé(e) du salon privé de {$2}",
+        "RoomUpdatedMemberBan":     "{$1} a été banni(e) du salon privé de {$2}",
+        "RoomUpdatedOptionSet":     "`{$1}` a été réglé(e) à `{$2}` dans le salon privé de {$3}",
 
-        "logJoinVC":                "{$1} A rejoint le salon vocal dans {$2}",
-        "logLeaveVC":                "{$1} A quitté le salon vocal dans {$2}"
+        "logJoinVC":                "{$1} a rejoint le salon vocal dans {$2}",
+        "logLeaveVC":                "{$1} a quitté le salon vocal dans {$2}"
         
     },
 
@@ -194,7 +194,7 @@
         "Muted": "{$1} est maintenant muet.",
         "UnMute": "{$1} n'est plus muet.",
 
-        "reset": "{$1} a été réinitialisé."
+        "reset": "{$1} a été réinitialisé(e)."
 
     },
 
@@ -205,9 +205,9 @@
         "roomRemovedManager":       "Votre salon privé a été supprimé de force du système.",
 
         "voiceMemberJoin":          "{$1} a rejoint votre salon.",
-        "voiceMemberLeave":         "{$1} a quitté votre salon.",
-        "voiceMemberMoveHere":       "{$1} a été déplacé dans votre salon.",
-        "voiceMemberMoveAway":       "{$1} a été déplacé hors de votre salon.",
+        "voiceMemberLeave":         "{$1} a quitté(e) votre salon.",
+        "voiceMemberMoveHere":       "{$1} a été déplacé(e) dans votre salon.",
+        "voiceMemberMoveAway":       "{$1} a été déplacé(e) hors de votre salon.",
 
         "ghostPing":                "Vous avez été \"GhostPinged\" dans {$1} sur {$2} par {$3}",
 
